@@ -1,0 +1,43 @@
+<!--group-signon.wxml-->
+<view class="banner">
+  <image src="asset/imgs/banner.png"></image>
+</view>
+<view class="intro gray-word">
+  <view class="discount inline-block">
+    组团报名最多减
+    <view class="blue-word inline-block">XX</view>
+  </view>
+  <view class="signon-state inline-block">
+    已开XX团，已有XX人参团
+  </view>
+</view>
+<view class="divider"></view>
+<view class="group-rule">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="asset/imgs/group_rule.png"></image>
+    </view>
+    <text class="partition-header-title">组团玩法</text>
+  </view>
+  <view class="group-rule-content gray-word">
+    ①支付定金开团/参团<view class="white-space"></view>②邀请参团<view class="white-space"></view>③组团结束，报名成功
+    组团满5人，每人立减200元。
+  </view>
+</view>
+<view class="divider"></view>
+<view class="group-desc">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="asset/imgs/group_desc.png"></image>
+    </view>
+    <text class="partition-header-title">组团玩法</text>
+  </view>
+  <view class="group-desc-content gray-word">
+    something just like this
+  </view>
+</view>
+<view class="signon gray-border gray-word">
+<view class="left-time-notice">
+本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view>
+<view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">我要开团</view>
+</view>

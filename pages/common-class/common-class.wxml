@@ -1,0 +1,46 @@
+<!--common-class.wxml-->
+<view class="select-area-header">
+  <image src="asset/imgs/location_icon.png"></image>
+  <text>场地选择</text>
+</view>
+<view class="select-area-list">
+  <view class="select-area gray-border">
+    <view class="select-area-image">
+      <image src="asset/imgs/location_icon.png"></image>
+    </view>
+    <view class="select-area-content">
+      <view class="select-area-name">
+        <text>XX 训练场</text>
+      </view>
+      <view class="select-area-intro">777
+        <text>XX 训练场介绍</text>
+      </view>
+    </view>
+  </view>
+  <view class="divider"></view>
+  <view class="study-package">
+    <view class="partition-header">
+      <view class="partition-header-icon">
+        <image src="asset/imgs/serve_promise_icon.png"></image>
+      </view>
+      <text class="partition-header-title">服务承诺</text>
+    </view>
+    <view class="serve-promise-content">
+      <text>1.短文学同意按照本服务协议的规定及其不时发布的操作规则提供基于互联网的相关服务和内容平台的相关服务(以下称"网络平台服务")1.短文学同意按照本服务协议的规定及其不时发布的操作规则提供基于互联网的相关服务和内容平台的相关服务(以下称"网络平台服务")1.短文学同意按照本服务协议的规定及其不时发布的操作规则提供基于互联网的相关服务和内容平台的相关服务(以下称"网络平台服务")1.短文学同意按照本服务协议的规定及其不时发布的操作规则提供基于互联网的相关服务和内容平台的相关服务(以下称"网络平台服务")
+      </text>
+    </view>
+    <view class="divider"></view>
+    <view class="fee-detail">
+      <view class="partition-header">
+        <view class="partition-header-icon">
+          <image src="asset/imgs/fee_detail_icon.png"></image>
+        </view>
+        <text class="partition-header-title">费用明细</text>
+      </view>
+      <view class="fee-detail-content">
+      </view>
+    </view>
+    <view class="divider"></view>
+    <view class="row-btn l2r-gradient" bindtap="navToSignOnPayment">确认报名</view>
+  </view>
+</view>

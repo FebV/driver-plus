@@ -1,0 +1,49 @@
+<!--signon-payment.wxml-->
+<view class="class-type-notice gray-border">
+  <view class="class-type">普通班</view>
+  <view class="price blue-word">1111.11元</view>
+  <view class="ground-name gray-word">济南高新区公路</view>
+</view>
+<view class="input">
+<text class="input-cap">推荐码</text>
+  <input placeholder="输入推荐码，享受优惠价" />
+</view>
+<view class="input">
+<text class="input-cap">预付定金</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+</view>
+<view class="divider"></view>
+<view class="input">
+<text class="input-cap">姓名:</text>
+<input />
+</view>
+<view class="input">
+<text class="input-cap">身份证号:</text>
+  <input />
+</view>
+<view class="input">
+<text class="input-cap">本地手机号:</text>
+  <input placeholder="用于接收车管所验证码，需为本地手机号" />
+</view>
+<view class="input">
+<text class="input-cap">QQ号</text>
+  <input placeholder="用于接收车管所验证码，需为本地手机号" />
+</view>
+<view class="divider"></view>
+<view class="input">
+<text class="input-cap">没有本地暂住证</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+</view>
+<view class="gray-notice">
+无本地暂住证的请选择
+</view>
+<view class="input">
+<text class="input-cap">暂时无法提供身份证原件</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+</view>
+<view class="gray-notice">
+如身份证遗失、过期、未携带请选中，不影响报名
+</view>
+<view class="row-btn l2r-gradient">
+提交订单并支付
+</view>

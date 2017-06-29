@@ -1,0 +1,110 @@
+<!--index.wxml-->
+<view class="banner">
+  <image src="asset/imgs/banner.png"></image>
+</view>
+<view class="rect-enter-group">
+  <view class="rect-enter" bindtap="navToFreeToTry">
+    <image src="asset/imgs/free_to_try.png"></image>
+  </view>
+  <view class="rect-enter" bindtap="navToGroupSignOnIntro">
+    <image src="asset/imgs/group_apply.png"></image>
+  </view>
+</view>
+<view class="divider"></view>
+<view class="study-package">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="asset/imgs/study_package_icon.png"></image>
+    </view>
+    <text class="partition-header-title">学车套餐</text>
+  </view>
+</view>
+<view class="row-choice-group">
+  <view class="row-choice" bindtap="navToCommonClass">
+    <view class="row-choice-icon">
+      <image src="asset/imgs/common_class.png"></image>
+    </view>
+    <view class="row-choice-content">
+      <view class="row-choice-content-top">
+        <text class="row-choice-title">普通班</text>
+        <view class="gap"></view>
+        <text class="row-choice-price l2r-gradient">3060元</text>
+      </view>
+      <view class="row-choice-content-bottom">
+        <view class="row-choice-char">
+          <view class="inline-block">自主预约</view>
+          <view class="inline-block">班车接送</view>
+        </view>
+        <view class="row-choice-char">
+          <view class="inline-block">全程管家服务</view>
+          <view class="inline-block">一次性收费</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="row-choice">
+    <view class="row-choice-icon">
+      <image src="asset/imgs/vip_class.png"></image>
+    </view>
+    <view class="row-choice-content">
+      <view class="row-choice-content-top">
+        <text class="row-choice-title">VIP班</text>
+        <view class="gap"></view>
+        <text class="row-choice-price l2r-gradient">3560元</text>
+      </view>
+      <view class="row-choice-content-bottom">
+        <view class="row-choice-char">
+        <view class="inline-block">自主预约</view>
+          <view class="inline-block">优先预约</view>
+        </view>
+        <view class="row-choice-char">
+        <view class="inline-block">全程管家服务</view>
+          <view class="inline-block">1V4练车</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="divider"></view>
+<view class="items-row">
+  <view class="items">
+    <image src="asset/imgs/school_intro.png"></image>
+  </view>
+  <view class="items">
+    <image src="asset/imgs/serve_promise.png"></image>
+  </view>
+  <view class="items">
+    <image src="asset/imgs/study_flow.png"></image>
+  </view>
+  <view class="items">
+    <image src="asset/imgs/study_prepare.png"></image>
+  </view>
+</view>
+<view class="divider"></view>
+<view class="area-location">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="asset/imgs/area_location_icon.png"></image>
+    </view>
+    <text class="partition-header-title">场地分布</text>
+  </view>
+</view>
+<view class="row-choice-group">
+  <view class="row-choice">
+    <view class="row-choice-icon">
+      <image src="asset/imgs/location_icon.png"></image>
+    </view>
+    <view class="row-choice-content">
+      location
+    </view>
+  </view>
+</view>
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

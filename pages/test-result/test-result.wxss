@@ -1,0 +1,16 @@
+/* test-result.wxss */
+.center-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 8vh;
+}
+.suc-icon {
+  margin: 10vh 0;
+}
+.a-tag {
+  color: rgb(45, 157, 255);
+  text-decoration: underline;
+}

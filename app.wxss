@@ -1,0 +1,203 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.banner {
+  width: 100%;
+  height: 30vh;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+}
+
+.partition-header {
+  border: 1px solid rgb(240, 240, 240);
+  height: 70rpx;
+}
+.partition-header-icon {
+  margin: 15rpx 15rpx;
+  vertical-align: middle;
+  display: inline-block;
+}
+.partition-header-icon image {
+  width: 5vw;
+  height: 5vw;
+}
+.partition-header-title {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #888888;
+}
+
+.gray-border {
+  border: 1px solid rgb(240, 240, 240);
+}
+.divider {
+  height: 14rpx;
+  background-color: rgb(240, 240, 240);
+}
+.row-btn {
+  width: 70%;
+  background-color: #e64340;
+  text-align: center;
+  padding: 2vh 5vw;
+  color: white;
+  margin: 5vh auto;
+  border-radius: 50rpx;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: lightgray 0rpx 0rpx 5rpx 5rpx;
+}
+
+.l2r-gradient {
+  background: linear-gradient(to right, rgb(1, 176, 249), rgb(1, 136, 250));
+}
+.blue-word {
+  color: rgb(45, 157, 255);
+}
+.inline-block {
+  display: inline-block;
+}
+.gray-word {
+  color: gray;
+}
+
+.input {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(240, 240, 240);
+}
+.input-cap {
+  position: absolute;
+  line-height: 10vh;
+  margin-left: 3vw;
+  color: gray;
+  font-size: 0.8rem;
+}
+.input input {
+  height: 10vh;
+  line-height: 10vh;
+  font-size: 0.75rem;
+  padding-left: 25vw;
+  width: 100%;
+}
+/*在开发者工具上渲染不居中，手机端正常*/
+.checkbox {
+    box-sizing: border-box;
+    height: 5vh;
+    margin-top: 2.5vh;
+    position: absolute;
+    right: 3vw;
+    border-radius: 100%;
+}
+.gray-notice {
+  font-size: 0.6rem;
+  background-color: rgb(240, 240, 240);
+  padding: 5rpx 3vw;
+  color: gray;
+}
+.sm-text {
+  font-size: 0.6rem;
+}
+.md-text {
+  font-size: 0.75rem;
+}
+.lg-text {
+  font-size: 0.8rem;
+}
+
+.row-choice {
+  width: 100%;
+  border: 1px solid rgb(240, 240, 240);
+  height: 15vh;
+}
+.row-choice-icon {
+  margin-left: 6vw;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.row-choice-icon image {
+  width: 10vw;
+  height: 10vw;
+  display: inline-block;
+}
+.row-choice-content {
+  height: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding: 20rpx;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row-choice-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.row-choice-price {
+  box-sizing: border-box;
+  padding: 2rpx 2vw;
+  border-radius: 30rpx;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+.row-choice-grade {
+  box-sizing: border-box;
+  padding: 1vw 2vw;
+  border-radius: 30rpx;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+.row-choice-content-top {
+  line-height: 6px;
+  width: 100%;
+}
+.row-choice-content-bottom {
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 16px;
+}
+.row-choice-content-bottom text {
+  display: inline-block;
+  width: 40vw;
+}
+.row-choice-char {
+  font-size: 0.75rem;
+}
+.row-choice-char view {
+  width: 30vw;
+  display: inline-block;
+}
+.gap {
+  display: inline-block;
+  width: 5vw;
+}
+.bold {
+  font-weight: bold;
+}
+.row-entry {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(240, 240, 240);
+
+}
+.row-entry-icon {
+  width: 5vw;
+  height: 6vw;
+  display: inline-block;
+  margin: 5vw;
+}

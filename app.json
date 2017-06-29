@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/index/index",
+    "pages/personal-center/personal-center",
+    "pages/ground-detail/ground-detail",
+    "pages/test-result/test-result",
+    "pages/group-signon/group-signon",
+    "pages/signon-payment/signon-payment",
+    "pages/free-to-try/free-to-try",
+    "pages/vip-class/vip-class",
+    "pages/common-class/common-class",                                          
+    "pages/logs/logs",
+    "pages/group-signon-intro/group-signon-intro"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "selectedColor": "lightgreen",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学车报名",
+        "selectedIconPath": "asset/imgs/study_apply.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "理论学习",
+        "iconPath": "asset/imgs/theory_study.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "预约练车",
+        "iconPath": "asset/imgs/order_exercise.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心",
+        "iconPath": "asset/imgs/personal_center.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+<!--ground-detail.wxml-->
+<view class="banner">
+  <image src="/asset/imgs/ground_detail_img_exp.png"></image>
+</view>
+<view class="ground-detail-intro">
+  <text class="lg-text ground-name">济南高新区公路XX训练场</text>
+  <view class="br"></view>
+  <text class="md-text ground-location gray-word">济南市经十路</text>
+</view>
+<view class="divider"></view>
+<view class="partition-header">
+  <view class="partition-header-icon">
+    <image src="/asset/imgs/person_icon.png"></image>
+  </view>
+  <text class="partition-header-title">该场地共有13名教练员</text>
+</view>
+<view class="row-choice-group">
+  <view class="row-choice" bindtap="navToCommonClass">
+    <view class="row-choice-icon">
+      <image src="/asset/imgs/common_class.png"></image>
+    </view>
+    <view class="row-choice-content">
+      <view class="row-choice-content-top">
+        <text class="row-choice-title">黄旭东</text>
+        <view class="gap"></view>
+        <view class="grade_star">
+          <image src="/asset/imgs/grade_star.png"></image>
+        </view>
+        <text class="row-choice-grade blue-word inline-block">4.9分
+        </text>
+        <view class="gap"></view>
+        <text class=" inline-block md-text">
+          <text>已有</text>
+          <text class="blue-word">211</text>
+          <text>位学员评价</text>
+        </text>
+      </view>
+      <view class="row-choice-content-bottom">
+        <view class="row-choice-char">
+          <text class="gray-word">鲁A 7266学</text>
+        </view>
+        <view class="row-choice-char">
+          <text class="gray-word">大众捷达（白色）</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="more md-text gray-word">查看更多...</view>
+</view>
+<view class="divider"></view>
+<view class="partition-header">
+  <view class="partition-header-icon">
+    <image src="/asset/imgs/route_curve.png"></image>
+  </view>
+  <text class="partition-header-title">交通路线</text>
+</view>
+<view class="traffic-hint md-text gray-word">
+<text>①乘坐K81\119到三里屯</text>
+<view class="br"></view>
+<text>①乘坐K81\119到三里屯</text>
+</view>

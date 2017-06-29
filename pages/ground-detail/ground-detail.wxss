@@ -1,0 +1,27 @@
+/* ground-detail.wxss */
+.ground-name {
+  margin: 20rpx;
+}
+.ground-location {
+  margin: 20rpx;
+}
+.grade_star {
+  width: 4vw;
+  height: 4vw;
+  display: inline-block;
+}
+.grade_star image {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.more {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.traffic-hint {
+  padding: 30rpx;
+  line-height: 50rpx;
+}

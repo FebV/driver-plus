@@ -1,0 +1,32 @@
+<!--personal-center.wxml-->
+<view class="personal-center-banner">
+  <image src="/asset/imgs/personal_info_bk.png"></image>
+</view>
+<view>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname bold">{{userInfo.nickName}}</text>
+</view>
+<view class="row-entry">
+<image src="" class="row-entry-icon" src="/asset/imgs/order_icon.png"></image>
+<text class="row-entry-name">我的订单</text>
+</view>
+<view class="divider"></view>
+<view class="row-entry">
+<image src="" class="row-entry-icon" src="/asset/imgs/person_icon.png"></image>
+<text class="row-entry-name">我的教练</text>
+</view>
+<view class="row-entry">
+<image src="" class="row-entry-icon" src="/asset/imgs/hourglass_icon.png"></image>
+<text class="row-entry-name">学车进度</text>
+</view>
+<view class="row-entry">
+<image src="" class="row-entry-icon" src="/asset/imgs/bus_icon.png"></image>
+<text class="row-entry-name">智慧班车</text>
+</view>
+<view class="row-entry">
+<image src="" class="row-entry-icon" src="/asset/imgs/announce_icon.png"></image>
+<text class="row-entry-name">重要通知</text>
+</view>
+<view class="plus-logo">
+<image src="/asset/imgs/logo.png"></image>
+</view>

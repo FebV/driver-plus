@@ -1,0 +1,17 @@
+/* signon-payment.wxss */
+.class-type-notice {
+  padding: 3vw;
+}
+.class-type {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.ground-name {
+  font-size: 0.75rem;
+}
+.price {
+  font-size: 0.7rem;
+  position: absolute;
+  right: 20rpx;
+  top: 30rpx;
+}
