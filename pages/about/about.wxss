@@ -1,9 +1,11 @@
 /* about.wxss */
 .brand-banner {
   height: 40vh;
+  width: 100%;
 }
 .brand-banner image {
   height: 100%;
+  width: 100%;
 }
 .about-text {
   padding: 30rpx;
