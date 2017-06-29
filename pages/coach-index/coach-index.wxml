@@ -1,0 +1,23 @@
+<!--coach-index.wxml-->
+<view class="top-view">
+<image class="coach-banner" src="/asset/imgs/personal_info_bk.png"></image>
+<text class="coach-name">黄旭东</text>
+<image class="head_image" src="/asset/imgs/head_image.png"></image>
+</view>
+<view class="intro-row gray-border gray-word">
+车型：大众白色（鲁A）
+</view>
+<view class="intro-row gray-border gray-word">
+电话： <text class="a-tag">110</text>
+</view>
+<view class="intro-row gray-border gray-word">
+综合评分： <image class="grade-star" src="/asset/imgs/grade_star.png"></image><text class="blue-word">4.7</text>
+</view>
+<view class="divider">
+</view>
+<view class="comment-cols gray-border">
+<view class="comment-col comment-col-selected">全部评价</view>
+<view class="comment-col">好评</view>
+<view class="comment-col">中评</view>
+<view class="comment-col">差评</view>
+</view>

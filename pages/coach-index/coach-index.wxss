@@ -1,0 +1,45 @@
+/* coach-index.wxss */
+.coach-banner {
+  height: 20vh;
+  width: 100%;
+}
+.coach-name {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 5vh;
+  color: white;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.head_image {
+  width: 20vh;
+  height: 20vh;
+  margin-top: -10vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.intro-row {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.grade-star {
+  width: 4vw;
+  height: 4vw;
+  display: inline-block;
+}
+.comment-cols {
+  display: flex;
+  padding-right: 60rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-col {
+  display: inline-block;
+  padding: 30rpx;
+}
+.comment-col-selected {
+  border-bottom: 8rpx solid rgb(45, 157, 255);
+}

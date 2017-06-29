@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/coach-index/coach-index",
+    "pages/school-intro/school-intro",
     "pages/about/about",
     "pages/index/index",
     "pages/personal-center/personal-center",
@@ -9,7 +11,7 @@
     "pages/signon-payment/signon-payment",
     "pages/free-to-try/free-to-try",
     "pages/vip-class/vip-class",
-    "pages/common-class/common-class",                                          
+    "pages/common-class/common-class",
     "pages/logs/logs",
     "pages/group-signon-intro/group-signon-intro"
   ],

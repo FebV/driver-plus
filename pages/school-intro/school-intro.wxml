@@ -1,0 +1,9 @@
+<!--school-intro.wxml-->
+<view class="brand-banner">
+<image src="/asset/imgs/ground_detail_img_exp.png"></image>
+</view>
+<view class="about-text gray-word lg-text">
+<text>
+大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字
+</text>
+</view>

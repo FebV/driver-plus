@@ -1,9 +1,9 @@
 <!--about.wxml-->
 <view class="brand-banner">
-<image src="/asset/imgs/brand_banner.png"></image>
+  <image src="/asset/imgs/brand_banner.png"></image>
 </view>
 <view class="about-text gray-word lg-text">
-<text>
-大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字
-</text>
+  <text>
+    大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字大段文字
+  </text>
 </view>

@@ -10,7 +10,3 @@
 .suc-icon {
   margin: 10vh 0;
 }
-.a-tag {
-  color: rgb(45, 157, 255);
-  text-decoration: underline;
-}

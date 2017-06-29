@@ -201,3 +201,7 @@
   display: inline-block;
   margin: 5vw;
 }
+.a-tag {
+  color: rgb(45, 157, 255);
+  text-decoration: underline;
+}
