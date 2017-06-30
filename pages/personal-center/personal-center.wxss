@@ -37,3 +37,14 @@
   left: 25vw;
   margin-bottom: 20vw;
 }
+.login-btn {
+  font-size: 0.8rem;
+  color: lightgray;
+  position: absolute;
+  border: 1px solid white;
+  right: 20rpx;
+  padding: 3rpx 40rpx;
+  top: 30rpx;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}

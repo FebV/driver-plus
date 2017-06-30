@@ -1,23 +1,46 @@
 <!--coach-index.wxml-->
 <view class="top-view">
-<image class="coach-banner" src="/asset/imgs/personal_info_bk.png"></image>
-<text class="coach-name">黄旭东</text>
-<image class="head_image" src="/asset/imgs/head_image.png"></image>
+  <image class="coach-banner" src="/asset/imgs/personal_info_bk.png"></image>
+  <text class="coach-name">黄旭东</text>
+  <text class="pick-him">选他做我的教练</text>
+  <image class="head_image" src="/asset/imgs/head_image.png"></image>
 </view>
 <view class="intro-row gray-border gray-word">
-车型：大众白色（鲁A）
+  车型：大众白色（鲁A）
 </view>
 <view class="intro-row gray-border gray-word">
-电话： <text class="a-tag">110</text>
+  电话：
+  <text class="a-tag">110</text>
 </view>
 <view class="intro-row gray-border gray-word">
-综合评分： <image class="grade-star" src="/asset/imgs/grade_star.png"></image><text class="blue-word">4.7</text>
+  综合评分：
+  <view class="gap"></view>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <view class="gap"></view>
+  <text class="blue-word md-text">4.7</text>
 </view>
 <view class="divider">
 </view>
 <view class="comment-cols gray-border">
-<view class="comment-col comment-col-selected">全部评价</view>
-<view class="comment-col">好评</view>
-<view class="comment-col">中评</view>
-<view class="comment-col">差评</view>
+  <view class="comment-col comment-col-selected">全部评价</view>
+  <view class="comment-col">好评</view>
+  <view class="comment-col">中评</view>
+  <view class="comment-col">差评</view>
+</view>
+<view class="comment-list">
+  <view class="comment">
+  <view class="comment-top">
+    <image class="comment-head-icon" src="/asset/imgs/head_image.png"></image>
+    <text>username</text>
+  <view class="gap"></view>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <view class="gap"></view>
+  <text class="gray-word sm-text">2017-07-07</text>
+  </view>
+  </view>
+  <view class="sm-text gray-word comment-content">
+  还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以
+  </view>
+  <view class="divider"></view>
 </view>

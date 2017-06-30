@@ -1,19 +1,19 @@
 {
   "pages": [
+    "pages/personal-center/personal-center",
     "pages/coach-index/coach-index",
+    "pages/common-class/common-class",
     "pages/school-intro/school-intro",
+    "pages/group-signon/group-signon",
+    "pages/group-signon-intro/group-signon-intro",
     "pages/about/about",
     "pages/index/index",
-    "pages/personal-center/personal-center",
     "pages/ground-detail/ground-detail",
     "pages/test-result/test-result",
-    "pages/group-signon/group-signon",
     "pages/signon-payment/signon-payment",
     "pages/free-to-try/free-to-try",
     "pages/vip-class/vip-class",
-    "pages/common-class/common-class",
-    "pages/logs/logs",
-    "pages/group-signon-intro/group-signon-intro"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
