@@ -1,19 +1,38 @@
 {
   "pages": [
-    "pages/personal-center/personal-center",
-    "pages/coach-index/coach-index",
-    "pages/common-class/common-class",
-    "pages/school-intro/school-intro",
-    "pages/group-signon/group-signon",
-    "pages/group-signon-intro/group-signon-intro",
-    "pages/about/about",
     "pages/index/index",
-    "pages/ground-detail/ground-detail",
-    "pages/test-result/test-result",
+    "pages/process/process",
+    "pages/group-signon/group-signon",
+    "pages/group-signon-join-pay/group-signon-join-pay",
+    "pages/sign-up-success/sign-up-success",
+    "pages/theory-study/theory-study",
+    "pages/group-signon-intro/group-signon-intro",
+    
     "pages/signon-payment/signon-payment",
+    
+    "pages/exam/practice-test",
+    "pages/exam/mock-exam",
     "pages/free-to-try/free-to-try",
+    "pages/free-to-try/free-to-try-result",
+    "pages/myorder/myorder",
+    "pages/mycoach/mycoach",
+    "pages/coach-choosing/coach-choosing",
+    
+    "pages/need-to-know/need-to-know",
+    "pages/practice-reservation/practice-reservation",
+    "pages/smart-bus/smart-bus",
     "pages/vip-class/vip-class",
+    "pages/test-result/test-result",
+    "pages/personal-center/personal-center",
+    "pages/ground-detail/ground-detail",
+    "pages/common-class/common-class",
+    "pages/coach-index/coach-index",
+    "pages/about/about",
+    "pages/group-signon-open/group-signon-open",
+    "pages/group-signon-join/group-signon-join",
+    "pages/school-intro/school-intro",
     "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,28 +41,33 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "backgroundColor": "white",
-    "selectedColor": "lightgreen",
+    "borderStyle": "gray",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#3cc51f",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "学车报名",
+        "iconPath": "asset/imgs/study_apply.png",
         "selectedIconPath": "asset/imgs/study_apply.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/theory-study/theory-study",
         "text": "理论学习",
-        "iconPath": "asset/imgs/theory_study.png"
+        "iconPath": "asset/imgs/theory_study.png",
+        "selectedIconPath": "asset/imgs/theory_study.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/practice-reservation/practice-reservation",
         "text": "预约练车",
-        "iconPath": "asset/imgs/order_exercise.png"
+        "iconPath": "asset/imgs/order_exercise.png",
+        "selectedIconPath": "asset/imgs/order_exercise.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/personal-center/personal-center",
         "text": "个人中心",
-        "iconPath": "asset/imgs/personal_center.png"
+        "iconPath": "asset/imgs/personal_center.png",
+        "selectedIconPath": "asset/imgs/personal_center.png"
       }
     ]
   }

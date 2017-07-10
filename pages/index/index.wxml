@@ -90,21 +90,14 @@
   </view>
 </view>
 <view class="row-choice-group">
-  <view class="row-choice">
+  <view class="row-choice three-column" >
     <view class="row-choice-icon">
       <image src="asset/imgs/location_icon.png"></image>
     </view>
-    <view class="row-choice-content">
-      location
+    <view class="row-choice-content gray-word">
+      locationfjsdoifjosajfoijs sdjfls
+      
     </view>
-  </view>
-</view>
-<view class="container">
-  <view bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view class="right-word gray-word">9.6km</view>
   </view>
 </view>

@@ -1,0 +1,82 @@
+/* theory-study.wxss */
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 120rpx;
+  align-items: center;
+  font-size: 35rpx;
+
+
+}
+.border{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 3rpx solid #2d9dff;
+  border-radius: 10rpx;
+  
+}
+.one-option{
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 20rpx;
+  color: #2d9dff;
+}
+.one-option-active{
+  background-color: #2d9dff;
+  color: white;
+}
+.one-practice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120rpx;
+  align-items: center;
+}
+.one-practice image{
+  width: 200rpx;
+  height: 35rpx;
+}
+.img{
+ display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120rpx;
+  align-items: center;
+  width:40%;
+}
+
+.row{
+  /*display: flex;*/
+  height: 120rpx;
+  /*flex-direction: row;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  column-count: 3;
+  column-gap: 0;
+}
+.row-box{
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2rpx solid gainsboro;
+}
+
+.row image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.study-result{
+  height: 55rpx;
+  line-height: 55rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+.group-desc-content {
+  padding: 30rpx;
+  font-size: 0.7rem;
+}

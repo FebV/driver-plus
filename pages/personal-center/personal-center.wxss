@@ -26,8 +26,12 @@
 }
 .plus-logo {
   width: 100%;
-  height: 60vw;
+  height: 20vw;
   background-color: rgb(240, 240, 240);
+}
+page{
+  background-color: rgb(240, 240, 240);
+  
 }
 .plus-logo image {
   margin-top: 10vw;
@@ -35,7 +39,7 @@
   height: 25vw;
   position: absolute;
   left: 25vw;
-  margin-bottom: 20vw;
+  margin-bottom: 10vw;
 }
 .login-btn {
   font-size: 0.8rem;

@@ -8,14 +8,26 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/*.container-all{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}*/
 
 .banner {
-  width: 100%;
+  /*width: 100%;*/
   height: 30vh;
+  border:0;
+  margin: 0;
 }
 .banner image{
-  width: 100%;
+  width: 100vw;
   height: 100%;
+  border:0;
+  margin: 0;
 }
 
 .partition-header {
@@ -45,13 +57,17 @@
   height: 14rpx;
   background-color: rgb(240, 240, 240);
 }
+.small-divider{
+  height: 5rpx;
+  background-color: rgb(240, 240, 240);
+}
 .row-btn {
   width: 70%;
   background-color: #e64340;
   text-align: center;
   padding: 2vh 5vw;
   color: white;
-  margin: 5vh auto;
+  margin: 5vh 5vw;
   border-radius: 50rpx;
   font-weight: bold;
   font-size: 1.2rem;
@@ -95,11 +111,22 @@
 /*在开发者工具上渲染不居中，手机端正常*/
 .checkbox {
     box-sizing: border-box;
-    height: 5vh;
+    /*height: 5vh;*/
+    /*margin-top: 2.5vh;*/
+    position: absolute;
+    right: 3vw;
+    border-radius: 100%;
+    font-size: 5vh;
+}
+.checkbox-none{
+  box-sizing: border-box;
+    height: 23px;
     margin-top: 2.5vh;
     position: absolute;
     right: 3vw;
     border-radius: 100%;
+    width: 23px;
+    border: 3rpx solid #888888;
 }
 .gray-notice {
   font-size: 0.6rem;
@@ -118,7 +145,7 @@
 }
 
 .row-choice {
-  width: 100%;
+  /*width: 100%;*/
   border: 1px solid rgb(240, 240, 240);
   height: 15vh;
 }
@@ -194,6 +221,7 @@
   align-items: center;
   border: 1px solid rgb(240, 240, 240);
   color: gray;
+  background-color: white;
 
 }
 .row-entry-icon {
@@ -205,4 +233,14 @@
 .a-tag {
   color: rgb(45, 157, 255);
   text-decoration: underline;
+}
+.right-word{
+  float: right;
+}
+.break-word{
+ 
+  white-space:normal;
+   word-wrap:break-word;
+   overflow: auto;
+   width: 85%;
 }

@@ -1,0 +1,12 @@
+/* coach-choosing.wxss */
+.round-pic{
+  width:120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.three-clum{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}

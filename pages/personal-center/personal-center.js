@@ -86,5 +86,37 @@ Page({
         }
       }
     });
+  },
+  navtoMyCoach:function(){
+    wx.navigateTo({
+      url: '../mycoach/mycoach',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  navtoMyOrder: function () {
+    wx.navigateTo({
+      url: '../myorder/myorder',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  navtoProcess: function () {
+    wx.navigateTo({
+      url: '../process/process',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  navtoSmartBus: function () {
+    wx.navigateTo({
+      url: '../smart-bus/smart-bus',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
   }
 })

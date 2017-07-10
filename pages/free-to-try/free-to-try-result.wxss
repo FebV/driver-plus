@@ -1,0 +1,8 @@
+/* free-to-try-result.wxss */
+.big-icon{
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 8rpx solid #4cd964;
+  margin: 100rpx auto;
+}

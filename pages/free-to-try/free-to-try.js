@@ -62,5 +62,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  onApply:function(){
+    wx.navigateTo({
+      url: 'free-to-try-result',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

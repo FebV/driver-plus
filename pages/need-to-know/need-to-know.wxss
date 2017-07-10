@@ -1,0 +1,26 @@
+/* need-to-know.wxss */
+.envelope{
+  width: 90%;
+  margin: 20rpx auto;
+  position: relative;
+}
+.envelope-img{
+  width: 100%;
+  height: 250rpx;
+}
+.envelope-word{
+  position: absolute;
+  width:90%;
+  top: 40rpx;
+  left: 5vw;
+}
+.envelope-img-active{
+  width: 100%;
+  height: 400rpx;
+}
+.envelope-answer{
+  position: absolute;
+  width:80%;
+  top: 200rpx;
+  left: 10vw;
+}

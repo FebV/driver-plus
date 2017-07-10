@@ -1,0 +1,35 @@
+<!--process.wxml-->
+ <view class="spot-group ">
+    
+    
+    
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner"></view></view>
+      <view class="inline-block spot-word">已经完成的</view>
+      </view>
+      <view class="spot-line-2"></view>
+    </view>
+
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner"></view></view>
+      <view class="inline-block spot-word">正在进行的</view>
+      </view>
+
+      <view class="spot-line-2-active"></view>
+    </view>
+
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner-active"></view></view>
+      <view class="inline-block spot-word blue-word">尚未开始的</view>
+      </view>
+      
+    </view>
+
+    
+   
+    
+  
+  </view>

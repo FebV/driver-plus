@@ -1,0 +1,66 @@
+/* group-signon-open.wxss */
+
+
+.intro {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signon-state {
+  font-size: 0.75rem;
+}
+.group-rule-content {
+  padding: 30rpx;
+  font-size: 0.7rem;
+  line-height: 50rpx;
+}
+.white-space {
+  display: inline-block;
+  width: 25rpx;
+}
+.group-desc-content {
+  padding: 30rpx;
+  font-size: 0.7rem;
+}
+.signon {
+  /*width: 100%;*/
+  
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-time-notice {
+  font-size: 0.75rem;
+}
+.left-time {
+  margin: 20rpx;
+  font-size: 1rem;
+}
+.signon-btn {
+  margin-top: 5rpx;
+}
+.small-line-word{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+.group-rule-detail{
+  margin-left: 20rpx;
+}
+.blue-border{
+  border: 3rpx solid rgb(45, 157, 255);
+  border-radius: 20rpx;
+}
+.round-pic{
+  width:120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.group-member{
+  width: 95%;
+  margin: 0 auto;
+
+}

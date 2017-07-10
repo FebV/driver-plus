@@ -1,0 +1,31 @@
+<!--sign-up-success.wxml-->
+<view class="small-divider"></view>
+<view class="big-icon">
+  <icon type="success_no_circle" color="#4cd964" size="100" style="margin:25px"/>
+</view>
+<view class="box">
+  <view class="row">班型: 普通班</view>
+  <view class="row">场地：济南高新区公路技师学院训练场</view>
+  <view class="row">已支付:  <text class="blue-word">200</text>元</view>
+</view>
+<view class="divider"></view>
+<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自习核对以下信息</view>
+<view class="small-divider"></view>
+<view class="box gray-word" style="font-size:26rpx;">
+  <view class="row">姓名： <text class="blue-word">帅啊</text></view>
+  <view class="row">身份证号： <text class="blue-word">370111199011111010</text></view>
+  <view class="row row2">
+  <view class="small-row" > QQ：<text class="blue-word">12341223421</text></view>
+  <view class="big-row"> 本地手机号：<text class="blue-word">1234122341121</text></view>
+  </view>
+  <view class="row row2">
+  <view class="big-row"><text class="blue-word">需要</text>代办暂住证</view>
+  <view class=""><text class="blue-word">可以</text>提供身份证原件</view>
+  </view>
+</view>
+<view class="divider" style="margin-top:50rpx"></view>
+<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自习阅读以下提示</view>
+<view class="small-divider"></view>
+<view class="box gray-word" style="font-size:26rpx;line-height:40rpx;margin-top:20rpx;">
+  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafsfsdf sdfdsaf sadf 
+</view>

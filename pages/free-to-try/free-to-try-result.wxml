@@ -1,0 +1,10 @@
+<!--free-to-try-result.wxml-->
+<view class="small-divider"></view>
+<view class="big-icon">
+  <icon type="success_no_circle" color="#4cd964" size="150" style="margin:25px"/>
+</view>
+<view class="" style="text-align:center">
+  <view class="gray-word">申请免费试学成功。</view>
+  <view class="gap"></view> 
+  <view class="gray-word">请耐心等待工作人员与您联系。</view>
+</view>

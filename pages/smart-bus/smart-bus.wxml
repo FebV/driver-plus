@@ -1,0 +1,49 @@
+<!--smart-bus.wxml-->
+<view class="wrap">
+  <view class="blue-notice "><view class="eightyPercent blue-word "><image src="../../asset/imgs/announce_icon.png" style="width:30rpx;height:30rpx"></image>线路调整通知。2017.05.29</view> </view>
+  <view class="gray-word eightyPercent" style="margin-top:50rpx">当前线路:<view class="a-tag inline-block">东线</view>（驾校 <image src="asset/imgs/huan.png" style="width:40rpx;height:30rpx"></image> 泉城公园） </view>
+  <view class="gray-word eightyPercent" style="margin-top:50rpx">常用站点:<view class="a-tag inline-block">泉城公园</view></view>
+  <view class="spot-group ">
+    
+    <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner"></view></view>
+      <view class="inline-block spot-word">路舜驾校(14：05)</view>
+      </view>
+      <view class="spot-line-2"></view>
+    </view>
+    
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner"></view></view>
+      <view class="inline-block spot-word">路舜驾校(14：05)</view>
+      </view>
+      <view class="spot-line-2"></view>
+    </view>
+
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner"></view></view>
+      <view class="inline-block spot-word">路舜驾校(14：05)</view>
+      </view>
+      <view class="blue-bus gray-word">
+        <image src="asset/imgs/bus.png" style="width:80rpx;height:60rpx;float:left"></image><view class="inline-block" style="height:60rpx;;float:left"> 鲁A E9255</view>
+      </view>
+      <view class="spot-line-2-active"></view>
+    </view>
+
+     <view class="spot-line">
+     <view class="spot-line-1">
+      <view class="spot-out"><view class="spot-inner-active"></view></view>
+      <view class="inline-block spot-word blue-word">路舜驾校(14：05)</view>
+      </view>
+      
+    </view>
+
+    
+   
+    
+  
+  </view>
+  
+</view>

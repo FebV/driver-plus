@@ -1,0 +1,28 @@
+<!--coach-choosing.wxml-->
+<block wx:for="{{coachList}}" wx:key="{{index}}">
+  <view class="small-divider" ></view>
+  <view class="group-desc">
+
+    <view class="gray-word" style="height:160rpx" bindtap="toCoachIndex">
+      <view class=" three-clum" style="height:120rpx;margin:10rpx 30rpx">
+        <view class="inline-block roudn-pic" style="float:left">
+          <image src="../../asset/imgs/head_image.png" class="round-pic"></image>
+        </view>
+        <view class="">
+          <view class="black" style="height:50rpx;color:black;font-size:35rpx">{{item.name}}
+            <image src="../../asset/imgs/grade_star.png" style="width:40rpx;height:40rpx;margin-left:30rpx"></image>
+            <text class="blue-word">{{item.score}}分</text>
+          </view>
+          <view class="gray-word" style="font-size:30rpx;height:50rpx;line-height:50rpx">{{item.carNO}}</view>
+          <view class="gray-word" style="font-size:30rpx;height:40rpx;line-height:40rpx">{{item.carType}}</view>
+        </view>
+        <view class="">
+          <view class="gray-word" style="font-size:30rpx;height:50rpx;line-height:50rpx">已有
+            <text class="blue-word">{{item.remarkNumber}}</text>位学员评价</view>
+
+        </view>
+      </view>
+    </view>
+  </view>
+</block>
+<view class="small-divider"></view>

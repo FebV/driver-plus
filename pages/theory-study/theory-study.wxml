@@ -1,0 +1,68 @@
+<!--theory-study.wxml-->
+<view class="small-divider"></view>
+  <view class="options">
+    <view class="border">
+      <view class="one-option one-option-active">科目一</view>
+      <view class="one-option">科目四</view>
+    </view>
+    
+  </view>
+<view class="divider"></view>
+<view class="all-practice">
+  <view class="one-practice">
+    <view class="img" bindtap="navtoPractice">
+      <image src="asset/imgs/shunxu.png" style="height:33rpx"></image>
+    </view>
+    <view class="img" bindtap="navtoPractice">
+      <image src="asset/imgs/suiji.png" style="height:35rpx"></image>
+    </view>
+  </view>
+  <view class="small-divider"></view>
+  <view class="one-practice">
+    <view class="img" bindtap="navtoPractice">
+      <image src="asset/imgs/zhangjie.png" style="height:40rpx"></image>
+    </view>
+    <view class="img" bindtap="navtoPractice">
+      <image src="asset/imgs/zhuanxiang.png"></image>
+    </view>
+  </view>
+  <view class="small-divider"></view>
+  <view class="one-practice">
+   <view class="img" bindtap="navtoExam">
+      <image src="asset/imgs/mock-test.png" style="height:40rpx"></image>
+    </view>
+  </view>
+ </view>
+ <view class="divider"></view>
+ <view class="row">
+  <view class="row-box">
+    <image src="asset/imgs/wrong-book.png"></image>      
+    <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">错题攻克(<text class="blue-word">21</text>)</view> 
+  </view>
+  <view class="row-box">
+    <image src="asset/imgs/collection.png"></image>      
+    <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">题目收藏(<text class="blue-word">21</text>)</view> 
+  </view>
+  <view class="row-box">
+    <image src="asset/imgs/remote.png"></image>      
+    <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">远程测考</view> 
+  </view>
+ 
+</view>
+<view class="small-divider"></view>
+<view class="gray-word">
+  <view class="study-result">学习进度：已完成<text class="blue-word">80%</text>  正确率<text class="blue-word">80%</text></view>
+  <view class=""></view>
+  <view class="study-result">模拟考试：≥<text class="blue-word">90</text>分<text class="blue-word">16</text>次</view>
+</view>
+<view class="divider"></view>
+<view class="group-desc">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="asset/imgs/books.png"></image>
+    </view>
+    <text class="partition-header-title">过关锦囊</text>
+  </view>
+  <view class="group-desc-content gray-word">
+    something just like this  </view>
+</view>

@@ -17,6 +17,6 @@
 <text class="input-cap">验证码</text>
   <input type="text" />
 </view>
-<view class="row-btn l2r-gradient">
+<view class="row-btn l2r-gradient" bindtap="onApply">
   申请试学
 </view>

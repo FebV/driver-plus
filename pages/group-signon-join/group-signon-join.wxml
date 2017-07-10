@@ -1,0 +1,101 @@
+<view class="index">
+<view class="banner">
+  <image src="asset/imgs/banner.png"></image>
+</view>
+<view class="intro gray-word">
+  <view class="discount inline-block">
+    组团报名最多减
+    <view class="blue-word inline-block">XX</view>
+  </view>
+  <view class="signon-state inline-block">
+    已开XX团，已有XX人参团
+  </view>
+  
+</view>
+<view class="small-divider"></view>
+<view class="group-rule-detail">
+    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
+  </view>
+  <view class="small-divider"></view>
+<view class="group-rule-detail">
+    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
+  </view>
+  <view class="small-divider"></view>
+<view class="group-rule-detail">
+    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
+  </view>
+<view class="divider"></view>
+<view class="group-rule">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="../../asset/imgs/group_rule.png"></image>
+    </view>
+    <text class="partition-header-title">组团玩法</text>
+  </view>
+  <view class="group-rule-content gray-word">
+    ①支付定金开团/参团<view class="white-space"></view>②邀请参团<view class="white-space"></view>③组团结束，报名成功
+    组团满5人，每人立减200元。
+  </view>
+</view>
+<view class="divider"></view>
+<view class="group-member">
+  <view class="gray-word small-line-word">本团<text class="blue-word">4</text>人,每人立减<text class="blue-word">200</text>元<text class="right-word blue-word">剩余时间<text class="blue-border blue-word" style="margin-left:10rpx;height:80rpx">23:59:59</text></text></view>
+   <scroll-view scroll-x="true" style="width:100%;height:130rpx; white-space: nowrap; display: flex">
+    
+      <view class="inline-block" style="height:120rpx;width:300rpx">
+        <view class="inline-block roudn-pic" style="float:left">
+        <image src="asset/imgs/banner.png" class="round-pic"></image>
+        </view>
+        <text class="inline-block gray-word" style="height:120rpx;line-height:120rpx;float:left">shuaig</text>
+      </view>
+      <view class="inline-block" style="height:120rpx;width:300rpx">
+        <view class="inline-block roudn-pic" style="float:left">
+        <image src="asset/imgs/banner.png" class="round-pic"></image>
+        </view>
+        <text class="inline-block gray-word" style="height:120rpx;line-height:120rpx;float:left">shuaig</text>
+      </view>
+      <view class="inline-block" style="height:120rpx;width:300rpx">
+        <view class="inline-block roudn-pic" style="float:left">
+        <image src="asset/imgs/banner.png" class="round-pic"></image>
+        </view>
+        <text class="inline-block gray-word" style="height:120rpx;line-height:120rpx;float:left">shuaig</text>
+      </view>
+  
+    
+   
+   </scroll-view>
+  
+</view>
+<view class="divider"></view>
+
+<view class="group-desc">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="../../asset/imgs/group_desc.png"></image>
+    </view>
+    <text class="partition-header-title">组团说明</text>
+  </view>
+  <view class="group-desc-content gray-word">
+    something just like this
+  </view>
+</view>
+
+<view class="divider"></view>
+
+<view class="group-desc">
+  <view class="partition-header">
+    <view class="partition-header-icon">
+      <image src="../../asset/imgs/group_desc.png"></image>
+    </view>
+    <text class="partition-header-title">组团攻略</text>
+  </view>
+  <view class="group-desc-content gray-word">
+    something just like this
+  </view>
+</view>
+<view class="signon gray-border gray-word" style="background-color:rgb(240, 240, 240)">
+<view class="left-time-notice">
+本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view>
+<view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">马上参团</view>
+</view>
+</view>

@@ -29,6 +29,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 0;
+  border:1px solid rgb(240, 240, 240);
+  background: white;
+
 }
 .left-time-notice {
   font-size: 0.75rem;

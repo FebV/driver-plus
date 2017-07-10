@@ -1,11 +1,16 @@
 /**index.wxss**/
 
-
+.rect-enter-group{
+  column-count: 2;
+  column-rule:  0.5px solid rgb(240, 240, 240);
+  border: 0;
+  margin: 0;
+}
 .rect-enter {
-  border: 0.5px solid rgb(240, 240, 240);  
-  width: 50%;
+  /*border: 0.5px solid rgb(240, 240, 240);  */
+  /*width: 50%;*/
   height: 8vh;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -50,4 +55,9 @@
 
 .usermotto {
   margin-top: 200px;
+}
+.three-column{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

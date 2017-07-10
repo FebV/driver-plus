@@ -1,0 +1,11 @@
+<!--need-to-know.wxml-->
+<view class="wrap">
+  <view class="small-divider"></view>
+  <view class="envelope" wx:for="{{dataList}}" wx:key="{{index}}" data-indx="{{index}}" bindtap="onTapOpen">
+    <image class="{{item.open?'envelope-img-active':'envelope-img'}}" src="asset/imgs/{{item.open?'envelope-paper':'envelope'}}.png"></image>
+    <view class="envelope-word">{{index+1}}.{{item.q}}</view>
+    <view wx:if="{{item.open}}" class="envelope-answer">{{item.a}}</view>
+  </view>
+
+
+</view>

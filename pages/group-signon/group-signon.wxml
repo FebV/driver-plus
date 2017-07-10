@@ -1,4 +1,4 @@
-<!--group-signon.wxml-->
+<view class="">
 <view class="ground-selection">
   <view class="partition-header">
     <view class="partition-header-icon">
@@ -6,21 +6,32 @@
     </view>
     <text class="partition-header-title">场地选择</text>
   </view>
-  <view class="ground-item gray-border">
-    <view class="ground-image inline-block">
-      <image src="/asset/imgs/ground_img_exp.png"></image>
-    </view>
-    <view class="ground-intro inline-block">
-      <text class="ground-intro-title">XXXXXX训练场</text>
-      <view class="br"></view>
-      <text class="ground-intro-content">8万平方米</text>
-      <view class="br"></view>
-      <view class="ground-intro-sign-num">
-        <text>报名人数
-          <text class="blue-word">XXX</text>
-        </text>
+
+  <view class="ground-list" wx:for="{{groundList}}" wx:key="{{index}}" bindtap="onChoosePlayGround" data-key = "{{index}}">
+    <view class="ground-item gray-border" style="position:relative">
+      <view class="ground-image inline-block">
+        <image src="/asset/imgs/ground_img_exp.png"></image>
       </view>
+      <view class="ground-intro inline-block">
+        <text class="ground-intro-title">{{item.name}}</text>
+        <view class="br"></view>
+        <text class="ground-intro-content">{{item.cover}}</text>
+        <view class="br"></view>
+        <view class="ground-intro-sign-num">
+          <text>报名人数:{{item.number}}
+            <text class="blue-word">xxx</text>
+          </text>
+        </view>
+        
+      </view>
+      <view style="display:{{item.onActive}};" class="active-check-box" >
+      
+         <icon type="success_no_circle" color="white" class="active-check-icon" />
+         <view class="active-check"></view>        
+        </view>
     </view>
+    
+
   </view>
 </view>
 <view class="divider"></view>
@@ -30,59 +41,76 @@
   </view>
   <text class="partition-header-title">班型选择</text>
 </view>
-<view class="common-class gray-border">
+<view class="common-class gray-border" style="position:relative"
+bindtap="changeClass" data-class="0">
   <view class="common-class-icon">
     <image src="/asset/imgs/common_class.png"></image>
   </view>
   <text class="inline-block common-class-name">普通班</text>
   <text class="common-class-price">XXXX元</text>
+  <view style="display:{{classType==0?'inline-block':'none'}};" class="active-check-box" >
+      
+         <icon type="success_no_circle" color="white" class="active-check-icon" />
+         <view class="active-check"></view>        
+        </view>
 </view>
-<view class="common-class gray-border">
+<view class="common-class gray-border" style="position:relative" bindtap="changeClass" data-class="1">
   <view class="common-class-icon">
     <image src="/asset/imgs/vip_class.png"></image>
   </view>
-  <text class="inline-block common-class-name">普通班</text>
+  <text class="inline-block common-class-name">vip班</text>
   <text class="common-class-price">XXXX元</text>
+  <view style="display:{{classType==1?'inline-block':'none'}};" class="active-check-box" >
+      
+         <icon type="success_no_circle" color="white" class="active-check-icon" />
+         <view class="active-check"></view>        
+        </view>
 </view>
 <view class="divider"></view>
 <view class="input">
-<text class="input-cap">推荐码</text>
+  <text class="input-cap">推荐码</text>
   <input />
 </view>
-<view class="input">
-<text class="input-cap">预付定金（100元）</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="forePaid">
+  <text class="input-cap">预付定金（100元）</text>
+  <icon type="success" color="rgb(0, 150, 250)" class="checkbox"  wx:if="{{forePaid}}"/>
+  <view class="checkbox-none" wx:if="{{!forePaid}}"></view>
 </view>
 <view class="divider"></view>
 <view class="input">
-<text class="input-cap">姓名</text>
+  <text class="input-cap">姓名</text>
   <input />
 </view>
 <view class="input">
-<text class="input-cap">身份证号</text>
+  <text class="input-cap">身份证号</text>
   <input />
 </view>
 <view class="input">
-<text class="input-cap">本地手机号：</text>
+  <text class="input-cap">本地手机号：</text>
   <input placeholder="用于接收车管所验证码，需为本地手机号" />
 </view>
 <view class="input">
-<text class="input-cap">QQ号：</text>
+  <text class="input-cap">QQ号：</text>
   <input />
 </view>
 <view class="divider"></view>
-<view class="input">
-<text class="input-cap">需要代办暂住证</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="needZJZ">
+  <text class="input-cap">需要代办暂住证</text>
+  <icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{needZJZ}}"/>
+  <view class="checkbox-none" wx:if="{{!needZJZ}}"></view>
 </view>
 <view class="gray-notice">非本地身份证，且无暂住证的学员选中</view>
-<view class="input">
-<text class="input-cap">是否暂时无法提供身份证原件</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="noID">
+  <text class="input-cap">是否暂时无法提供身份证原件</text>
+  <icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{noID}}"/>
+  <view class="checkbox-none" wx:if="{{!noID}}"></view>
 </view>
 <view class="gray-notice">如身份证遗失、过期、未携带请选中，不影响报名</view>
 <view class="signon gray-border gray-word">
-<view class="left-time-notice">
-参团倒计时<view class="left-time inline-block">XX:XX:XX</view></view>
-<view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">完成支付并参团</view>
+  <view class="left-time-notice">
+    参团倒计时
+    <view class="left-time inline-block">XX:XX:XX</view>
+  </view>
+  <view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">完成支付并参团</view>
+</view>
 </view>
