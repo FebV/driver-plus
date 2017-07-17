@@ -4,10 +4,10 @@
 </view>
 <view class="rect-enter-group">
   <view class="rect-enter" bindtap="navToFreeToTry">
-    <image src="asset/imgs/free_to_try.png"></image>
+    <image style="height:38%" src="asset/imgs/free_to_try.png"></image>
   </view>
   <view class="rect-enter" bindtap="navToGroupSignOnIntro">
-    <image src="asset/imgs/group_apply.png"></image>
+    <image style="height:34%" src="asset/imgs/group_apply.png"></image>
   </view>
 </view>
 <view class="divider"></view>
@@ -49,7 +49,7 @@
     <view class="row-choice-content">
       <view class="row-choice-content-top">
         <text class="row-choice-title">VIP班</text>
-        <view class="gap"></view>
+        <view class="gap" style="margin-left:20rpx"></view>
         <text class="row-choice-price l2r-gradient">3560元</text>
       </view>
       <view class="row-choice-content-bottom">
@@ -84,7 +84,7 @@
 <view class="area-location">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image src="asset/imgs/area_location_icon.png"></image>
+      <image style="width:30rpx;height:40rpx" src="asset/imgs/area_location_icon.png"></image>
     </view>
     <text class="partition-header-title">场地分布</text>
   </view>
@@ -92,7 +92,7 @@
 <view class="row-choice-group">
   <view class="row-choice three-column" >
     <view class="row-choice-icon">
-      <image src="asset/imgs/location_icon.png"></image>
+      <image style="width:60rpx;height:70rpx" src="asset/imgs/location_icon.png"></image>
     </view>
     <view class="row-choice-content gray-word">
       locationfjsdoifjosajfoijs sdjfls
@@ -100,4 +100,7 @@
     </view>
     <view class="right-word gray-word">9.6km</view>
   </view>
+</view>
+<view class="kefu">
+  <image class="kefu" src="/asset/imgs/kefu.png" ></image>
 </view>

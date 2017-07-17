@@ -6,6 +6,7 @@
   display: inline-block;
   height: 10vh;
   width: 30vw;
+  z-index: 111;
 }
 .inline-btn {
   box-sizing: border-box;

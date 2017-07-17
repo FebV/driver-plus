@@ -46,7 +46,7 @@ bindtap="changeClass" data-class="0">
   <view class="common-class-icon">
     <image src="/asset/imgs/common_class.png"></image>
   </view>
-  <text class="inline-block common-class-name">普通班</text>
+  <text class="inline-block common-class-name" >普通班</text>
   <text class="common-class-price">XXXX元</text>
   <view style="display:{{classType==0?'inline-block':'none'}};" class="active-check-box" >
       
@@ -58,7 +58,7 @@ bindtap="changeClass" data-class="0">
   <view class="common-class-icon">
     <image src="/asset/imgs/vip_class.png"></image>
   </view>
-  <text class="inline-block common-class-name">vip班</text>
+  <text class="inline-block common-class-name">  vip班  </text>
   <text class="common-class-price">XXXX元</text>
   <view style="display:{{classType==1?'inline-block':'none'}};" class="active-check-box" >
       
@@ -72,7 +72,7 @@ bindtap="changeClass" data-class="0">
   <input />
 </view>
 <view class="input" bindtap="onChangeState" data-type="forePaid">
-  <text class="input-cap">预付定金（100元）</text>
+  <text class="input-c">预付定金（100元）</text>
   <icon type="success" color="rgb(0, 150, 250)" class="checkbox"  wx:if="{{forePaid}}"/>
   <view class="checkbox-none" wx:if="{{!forePaid}}"></view>
 </view>
@@ -87,7 +87,7 @@ bindtap="changeClass" data-class="0">
 </view>
 <view class="input">
   <text class="input-cap">本地手机号：</text>
-  <input placeholder="用于接收车管所验证码，需为本地手机号" />
+  <input style="font-size:30rpx" placeholder="用于接收车管所验证码，需为本地手机号" />
 </view>
 <view class="input">
   <text class="input-cap">QQ号：</text>
@@ -95,13 +95,13 @@ bindtap="changeClass" data-class="0">
 </view>
 <view class="divider"></view>
 <view class="input" bindtap="onChangeState" data-type="needZJZ">
-  <text class="input-cap">需要代办暂住证</text>
+  <text class="input-c">需要代办暂住证</text>
   <icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{needZJZ}}"/>
   <view class="checkbox-none" wx:if="{{!needZJZ}}"></view>
 </view>
 <view class="gray-notice">非本地身份证，且无暂住证的学员选中</view>
 <view class="input" bindtap="onChangeState" data-type="noID">
-  <text class="input-cap">是否暂时无法提供身份证原件</text>
+  <text class="input-c">是否暂时无法提供身份证原件</text>
   <icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{noID}}"/>
   <view class="checkbox-none" wx:if="{{!noID}}"></view>
 </view>

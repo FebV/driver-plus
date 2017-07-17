@@ -121,5 +121,13 @@ Page({
       })
 
     }
+  },
+  navToGroupSignOn:function(){
+    wx.navigateTo({
+      url: '../group-signon-join/group-signon-join',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

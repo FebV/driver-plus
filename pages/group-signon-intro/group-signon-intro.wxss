@@ -10,7 +10,7 @@
 }
 .group-rule-content {
   padding: 30rpx;
-  font-size: 0.7rem;
+  font-size: 30rpx;
   line-height: 50rpx;
 }
 .white-space {
@@ -19,7 +19,7 @@
 }
 .group-desc-content {
   padding: 30rpx;
-  font-size: 0.7rem;
+  font-size: 30rpx;
 }
 .signon {
   width: 100%;

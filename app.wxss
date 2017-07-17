@@ -45,7 +45,7 @@
 }
 .partition-header-title {
   font-family: monospace;
-  font-size: 0.75rem;
+  font-size: 30rpx;
   font-weight: bold;
   color: #888888;
 }
@@ -67,7 +67,7 @@
   text-align: center;
   padding: 2vh 5vw;
   color: white;
-  margin: 5vh 5vw;
+  margin: 5vh auto;
   border-radius: 50rpx;
   font-weight: bold;
   font-size: 1.2rem;
@@ -90,21 +90,33 @@
 .input {
   display: flex;
   height: 10vh;
-  align-items: center;
+  align-items:  center;
   box-sizing: border-box;
   border: 1px solid rgb(240, 240, 240);
+  justify-content: space-between;
+  flex-direction: row;
 }
 .input-cap {
-  position: absolute;
+   position: absolute; 
   line-height: 10vh;
   margin-left: 3vw;
   color: gray;
-  font-size: 0.8rem;
+   font-size: 30rpx; 
 }
+.input-c{
+   line-height: 10vh;
+  margin-left: 3vw;
+  color: gray;
+  font-size: 30rpx;
+}
+input{
+  font-size: 40rpx;
+}
+
 .input input {
   height: 10vh;
   line-height: 10vh;
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   padding-left: 25vw;
   width: 100%;
 }
@@ -113,26 +125,30 @@
     box-sizing: border-box;
     /*height: 5vh;*/
     /*margin-top: 2.5vh;*/
-    position: absolute;
-    right: 3vw;
+    /* position: absolute; */
+    /* right: 3vw; */
     border-radius: 100%;
     font-size: 5vh;
+    margin-right: 3vw;
 }
 .checkbox-none{
   box-sizing: border-box;
     height: 23px;
-    margin-top: 2.5vh;
-    position: absolute;
-    right: 3vw;
+    /* margin-top: 2.5vh; */
+    /* position: absolute; */
+    /* right: 3vw; */
     border-radius: 100%;
     width: 23px;
     border: 3rpx solid #888888;
+    margin-right: 3vw;
 }
 .gray-notice {
-  font-size: 0.6rem;
+  font-size: 28rpx;
   background-color: rgb(240, 240, 240);
   padding: 5rpx 3vw;
   color: gray;
+  height: 40rpx;
+  line-height: 40rpx;
 }
 .sm-text {
   font-size: 0.6rem;
@@ -171,15 +187,15 @@
 }
 
 .row-choice-title {
-  font-weight: bold;
-  font-size: 0.8rem;
+  /* font-weight: bold; */
+  font-size: 0.9rem;
 }
 .row-choice-price {
   box-sizing: border-box;
-  padding: 2rpx 2vw;
-  border-radius: 30rpx;
+  padding: 5rpx 2vw;
+  border-radius: 10rpx;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 0.75rem;
 }
 .row-choice-grade {
@@ -203,6 +219,7 @@
   width: 40vw;
 }
 .row-choice-char {
+  margin-top: 10rpx;
   font-size: 0.75rem;
 }
 .row-choice-char view {

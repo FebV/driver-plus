@@ -62,5 +62,13 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  navToGroupSignOn:function(){
+    wx.navigateTo({
+      url: '../group-signon-join-pay/group-signon-join-pay',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

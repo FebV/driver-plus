@@ -61,3 +61,10 @@
   justify-content: space-around;
   align-items: center;
 }
+.kefu{
+  width: 100rpx;
+  height: 35rpx;
+  position: fixed;
+  right: 0;
+  bottom: 30vh;
+}

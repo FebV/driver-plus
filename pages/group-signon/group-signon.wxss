@@ -37,7 +37,7 @@
   align-items: center;
 }
 .common-class-name {
-  font-size: 0.75rem;
+  font-size: 30rpx;
 }
 .common-class-price {
   margin-left: 40vw;

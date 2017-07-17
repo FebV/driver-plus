@@ -17,13 +17,13 @@
   <block wx:for="{{listData}}" wx:key="{{code}}">
     <view class="tr">
       <view class="td" style="font-size:20rpx;color:gray;">{{item.time}}</view>
-      <view class="td" data-day="0"  data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[0]!=0?'circle':'gray-circle'}} {{item.type[0] == 1? 'active':''}}">{{item.text[0]}}</view></view>
-      <view class="td" data-day="1" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[1]!=0?'circle':'gray-circle'}} {{item.type[1] == 1? 'active':''}}">{{item.text[1]}}</view></view>
-      <view class="td" data-day="2" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[2]!=0?'circle':'gray-circle'}} {{item.type[2] == 1? 'active':''}}">{{item.text[2]}}</view></view>
-      <view class="td" data-day="3" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[3]!=0?'circle':'gray-circle'}} {{item.type[3] == 1? 'active':''}}">{{item.text[3]}}</view></view>
-      <view class="td" data-day="4" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[4]!=0?'circle':'gray-circle'}} {{item.type[4] == 1? 'active':''}}">{{item.text[4]}}</view></view>
-      <view class="td" data-day="5" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[5]!=0?'circle':'gray-circle'}} {{item.type[5] == 1? 'active':''}}">{{item.text[5]}}</view></view>
-      <view class="td" data-day="6" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[6]!=0?'circle':'gray-circle'}} {{item.type[6] == 1? 'active':''}}">{{item.text[6]}}</view></view>
+      <view class="td" data-day="0"  data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[0]!=0?'circle':'gray-circle'}} {{item.type[0] == 1&&item.text[0]!=0? 'active':''}}">{{item.text[0]}}</view></view>
+      <view class="td" data-day="1" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[1]!=0?'circle':'gray-circle'}} {{item.type[1] == 1&&item.text[1]!=0? 'active':''}}">{{item.text[1]}}</view></view>
+      <view class="td" data-day="2" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[2]!=0?'circle':'gray-circle'}} {{item.type[2] == 1&&item.text[2]!=0? 'active':''}}">{{item.text[2]}}</view></view>
+      <view class="td" data-day="3" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[3]!=0?'circle':'gray-circle'}} {{item.type[3] == 1&&item.text[3]!=0? 'active':''}}">{{item.text[3]}}</view></view>
+      <view class="td" data-day="4" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[4]!=0?'circle':'gray-circle'}} {{item.type[4] == 1&&item.text[4]!=0? 'active':''}}">{{item.text[4]}}</view></view>
+      <view class="td" data-day="5" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[5]!=0?'circle':'gray-circle'}} {{item.type[5] == 1&&item.text[5]!=0? 'active':''}}">{{item.text[5]}}</view></view>
+      <view class="td" data-day="6" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[6]!=0?'circle':'gray-circle'}} {{item.type[6] == 1&&item.text[6]!=0? 'active':''}}">{{item.text[6]}}</view></view>
       
       
     </view>
