@@ -1,5 +1,7 @@
 {
   "pages": [
+    
+    
     "pages/index/index",
     "pages/process/process",
     "pages/group-signon/group-signon",
@@ -7,7 +9,7 @@
     "pages/sign-up-success/sign-up-success",
     "pages/theory-study/theory-study",
     "pages/group-signon-intro/group-signon-intro",
-    
+    "pages/smart-bus/smart-bus",
     "pages/signon-payment/signon-payment",
     
     "pages/exam/practice-test",
@@ -20,7 +22,6 @@
     
     "pages/need-to-know/need-to-know",
     "pages/practice-reservation/practice-reservation",
-    "pages/smart-bus/smart-bus",
     "pages/vip-class/vip-class",
     "pages/test-result/test-result",
     "pages/personal-center/personal-center",

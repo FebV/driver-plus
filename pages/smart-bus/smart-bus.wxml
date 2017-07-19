@@ -1,49 +1,95 @@
 <!--smart-bus.wxml-->
 <view class="wrap">
-  <view class="blue-notice "><view class="eightyPercent blue-word "><image src="../../asset/imgs/announce_icon.png" style="width:30rpx;height:30rpx"></image>线路调整通知。2017.05.29</view> </view>
-  <view class="gray-word eightyPercent" style="margin-top:50rpx">当前线路:<view class="a-tag inline-block">东线</view>（驾校 <image src="asset/imgs/huan.png" style="width:40rpx;height:30rpx"></image> 泉城公园） </view>
-  <view class="gray-word eightyPercent" style="margin-top:50rpx">常用站点:<view class="a-tag inline-block">泉城公园</view></view>
-  <view class="spot-group ">
-    
-    <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner"></view></view>
-      <view class="inline-block spot-word">路舜驾校(14：05)</view>
-      </view>
-      <view class="spot-line-2"></view>
-    </view>
-    
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner"></view></view>
-      <view class="inline-block spot-word">路舜驾校(14：05)</view>
-      </view>
-      <view class="spot-line-2"></view>
+  <view class="mainbody">
+    <view class="top">
+        <view><image src="/asset/imgs/bus.png"></image></view>
+        <view>4号灵山卫线</view>
+        <view><image src="/asset/imgs/pulldown.png"></image></view>
     </view>
 
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner"></view></view>
-      <view class="inline-block spot-word">路舜驾校(14：05)</view>
-      </view>
-      <view class="blue-bus gray-word">
-        <image src="asset/imgs/bus.png" style="width:80rpx;height:60rpx;float:left"></image><view class="inline-block" style="height:60rpx;;float:left"> 鲁A E9255</view>
-      </view>
-      <view class="spot-line-2-active"></view>
-    </view>
 
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner-active"></view></view>
-      <view class="inline-block spot-word blue-word">路舜驾校(14：05)</view>
-      </view>
-      
+    <view class="middle">
+        <view>
+            <view>始发站</view>
+            <view>终点站</view>
+        </view>
+        <view>
+            <view class="middleWord">山东大学中心校区</view>
+            <view><image src="/asset/imgs/turn-blue.png"></image></view>
+            <view class="middleWord">路舜驾校</view>
+        </view>
+        
     </view>
+    <view class="blue">
+    <view class="classname">
+    选择班次
+    <image src="/asset/imgs/pulldown.png"></image>
+    </view>
+    
+    <view class="classname">
+    开始发车
+    <image src="/asset/imgs/pulldown.png"></image>
+    </view>
+    
+    </view>
+    <view class="bottomList">
+        
+            <view class="inline-block line">
+                <image src="/asset/imgs/begin.png"></image>
+                <view class="inline-block" style="margin-left:30rpx">路舜驾校</view>
+            </view>
+           
+       
+       <view class="inline-block line">
+                
+                <view class="inline-block" style="margin-left:80rpx">路舜驾校</view>
+      </view>
+        <view class="inline-block line">
+                
+                <view class="inline-block" style="margin-left:80rpx">路舜驾校</view>
+      </view>
+        <view class="inline-block line">
+                
+                <view class="inline-block" style="margin-left:80rpx">路舜驾校</view>
+      </view>
+        
+            <view class="inline-block line">
+                <view><image src="/asset/imgs/end.png"></image></view>
+                <view style="margin-left:30rpx">路舜驾校</view>
+                <view class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  0'35"</view>
+            </view>
+            
+       
 
-    
-   
-    
-  
-  </view>
-  
+    </view>
+</view>
+
+<view class="iconBus"><image src="/asset/imgs/start-bus.png"></image> </view>
+
+<view class="Listout">
+    <view class="triangleview">
+            <view class="triangle"></view>
+    </view>
+    <view class="topList">
+        <view class="Listword">1号李沧工业园线</view>
+        <view class="Listword">8号崂山石老人线</view>
+        <view class="Listword">4号灵山卫线</view>
+    </view>
+</view>
+
+
+<view class="alertBox">
+    <view>确定开始发车么？</view>
+    <view>
+        <view>取消</view>
+        <view>确定</view>
+    </view>
+</view>
+<view class="promt">
+    <view>温馨提示</view>
+    <view>您当前不在该始发站，请将始发站与终点站进行切换！</view>
+    <view>确定</view>
+</view>
+
+
 </view>
