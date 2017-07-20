@@ -1,11 +1,17 @@
 <!--practice-reservation.wxml-->
+ <view class="options">
+    <view class="border">
+      <view class="one-option one-option-active">科目一</view>
+      <view class="one-option">科目四</view>
+    </view>
+    
+  </view>
+
 <view class="wrap">
-  <view class="small-divider"></view>
-  <view class="gray-word top-word" style="font-size:30rpx">当前为 <view class="inline-block blue-word">科目二</view>；已经预约<view class="blue-word inline-block">5</view>次；目前为<view class="blue-word inline-block">初级</view>学员</view>
-  <view class="small-divider"></view>
+  
   <view class="table">
   <view class="tr">
-    <view class="th">    </view>
+    <view class="th">时段</view>
     <view class="th">周一</view>
     <view class="th ">周二</view>
     <view class="th ">周三</view>
@@ -16,7 +22,7 @@
   </view>
   <block wx:for="{{listData}}" wx:key="{{code}}">
     <view class="tr">
-      <view class="td" style="font-size:20rpx;color:gray;">{{item.time}}</view>
+      <view class="td" style="font-size:20rpx;color:gray;"><view class="time">{{item.time[0]}}</view><view class="time">{{item.time[1]}}</view></view>
       <view class="td" data-day="0"  data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[0]!=0?'circle':'gray-circle'}} {{item.type[0] == 1&&item.text[0]!=0? 'active':''}}">{{item.text[0]}}</view></view>
       <view class="td" data-day="1" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[1]!=0?'circle':'gray-circle'}} {{item.type[1] == 1&&item.text[1]!=0? 'active':''}}">{{item.text[1]}}</view></view>
       <view class="td" data-day="2" data-indx="{{index}}" bindtap="onPick"><view class="{{item.text[2]!=0?'circle':'gray-circle'}} {{item.type[2] == 1&&item.text[2]!=0? 'active':''}}">{{item.text[2]}}</view></view>
@@ -29,39 +35,20 @@
     </view>
   </block>
 </view>
-<view class="small-gray-info" style="padding:20rpx">
-  <view class="gray-word" style="width:90%;font-size:25rpx;margin:0 auto;">数字代表该时段教练尚可接受预约的人数，灰色代表不可预约或者预约人数已满</view>
+<view class="small-divider"></view>
+<view class="jiaolian">
+  <view class="gray-word">教练员 <view class="inline-block" style="color:black">xxx</view></view>
+  <view class="blue-view">鲁A7266学</view>
+  <view class="gray-word">学员状态 <view class="inline-block" style="color:black">初级</view></view>
 </view>
-  <view class="group-desc">
-  <view class="partition-header">
-    <view class="partition-header-icon">
-      <image src="../../asset/imgs/person_icon.png"></image>
-    </view>
-    <text class="partition-header-title">教练员</text>
-  </view>
-  <view class="gray-word">
-   <view class=" three-clum" style="height:120rpx;margin:10rpx 30rpx">
-        <view class="inline-block roudn-pic" style="float:left">
-        <image src="../../asset/imgs/head_image.png" class="round-pic"></image>
-        </view>
-        <view class="">
-          <view class="black" style="height:50rpx;color:black;font-size:35rpx">黄旭东<image src="../../asset/imgs/grade_star.png" style="width:40rpx;height:40rpx;margin-left:30rpx"></image><text class="blue-word">4.9分</text></view>
-          <view class="gray-word" style="font-size:30rpx;height:50rpx;line-height:50rpx">鲁A 7266学</view>
-           <view class="gray-word" style="font-size:30rpx;height:40rpx;line-height:40rpx">大众捷达（白色）</view>
-        </view>
-        <view class="">
-          <view class="gray-word" style="font-size:30rpx;height:50rpx;line-height:50rpx">已有<text class="blue-word">211</text>位学员评价</view>
-          <view class="phone_call">
-            <image src="../../asset/imgs/phone.png" style="width:40rpx;height:40rpx;float:right"></image>
-          </view>
-        </view>
-      </view>
-  </view>
 </view>
-<view class="divider" style="margin-top:20rpx"></view>
-<view class="top-word" style="font-size:32rpx">已经预约:6月25日（星期一）<text class="blue-word inline-block">9：00-10：00</text></view>
-
-<view class="small-gray-info" style="padding:20rpx">
-  <view class="gray-word" style="width:90%;font-size:25rpx;margin:0 auto;">请按照预约时间准时到达场地，如改变计划，请提前三小时取消预约，否则视为爽约，将受到一周无法预约的处罚。</view>
+<view class="all-screen" wx:if="{{alertOpen}}">
+<view class="alert">
+  <view class="alert-title">预约课程</view>
+  <view class="alert-time">{{orderTime}}aa</view>
+  <view class="box">
+    <view class="half-width all-border">取消</view>
+     <view class="half-width all-border blue-word" bindtap="navToSuccess">确定</view>
+  </view>
 </view>
 </view>

@@ -1,4 +1,37 @@
 /* practice-reservation.wxss */
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 120rpx;
+  align-items: center;
+  font-size: 35rpx;
+
+
+}
+.border{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 3rpx solid #2d9dff;
+  border-radius: 10rpx;
+  
+}
+.one-option{
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 20rpx;
+  color: #2d9dff;
+}
+.one-option-active{
+  background-color: #2d9dff;
+  color: white;
+}
+
+
+
 .top-word{
   height: 70rpx;
   line-height: 70rpx;
@@ -20,6 +53,14 @@
     width:40%;
     justify-content: center;
     text-align: center;
+    /* border: 1px solid #F2F2F2; */
+    height: 50rpx;
+    line-height: 50rpx;
+}
+.time{
+    line-height: 25rpx;
+    height: 25rpx;
+    font-size: 20rpx;
 }
 .circle{
   border: 5rpx solid rgb(45, 157, 255);
@@ -69,4 +110,73 @@ page{
 }
 .wrap{
   background: white;
+}
+
+
+.jiaolian{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blue-view{
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  background-color: #2d9dff;
+  color: white;
+  padding: 0 15rpx;
+  border-radius: 10rpx;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.half-width{
+  width:50vw;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx
+}
+.all-border{
+  border: 2rpx solid rgb(240, 240, 240);
+}
+
+.all-screen{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.alert{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 500rpx;
+  height: 300rpx;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+.alert-title{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.alert-time{
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 40rpx auto;
 }

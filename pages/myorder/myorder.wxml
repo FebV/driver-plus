@@ -15,14 +15,15 @@
     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单总金额：元</view>
     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已支付金额：元</view>
     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐码优惠：元</view>
-    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐人：</view>
+    <!-- <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐人：</view> -->
     <view class="gap"></view>
     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">还需支付：<text class="blue-word">xx</text>元</view>
   </view>
   <view class="gap"></view>
   <view class="box">
     <view class="half-width all-border">取消订单</view>
-    <view class="blue-word half-width all-border">现在支付</view>
+     <view class="half-width all-border">线下支付</view>
+    <view class="blue-word half-width all-border">微信支付</view>
   </view>
 </view>
 
