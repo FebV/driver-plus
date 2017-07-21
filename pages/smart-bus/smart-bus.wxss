@@ -325,8 +325,8 @@ body{
   display: none;
 }
 .promt{
-  display:block;
+  display:none;
 }
-.topList,.triangle,.rightList,.leftList{
+.topList,.triangle,.rightList{
   display: none;
 }

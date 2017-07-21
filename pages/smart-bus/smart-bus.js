@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    leftList:false,
   },
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  showLeftList:function(){
+    var list = this.data.leftList;
+    this.setData({
+      leftList: !list,
+    })
   }
 })

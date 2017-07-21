@@ -21,7 +21,7 @@
         
     </view>
     <view class="blue">
-    <view class="classname">
+    <view class="classname"  bindtap="showLeftList">
     选择班次
     <image src="/asset/imgs/pulldown.png"></image>
     </view>
@@ -99,7 +99,7 @@
       <view>4号灵山卫线12：30发车班车停运！</view>
     </view>
 </view>
-<view class="leftList">
+<view class="leftList" wx:if="{{leftList}}">
   <view>6:50发车</view>
   <view>6:50发车</view>
   <view>6:50发车</view>

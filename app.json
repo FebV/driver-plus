@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/smart-bus/smart-bus",
+    
+    "pages/coach-choosing/coach-choosing",
+    
+    "pages/mycoach/mycoach",
     "pages/important-notice/important-notice",
     "pages/index/index",
     "pages/process/process",
@@ -8,15 +13,13 @@
     "pages/sign-up-success/sign-up-success",
     "pages/theory-study/theory-study",
     "pages/group-signon-intro/group-signon-intro",
-    "pages/smart-bus/smart-bus",
     "pages/signon-payment/signon-payment",
     "pages/exam/practice-test",
     "pages/exam/mock-exam",
     "pages/free-to-try/free-to-try",
     "pages/free-to-try/free-to-try-result",
     "pages/myorder/myorder",
-    "pages/mycoach/mycoach",
-    "pages/coach-choosing/coach-choosing",
+   
     "pages/need-to-know/need-to-know",
     "pages/practice-reservation/practice-reservation",
     "pages/vip-class/vip-class",

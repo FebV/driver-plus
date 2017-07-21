@@ -1,4 +1,4 @@
-<!--important-notice.wxml-->
+<!--important-notice.wxml-->  
 <view class="top">
       <view>未读</view>
       <view>已读</view>
