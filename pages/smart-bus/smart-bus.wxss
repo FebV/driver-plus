@@ -15,9 +15,9 @@
     justify-content: space-between;
     align-items: center;
     height: 100rpx;
-    /* padding-left: 2rem;
-    padding-right: 2rem; */
-    /* border-radius: 0.5rem; */
+    padding-left:50rpx;
+    padding-right: 50rpx; 
+    
 }
 image{
   width: 50rpx;
@@ -29,43 +29,29 @@ image{
 }
 body{
     background-color: rgb(242,242,242);
+    
 }
 .middle{
   margin-top: 10rpx;
 }
- /* .middle view:first-child{
-     
-    display: flex;
-     padding-right: 20rpx; 
-     padding-left: 20rpx; 
+.middle>view:first-child{
+  display: flex;
+  justify-content: space-between;
   font-size: 30rpx;
-    justify-content: space-between;
-      text-align: center;
-    height: 40rpx;
-    line-height: 40rpx;
-    margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  color: #6B6B6B;
+  
 }
-.middle view:nth-child(2){
-    display: flex;
-    align-items: center;
-    padding-right: 20rpx;
-    padding-left: 20rpx;
-    justify-content: space-around;
-    font-size: 30rpx;
-    
-    text-align: center;
-    height: 40rpx;
-    line-height: 40rpx;
-    margin-bottom: 20rpx;
-}  */
-.middle view{
-  font-size: 30rpx;
+.middle>view:last-child{
+  font-size: 34rpx;
   /* margin-top: 50rpx; */
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 70rpx;
   line-height: 70rpx;
+  text-align: center
 }
 .middleWord{
     width: 45%;
@@ -74,36 +60,37 @@ body{
     text-overflow:ellipsis;
     font-weight: bold;
 }
-.middle view:last-child{
-    /* column-count: 2;
-    height: 4rem;
-    line-height: 4rem;
-    column-gap: 0;
-    text-align: center;
-    font-size: 30rpx; */
-    /* font-weight: bold; */
-    /* color: #ffffff; */
 
-}
 
 .line{
-  font-size: 40rpx;
+    font-size: 40rpx;
     height: 80rpx;
     line-height: 80rpx;
     display: flex;
-    padding-left: 5rem;
-    padding-right: 2rem;
+    padding-left: 100rpx;
+    padding-right: 0rpx;
     justify-content:  flex-start;
     align-items: center;
     border-bottom: 1px solid #bcbcbc;
 }
-.line view:first-child{
-    display: flex;
+.station{
+ 
+    width: 350rpx;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
-.line view:first-child view:first-child{
-    width: 2rem;
+.leftImg{
+  display: flex;
+  align-items: center;
 }
+.right{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+}
 .blue{
     background-color: #2d9dff;
     color: white;
@@ -117,7 +104,7 @@ body{
 .blue view{
   display: flex;
   justify-content:space-around;
-    align-items: center;
+  align-items: center;
 }
 .blue view image{
   width: 30rpx;
@@ -129,8 +116,8 @@ body{
 }
 .iconBus{
     position: absolute;
-    top: 15rem;
-    left: 1.6rem;
+    top: 280rpx;
+    left: 30rpx;
 }
 
 .topList{
@@ -141,6 +128,7 @@ body{
     width: 90%;
     background-color: #2d9dff;
     text-align: center;
+    z-index: 3;
 
 }
 .Listword {
@@ -161,11 +149,7 @@ body{
     height: 1rem;
     border: 1px solid #ffffff;
 }
-.Listout{
-     /* display: none;  */
-     /* position: relative; */
-    /* top: 60rpx; */
-}
+
 .triangle{
     margin: 0 auto;
     width: 0px;
@@ -174,6 +158,10 @@ body{
     border-right: 1rem solid transparent;
     border-bottom: 1rem solid #2d9dff;
     background-color: #fff;
+}
+.Listword{
+  height: 100rpx;
+  line-height: 100rpx;
 }
 .Listword:last-child{
      border: none; 
@@ -200,7 +188,7 @@ body{
     width: 60%;
     position: absolute;
     left:50%;
-    top: 40%;
+    top: 50%;
     transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%); 	/* IE 9 */
     -moz-transform:translate(-50%,-50%); 	/* Firefox */
@@ -215,39 +203,40 @@ body{
 
 
 .promt{
-    width: 60%;
+    width: 70%;
     position: absolute;
     left:50%;
-    top: 40%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%); 	/* IE 9 */
-    -moz-transform:translate(-50%,-50%); 	/* Firefox */
-    -webkit-transform:translate(-50%,-50%); /* Safari 和 Chrome */
-    -o-transform:translate(-50%,-50%); 	/* Opera */
+    top: 50%;
+    transform:translate(-50%,0);
+    -webkit-transform:translate(-50%,0); /* Safari 和 Chrome */
+    
     background-color: #fff;
-    height: 11rem;
-    z-index: 2;
-    border-radius: 0.5rem;
-     display: none; 
+   
+   
+    z-index: 5;
+    border-radius: 20rpx;
+   
 
 }
 .promt view:first-child{
-    height: 3rem;
-    line-height: 3rem;
+    height: 80rpx;
+    line-height:80rpx;
     text-align: center;
-    font-size: 1.9rem;
+    font-size:50rpx;
 }
 .promt view:nth-child(2){
-    height: 4.5rem;
+    height: 120rpx;
+    line-height: 60rpx;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 20rpx;
 }
 .promt view:last-child{
-    height: 3.5rem;
-    line-height: 3.5rem;
+    height: 100rpx;
+    line-height: 100rpx;
     text-align: center;
-    font-size: 2rem;
+    font-size: 50rpx;
     border-top: 1px solid #bcbcbc;
+    color:#2d9dff;
 }
 
 
@@ -276,14 +265,68 @@ body{
     width: 2.5rem;
     height: 2.5rem;
 }
-.right{
-  float: right;
-  margin-left: 50rpx;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 
-}
 .wrap{
   position: relative;
+}
+
+.bluePromt{
+  width: 600rpx;
+  margin: 300rpx auto 0; 
+  height: 220rpx;
+  background-color:#2d9dff;
+  color:#fff;
+  font-size: 30rpx;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20rpx;
+}
+.bluePromt>view:first-child{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.bluePromt>view:last-child{
+  height: 140rpx;
+  line-height: 140rpx;
+}
+
+.leftList{
+  width: 50%;
+  background-color: #2d9dff;
+  color: #fff;
+  
+  position: absolute;
+  top: 274rpx;
+  left: -1rpx;
+}
+.leftList view,.rightList view{
+  border-top: 1rpx solid #f2f2f2;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-left: 50rpx;
+}
+.rightList{
+  width: 50%;
+  background-color: #2d9dff;
+  color: #fff;
+  position: absolute;
+  top: 274rpx;
+  right: -1rpx;
+}
+.location{
+  position: absolute;
+  top:450rpx;
+  left:100rpx;
+}
+.bottomList,.iconBus,.location{
+  display: block;
+}
+.bluePromt{
+  display: none;
+}
+.promt{
+  display:block;
+}
+.topList,.triangle,.rightList,.leftList{
+  display: none;
 }

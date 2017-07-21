@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/important-notice/important-notice",
     "pages/index/index",
     "pages/process/process",
     "pages/group-signon/group-signon",
@@ -30,6 +31,7 @@
     "pages/school-intro/school-intro",
     "pages/logs/logs",
     "pages/practice-reservation/reservation-success"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

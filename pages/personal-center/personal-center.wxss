@@ -45,12 +45,21 @@ page{
 }
 .login-btn {
   font-size: 0.8rem;
-  color: lightgray;
+  
   position: absolute;
   border: 1px solid white;
   right: 20rpx;
   padding: 3rpx 40rpx;
   top: 30rpx;
-  background: rgba(0, 0, 0, 0.3);
+  height: 47rpx;
+  width: 70rpx;
+  text-align: center;
+  line-height: 50rpx;
+  background: #FFFFFF;
+  color: #2D9DFF;
   border-radius: 30px;
+}
+.row-entry-name{
+  font-size: 30rpx;
+  color: #898989;
 }

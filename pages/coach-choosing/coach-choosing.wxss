@@ -1,4 +1,5 @@
 /* coach-choosing.wxss */
+
 .round-pic{
   width:120rpx;
   height: 120rpx;
@@ -8,5 +9,36 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+}
+.top>view{
+  border: 1rpx solid #2d9dff;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  width: 140rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-weight: bold;
+}
 
+.top>view:nth-child(1){
+  color: #2d9dff;
+}
+.top>view:nth-child(2){
+  background-color: #2d9dff;
+  color: #ffffff;
+}
+.blueLine{
+  font-size: 30rpx;
+  background-color: #2d9dff;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #ffffff;
+  padding-left: 20rpx;
 }
