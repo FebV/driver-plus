@@ -25,11 +25,13 @@
 <view class="divider">
 </view>
 <view class="comment-cols gray-border">
-  <view class="comment-col comment-col-selected">全部评价</view>
-  <view class="comment-col">好评</view>
-  <view class="comment-col">中评</view>
-  <view class="comment-col">差评</view>
+  <view class="comment-col {{num==1?'comment-col-selected':''}}" data-id="1" bindtap="clickNum">最新评价</view>
+  <view class="comment-col {{num==2?'comment-col-selected':''}}" data-id="2" bindtap="clickNum">好评</view>
+  <view class="comment-col {{num==3?'comment-col-selected':''}}" data-id="3" bindtap="clickNum">中评</view>
+  <view class="comment-col {{num==4?'comment-col-selected':''}}" data-id="4" bindtap="clickNum">差评</view>
+  <view class="comment-col {{num==5?'comment-col-selected':''}}" data-id="5" bindtap="clickNum">全部评价</view>
 </view>
+
 <view class="comment-list">
   <view class="comment">
   <view class="comment-top">

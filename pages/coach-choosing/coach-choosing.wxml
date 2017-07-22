@@ -1,7 +1,7 @@
 <!--coach-choosing.wxml-->
 <view class="top">
-      <view>科目二</view>
-      <view>科目三</view>
+      <view class="normal {{num==1?'selected':''}}" data-num="1" bindtap="clickNum">科目二</view>
+      <view class="normal  {{num==2?'selected':''}}" data-num="2" bindtap="clickNum">科目三</view>
 </view>
 <view class="blueLine">选择教练</view>
 <block wx:for="{{coachList}}" wx:key="{{index}}">

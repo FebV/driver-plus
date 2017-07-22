@@ -1,17 +1,10 @@
-// coach-choosing.js
+// pages/smart-bus/stopBus.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    coachList: [{ name: "黄旭东", score: 4.9, carNO: "鲁A 7266学", carType:"大众捷达（白色）",remarkNumber:211},
-      { name: "黄旭东", score: 4.9, carNO: "鲁A 7266学", carType: "大众捷达（白色）", remarkNumber: 211 },
-      { name: "黄旭东", score: 4.9, carNO: "鲁A 7266学", carType: "大众捷达（白色）", remarkNumber: 211 },
-      { name: "黄旭东", score: 4.9, carNO: "鲁A 7266学", carType: "大众捷达（白色）", remarkNumber: 211 }
-    
-    ],
-    num:1
   
   },
 
@@ -69,18 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  toCoachIndex:function(){
-    wx.navigateTo({
-      url: '../coach-index/coach-index',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-  },
-  clickNum:function(e){
-    this.setData({
-      num:e.target.dataset.num,
-    })
   }
 })
