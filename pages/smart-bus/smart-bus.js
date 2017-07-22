@@ -6,6 +6,10 @@ Page({
    */
   data: {
     leftList:false,
+    List:false,
+    rightList:false,
+    leftStation:"山东大学中心校区",
+    rightStation:"路舜驾校",
   },
 
   /**
@@ -64,9 +68,37 @@ Page({
   
   },
   showLeftList:function(){
-    var list = this.data.leftList;
+    var leftlist = this.data.leftList;
     this.setData({
-      leftList: !list,
+      leftList: !leftlist,
     })
+  },
+  showList:function(){
+    var list=this.data.List;
+    this.setData({
+      List:!list,
+    })
+  },
+  showRightList:function(){
+    var rightList=this.data.rightList;
+    this.setData({
+      rightList:!rightList,
+    })
+  },
+  changeStation:function(){
+    var station="";
+    console.log(1)
+    station=this.data.leftStation;
+    var left=this.data.rightStation;
+    var right=station;
+    console.log(left);
+    console.log(right);
+    this.setData({
+      leftStation:right,
+      rightStation:left
+    })
+    
   }
+
+  
 })

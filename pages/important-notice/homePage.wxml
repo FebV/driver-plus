@@ -1,0 +1,14 @@
+<!--important-notice.wxml-->  
+<view class="top">
+      <view>未读</view>
+      <view>已读</view>
+</view>
+<view class="noNotice">
+  <view><image class="smile" src="asset/imgs/smile.png"></image></view>
+  <view>还没有通知呢~耐心等待吆~</view>
+</view>
+<view class="noticeInfo">
+  <view class="title">考试通知！！！！学员必读！</view>
+  <view class="time">2017-08-17 18：00</view>
+  <view class="content">请于8月18日早8：00乘坐西线班车6：30线来驾校，参加当日的体检，请携带好本人身份证。另请携带610元现金用于支付考试费（570元）、体检费（40元）、照相费（10元）！如有疑问请联系小程序客服或直接拨打电话0531-68960178。</view>
+</view>

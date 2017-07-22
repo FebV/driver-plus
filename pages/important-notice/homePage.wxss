@@ -1,4 +1,4 @@
-/* important-notice.wxss */
+
 page{
   background: #f2f2f2;
 }
@@ -45,20 +45,22 @@ page{
   font-size: 30rpx;
   color: #2d9dff;
 }
-.noNotice,.top{
-  display: none;
-}
+
 .noticeInfo{
   background-color: #ffffff;
   margin-top: 30rpx;
   height: 1176rpx;
   padding-left: 30rpx;
   padding-right: 30rpx;
+  display: none;
 }
 .title{
   height: 100rpx;
   line-height: 100rpx;
 }
-
-
-
+.time{
+  font-size: 34rpx;
+}
+.content{
+  margin-top: 50rpx;
+}

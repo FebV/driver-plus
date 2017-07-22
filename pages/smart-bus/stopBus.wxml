@@ -1,3 +1,4 @@
+<!--pages/smart-bus/stopBus.wxml-->
 <!--smart-bus.wxml-->
 <view class="wrap">
   <view class="mainbody">
@@ -14,9 +15,9 @@
             <view>终点站</view>
         </view>
         <view>
-            <view class="middleWord">{{leftStation}}</view>
-            <view class="leftImg" bindtap="changeStation"><image src="/asset/imgs/turn-blue.png"></image></view>
-            <view class="middleWord">{{rightStation}}</view>
+            <view class="middleWord">山东大学中心校区</view>
+            <view class="leftImg"><image src="/asset/imgs/turn-blue.png"></image></view>
+            <view class="middleWord">路舜驾校</view>
         </view>
         
     </view>

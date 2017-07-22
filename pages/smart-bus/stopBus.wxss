@@ -272,7 +272,7 @@ body{
 
 .bluePromt{
   width: 600rpx;
-  margin: 300rpx auto 0; 
+  margin: 140rpx auto 0; 
   height: 220rpx;
   background-color:#2d9dff;
   color:#fff;
@@ -321,11 +321,9 @@ body{
   left:100rpx;
 }
 .bottomList,.iconBus,.location{
-  display: block;
-}
-.bluePromt{
   display: none;
 }
+
 .promt{
   display:none;
 }

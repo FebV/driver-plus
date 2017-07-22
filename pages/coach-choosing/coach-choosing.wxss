@@ -27,10 +27,10 @@
   font-weight: bold;
 }
 
-.top>view:nth-child(1){
+.normal{
   color: #2d9dff;
 }
-.top>view:nth-child(2){
+.selected{
   background-color: #2d9dff;
   color: #ffffff;
 }
