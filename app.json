@@ -1,12 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/practice-reservation/reservation-fail",
     "pages/smart-bus/smart-bus",
-    
     "pages/coach-choosing/coach-choosing",
-    
     "pages/mycoach/mycoach",
     "pages/important-notice/important-notice",
-    "pages/index/index",
     "pages/process/process",
     "pages/group-signon/group-signon",
     "pages/group-signon-join-pay/group-signon-join-pay",
@@ -19,7 +18,6 @@
     "pages/free-to-try/free-to-try",
     "pages/free-to-try/free-to-try-result",
     "pages/myorder/myorder",
-   
     "pages/need-to-know/need-to-know",
     "pages/practice-reservation/practice-reservation",
     "pages/vip-class/vip-class",
@@ -33,8 +31,10 @@
     "pages/group-signon-join/group-signon-join",
     "pages/school-intro/school-intro",
     "pages/logs/logs",
-    "pages/practice-reservation/reservation-success"
-   
+    "pages/practice-reservation/comment-coach",
+    "pages/practice-reservation/reservation-success",
+    
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

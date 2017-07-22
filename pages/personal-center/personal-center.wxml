@@ -29,5 +29,6 @@
   <text class="row-entry-name">重要通知</text>
 </view>
 <view class="plus-logo">
-  <image src="/asset/imgs/logo.png"></image>
+  <view class="">驾校plus提供技术支持</view>
+  <view class="">微信公众号：驾校plus互联网运营管理指南</view>
 </view>

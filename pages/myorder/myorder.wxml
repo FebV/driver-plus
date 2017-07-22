@@ -1,11 +1,14 @@
 <!--myorder.wxml-->
 <view class="wrap">
   <view class="comment-cols gray-border">
-    <view class="comment-col comment-col-selected">全部订单</view>
-    <view class="comment-col">普通订单</view>
-    <view class="comment-col">组团订单</view>
-    <view class="comment-col">已取消订单</view>
+    <view class="comment-col {{orderList[0]==1? 'comment-col-selected':''}}" data-indx="0" bindtap="changeOrderList">全部订单</view>
+    <view class="comment-col {{orderList[1]==1? 'comment-col-selected':''}}" data-indx="1" bindtap="changeOrderList">普通订单</view>
+    <view class="comment-col {{orderList[2]==1? 'comment-col-selected':''}}" data-indx="2" bindtap="changeOrderList">组团订单</view>
+    <view class="comment-col {{orderList[3]==1? 'comment-col-selected':''}}" data-indx="3" bindtap="changeOrderList">已取消订单</view>
   </view> 
+  
+  <!-- 全部订单 -->
+  <block>
   <view class="gap"></view>
   <view class="" style="width:85%;margin:0 auto">
     <view class="">普通班</view>
@@ -21,9 +24,74 @@
   </view>
   <view class="gap"></view>
   <view class="box">
-    <view class="half-width all-border">取消订单</view>
-     <view class="half-width all-border">线下支付</view>
+    <view class="half-width all-border" bindtap="cancelOrder">取消订单</view>
+     <view class="half-width all-border" bindtap="offLine">线下支付</view>
     <view class="blue-word half-width all-border">微信支付</view>
   </view>
+  </block>
+<!-- 完成的订单 -->
+    <block>
+  <view class="gap"></view>    
+  <view class="" style="width:85%;margin:0 auto" >
+    <view class="">普通班</view>
+    <view class="gray-word" style="font-size:30rpx">济南高新区公路技师学院训练场</view>
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单号：</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单总金额：<text class="blue-word">xx</text>元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已支付金额：<text class="blue-word">xx</text>元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐码优惠：<text class="blue-word">xx</text>元</view>
+    <!-- <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已有  <text class="blue-word">xx</text> 人参团  <view class="gap"></view> 组团倒计时<text class="blue-word">11:11:11</text></view> -->
+     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">组团优惠：元</view> 
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">还需支付：<text class="blue-word">xx</text>元</view>
+  </view>
+  <view class="gap"></view>
+  <view class="box" style="border-top:2rpx solid rgb(240, 240, 240);border-bottom:2rpx solid rgb(240, 240, 240);">
+    <view class="half-width">订单已完成</view>
+     
+  </view>
+  </block>
+<!-- 组团订单 -->
+  <block wx:if="{{orderList[2]==1}}">
+  <view class="gap"></view>  
+  <view class="" style="width:85%;margin:0 auto" >
+    <view class="">普通班</view>
+    <view class="gray-word" style="font-size:30rpx">济南高新区公路技师学院训练场</view>
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单号：</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单总金额：<text class="blue-word">xx</text>元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已支付金额：<text class="blue-word">xx</text>元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐码优惠：<text class="blue-word">xx</text>元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已有  <text class="blue-word">xx</text> 人参团  <view class="gap"></view> 组团倒计时<text class="blue-word">11:11:11</text></view>
+     <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">组团优惠：元</view> 
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">还需支付：<text class="blue-word">xx</text>元</view>
+  </view>
+  <view class="gap"></view>
+  <view class="box">
+    <view class="half-width all-border" bindtap="cancelOrder">取消订单</view>
+     <view class="half-width all-border" bindtap="offLine">线下支付</view>
+    <view class="blue-word half-width all-border">微信支付</view>
+  </view>
+  </block>
+  <!-- 线下支付的订单 -->
+  <block>
+  <view class="gap"></view>
+  <view class="" style="width:85%;margin:0 auto">
+    <view class="">普通班</view>
+    <view class="gray-word" style="font-size:30rpx">济南高新区公路技师学院训练场</view>
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单号：</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">订单总金额：元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">已支付金额：元</view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐码优惠：元</view>
+    <!-- <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">推荐人：</view> -->
+    <view class="gap"></view>
+    <view class="gray-word" style="font-size:35rpx;margin-top:20rpx">您线下支付：<text class="blue-word">xx</text>元</view>
+    <view class="" style="text-align:center;margin:30rpx auto;font-size:33rpx">财务核对中，请等待工作人员确认！</view>
+    <view class="gap"></view>
+    <view class="" style="border-bottom:2rpx solid rgb(240, 240, 240);"></view>
+  </view>
+  </block>
 </view>
 

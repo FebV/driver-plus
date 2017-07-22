@@ -180,3 +180,36 @@ page{
   line-height: 60rpx;
   margin: 40rpx auto;
 }
+
+.appoint-list{
+  display: flex;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  align-items: center;
+  justify-content: space-around;
+}
+.cancel-btn{
+  height: 60rpx;
+  color: white;
+  background-color: #2d9dff;
+  line-height: 60rpx;
+  padding: 0 15rpx;
+  border-radius: 10rpx;
+}
+.cancel-btn-non{
+  height: 60rpx;
+  color: white;
+  background-color: white;
+  line-height: 60rpx;
+  padding: 0 15rpx;
+  border-radius: 10rpx;
+}
+.cancel-btn-dis{
+   height: 60rpx;
+  color: white;
+  background-color: gray;
+  line-height: 60rpx;
+  padding: 0 15rpx;
+  border-radius: 10rpx;
+}

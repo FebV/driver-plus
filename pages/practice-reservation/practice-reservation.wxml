@@ -1,8 +1,8 @@
 <!--practice-reservation.wxml-->
  <view class="options">
     <view class="border">
-      <view class="one-option one-option-active">科目一</view>
-      <view class="one-option">科目四</view>
+      <view class="one-option {{kemu==1?'':'one-option-active'}}" bindtap="setKemu" data-kemu="0">科目一</view>
+      <view class="one-option {{kemu==1?'one-option-active':''}}" bindtap="setKemu" data-kemu="1">科目四</view>
     </view>
     
   </view>
@@ -41,6 +41,30 @@
   <view class="blue-view">鲁A7266学</view>
   <view class="gray-word">学员状态 <view class="inline-block" style="color:black">初级</view></view>
 </view>
+<view class="divider"></view>
+<view class="appoint-list">
+  <view class=" ">已预约的课程</view>
+  <view class="classname">9月1日 8:20-9:20</view>
+  <view class="cancel-btn" bindtap="cancelReservation">取消预约</view>
+</view>
+<view class="divider"></view>
+<view class="appoint-list">
+  <view class=" ">待评价的课程</view>
+  <view class="classname">9月1日 8:20-9:20</view>
+  <view class="cancel-btn" bindtap="navToComment">评价教练</view>
+</view>
+<view class="divider"></view>
+<view class="appoint-list">
+  <view class=" ">已完成的课程</view>
+  <view class="classname">9月1日 8:20-9:20</view>
+  <view class="cancel-btn-dis">已经评价</view>
+</view>
+<view class="divider"></view>
+<view class="appoint-list">
+  <view class=" ">已取消的课程</view>
+  <view class="classname">9月1日 8:20-9:20</view>
+  <view class="cancel-btn-non">  已 取 消  </view>
+</view>
 </view>
 <view class="all-screen" wx:if="{{alertOpen}}">
 <view class="alert">
@@ -51,4 +75,5 @@
      <view class="half-width all-border blue-word" bindtap="navToSuccess">确定</view>
   </view>
 </view>
+
 </view>

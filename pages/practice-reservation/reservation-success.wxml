@@ -1,2 +1,15 @@
 <!--reservation-success.wxml-->
-<text>reservation-success.wxml</text>
+<view class="small-divider"></view>
+<view class="big-icon">
+  <image src="asset/imgs/order-success.png"></image>
+</view>
+<view class="" style="text-align:center">
+  <view class="blue-word">恭喜您，预约成功！</view>
+  <view class="gap"></view> 
+  <view class="class-time">课程时间9月1日 8:20-9:20</view>
+</view>
+<view class="time-list">
+  <view class="time-dur">驾校提示</view>
+  <view class="member">
+  请准时到达训练场地，如学习计划有变请提前X小时取消课程，若未及时取消影响浪费驾校教学资源，打乱教练教学计划，教练可是会不开森的吆！</view>
+</view>

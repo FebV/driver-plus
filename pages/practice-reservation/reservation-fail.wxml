@@ -1,0 +1,11 @@
+<!--reservation-fail.wxml-->
+<view class="small-divider"></view>
+<view class="big-icon">
+  <image src="asset/imgs/order-fail.png"></image>
+</view>
+<view class="" style="text-align:center">
+  <view style="color:red">预约失败</view>
+  <view class="gap"></view> 
+  <view class="class-time" style="font-size:30rpx">手慢无啊~课程已被其他学员预约光啦！</view>
+</view>
+
