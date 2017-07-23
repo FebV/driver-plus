@@ -2,8 +2,8 @@
 <view class="small-divider"></view>
   <view class="options">
     <view class="border">
-      <view class="one-option one-option-active">科目一</view>
-      <view class="one-option">科目四</view>
+     <view class="one-option {{kemu==1?'':'one-option-active'}}" bindtap="setKemu" data-kemu="0">科目一</view>
+      <view class="one-option {{kemu==1?'one-option-active':''}}" bindtap="setKemu" data-kemu="1">科目四</view>
     </view>
     
   </view>

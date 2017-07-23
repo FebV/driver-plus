@@ -14,7 +14,7 @@
 </view>
 <view class="small-divider"></view>
 <view class="group-rule-detail">
-    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
+    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text><view class="share"><image src="/asset/imgs/share.png"></image>邀请好友</view></view>
   </view>
   <view class="small-divider"></view>
 <view class="group-rule-detail">

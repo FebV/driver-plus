@@ -65,6 +65,8 @@ Page({
   },
   onLogin:function(){
     // console.log(11)
+    getApp().globalData.login = true;
+    
    wx.navigateBack({
      delta: 1,
    })

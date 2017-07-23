@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    kemu: 1,
   },
 
   /**
@@ -78,5 +78,18 @@ Page({
       fail: function(res) {},
       complete: function(res) {},
     })
-  }
+  },
+  //科目一科目四转换
+  setKemu: function (e) {
+    var kemuu = e.currentTarget.dataset.kemu;
+    var datakemu = this.data.kemu;
+
+    console.log(kemuu != datakemu);
+    if (kemuu != datakemu) {
+      this.setData({
+        kemu: kemuu
+      })
+    }
+
+  },
 })
