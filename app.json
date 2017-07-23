@@ -1,14 +1,27 @@
 {
   "pages": [
+    "pages/important-notice/homePageHasNotice",
+    "pages/important-notice/important-notice",
+    "pages/mycoach/mycoach",
+    "pages/coach-choosing/coach-choosing",
+    "pages/smart-bus/smart-bus",
+    
+   
+    
+    "pages/important-notice/homePage",
+    
+    
+    
+   
     "pages/smart-bus/smart-bus",
     "pages/practice-reservation/reservation-fail",
-    "pages/coach-choosing/coach-choosing",
-    "pages/important-notice/homePageHasNotice",
-    "pages/important-notice/homePage",
+    
+    
+    
     "pages/smart-bus/stopBus",
-    "pages/mycoach/mycoach",
+    
 
-    "pages/important-notice/important-notice",
+    
     "pages/index/index",
     "pages/process/process",
     "pages/group-signon/group-signon",
