@@ -94,8 +94,8 @@ Page({
     console.log(left);
     console.log(right);
     this.setData({
-      leftStation:right,
-      rightStation:left
+      leftStation:left,
+      rightStation:right
     })
     
   }
