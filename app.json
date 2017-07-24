@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/index/index",
+    
     "pages/coach-choosing/coach-choosing",
     "pages/mycoach/mycoach",
     "pages/smart-bus/smart-bus",
@@ -12,7 +14,6 @@
     "pages/important-notice/homePageHasNotice",
     "pages/important-notice/homePage",
     "pages/practice-reservation/reservation-fail",
-    "pages/index/index",
     "pages/process/process",
     "pages/group-signon/group-signon",
     "pages/group-signon-join-pay/group-signon-join-pay",

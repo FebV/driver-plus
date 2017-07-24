@@ -1,0 +1,53 @@
+<!--mycoach.wxml-->
+<view class="top-view">
+  <image class="coach-banner" src="/asset/imgs/personal_info_bk.png"></image>
+  <text class="coach-name">黄旭东</text>
+ 
+  <image class="head_image" src="/asset/imgs/head_image.png"></image>
+</view>
+
+<view class="intro-row gray-border gray-word">
+  车型：大众白色（鲁A）
+</view>
+<view class="intro-row gray-border gray-word">
+  电话：
+  <text class="a-tag">110</text>
+</view>
+<view class="intro-row gray-border gray-word">
+  综合评分：
+  <view class="gap"></view>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <view class="gap"></view>
+  <text class="blue-word md-text">4.7</text>
+  <view class="right-word intro-row" style="padding:0;float:right;margin-left:100rpx">
+    <image src="asset/imgs/write.png" style="width:40rpx;height:40rpx"></image>
+    <view class="blue-word inline-block" style="font-size:30rpx">填写评价</view>
+  </view>
+</view>
+<view class="divider">
+</view>
+<view class="comment-cols gray-border">
+  <view class="comment-col {{num==1?'comment-col-selected':''}}" data-id="1" bindtap="clickNum">最新评价</view>
+  <view class="comment-col {{num==2?'comment-col-selected':''}}" data-id="2" bindtap="clickNum">好评</view>
+  <view class="comment-col {{num==3?'comment-col-selected':''}}" data-id="3" bindtap="clickNum">中评</view>
+  <view class="comment-col {{num==4?'comment-col-selected':''}}" data-id="4" bindtap="clickNum">差评</view>
+  <view class="comment-col {{num==5?'comment-col-selected':''}}" data-id="5" bindtap="clickNum">全部评价</view>
+</view>
+
+<view class="comment-list">
+  <view class="comment">
+  <view class="comment-top">
+    <image class="comment-head-icon" src="/asset/imgs/head_image.png"></image>
+    <text>username</text>
+  <view class="gap"></view>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
+  <view class="gap"></view>
+  <text class="gray-word sm-text">2017-07-07</text>
+  </view>
+  </view>
+  <view class="sm-text gray-word comment-content">
+  还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以
+  </view>
+  <view class="divider"></view>
+</view>
