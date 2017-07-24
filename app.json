@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/smart-bus/smart-bus",
     "pages/index/index",
     
     "pages/coach-choosing/coach-choosing",
     "pages/mycoach/mycoach",
-    "pages/smart-bus/smart-bus",
+    
 
   
     "pages/smart-bus/stopBus",

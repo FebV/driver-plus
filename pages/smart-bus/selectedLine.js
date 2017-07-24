@@ -1,4 +1,4 @@
-// smart-bus.js
+
 Page({
 
   /**
@@ -15,8 +15,10 @@ Page({
     rightLine: "选择我的站点",
     listLine: ["111111", '22222', '33333'],
     leftListLine: ['1111班次', '2222班次', '333班次'],
-    rightListLine: ['11111站点', '2222站点', '3333站点'],
-    station: ["山东大学中心校区", "222222222222", "3333", "444", '路舜驾校']
+    rightListLine: ['222222站点', '3333站点', '4444站点'],
+    station: ["山东大学中心校区", "222222222222", "3333", "444", '路舜驾校'],
+    myStationTop:"0rpx",
+    carTop:"282rpx"
   },
 
   /**
@@ -173,6 +175,7 @@ Page({
     this.setData({
       rightLine: this.data.rightListLine[e.target.dataset.id],
       rightList: !rightList,
+      myStationTop: 362 + e.target.dataset.id*80+'rpx'
     })
 
   }

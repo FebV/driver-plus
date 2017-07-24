@@ -116,7 +116,7 @@ body{
 }
 .iconBus{
     position: absolute;
-    top: 280rpx;
+   
     left: 30rpx;
 }
 
