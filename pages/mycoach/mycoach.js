@@ -6,6 +6,7 @@ Page({
    */
   data: {
     num:1,
+    name:"黄旭东"
   },
 
   /**
@@ -69,4 +70,20 @@ Page({
       num: e.target.dataset.id,
     })
   },
+  coach:function(){
+    wx.showModal({
+      title: '',
+      content: '确定选择'+this.data.name+'为你的教练吗 ',
+      success: function (res) {
+        if (res.confirm) {
+          console.log("确认");
+          wx.navigateTo({
+            url: 'confirmCoach',
+          })
+        }
+      },
+      showCancel: true,
+    })
+
+  }
 })

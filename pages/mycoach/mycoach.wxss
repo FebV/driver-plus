@@ -13,6 +13,7 @@
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
 .head_image {
   width: 20vh;
   height: 20vh;
@@ -71,4 +72,8 @@
   padding: 5rpx 15rpx;
   border: 1px solid white;
   border-radius: 20px;
+}
+.coach{
+  text-align: center;
+  color: rgb(45, 157, 255)
 }

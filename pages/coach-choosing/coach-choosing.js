@@ -72,7 +72,7 @@ Page({
   },
   toCoachIndex:function(){
     wx.navigateTo({
-      url: '../coach-index/coach-index',
+      url: '../mycoach/mycoach',
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},

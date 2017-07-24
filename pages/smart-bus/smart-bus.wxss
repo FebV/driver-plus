@@ -321,7 +321,7 @@ body{
   left:100rpx;
 }
 .bottomList,.iconBus,.location{
-  display: block;
+  display: none;
 }
 .bluePromt{
   display: none;

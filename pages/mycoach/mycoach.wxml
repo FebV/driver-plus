@@ -1,9 +1,13 @@
 <!--mycoach.wxml-->
 <view class="top-view">
   <image class="coach-banner" src="/asset/imgs/personal_info_bk.png"></image>
-  <text class="coach-name">黄旭东</text>
+  <text class="coach-name">{{name}}</text>
+ 
   <image class="head_image" src="/asset/imgs/head_image.png"></image>
 </view>
+ <view class="intro-row gray-border gray-word coach" bindtap="coach">
+ 选他做为我的教练
+ </view>
 <view class="intro-row gray-border gray-word">
   车型：大众白色（鲁A）
 </view>
