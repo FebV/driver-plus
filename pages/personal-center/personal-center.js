@@ -8,7 +8,8 @@ Page({
    */
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    login:false,
   },
 
   /**
@@ -24,21 +25,23 @@ Page({
       that.setData({
         userInfo: userInfo
       })
-    })
+    });
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log(app.globalData.login);
+    this.setData({ login: app.globalData.login})
   },
 
   /**
@@ -74,6 +77,24 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  logout:function(){
+    var that = this;
+    wx.showModal({
+      title: '',
+      content: '确定退出登录吗？',
+      showCancel: true,
+      success: function(res) {
+        if(res.confirm){
+          console.log(1)
+          getApp().globalData.login = false;
+          that.setData({ login: app.globalData.login })
+        }
+      },
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+    
   },
   login: function() {
     // wx.login({
