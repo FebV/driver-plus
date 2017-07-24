@@ -68,3 +68,7 @@
   right: 0;
   bottom: 30vh;
 }
+.kefu image{
+  width: 100rpx;
+  height: 35rpx;
+}

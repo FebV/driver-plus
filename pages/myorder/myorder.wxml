@@ -8,7 +8,7 @@
   </view> 
   
   <!-- 全部订单 -->
-  <block>
+  <block wx:if="{{orderList[2]!=1&orderList[3]!=1}}">
   <view class="gap"></view>
   <view class="" style="width:85%;margin:0 auto">
     <view class="">普通班</view>
@@ -30,7 +30,7 @@
   </view>
   </block>
 <!-- 完成的订单 -->
-    <block>
+    <block wx:if="{{orderList[2]!=1&orderList[3]!=1}}">
   <view class="gap"></view>    
   <view class="" style="width:85%;margin:0 auto" >
     <view class="">普通班</view>
@@ -75,7 +75,7 @@
   </view>
   </block>
   <!-- 线下支付的订单 -->
-  <block>
+  <block wx:if="{{orderList[2]!=1||orderList[3]==1}}">
   <view class="gap"></view>
   <view class="" style="width:85%;margin:0 auto">
     <view class="">普通班</view>

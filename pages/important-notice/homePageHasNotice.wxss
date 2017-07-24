@@ -1,4 +1,33 @@
 
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 120rpx;
+  align-items: center;
+  font-size: 35rpx;
+
+
+}
+.border{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 3rpx solid #2d9dff;
+  border-radius: 10rpx;
+  
+}
+.one-option{
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 20rpx;
+  color: #2d9dff;
+}
+.one-option-active{
+  background-color: #2d9dff;
+  color: white;
+}
 
 page{
   background: #f2f2f2;

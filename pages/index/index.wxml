@@ -102,5 +102,12 @@
   </view>
 </view>
 <view class="kefu">
-  <image class="kefu" src="/asset/imgs/kefu.png" ></image>
+  <image  src="/asset/imgs/kefu.png" ></image>
+<contact-button 
+  type="default-light" 
+  size="20"
+  session-from="weapp"
+>
+</contact-button>
 </view>
+

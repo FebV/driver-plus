@@ -81,22 +81,22 @@ Page({
     if (list[tarIndx].text[tarDay]==0){
       this.fullReservation();
     } else if (list[tarIndx].text[tarDay] !== 0 && list[tarIndx].type[tarDay] == 0){
-      this.reservationClass();
+      this.reservationClass(e);
     } else if (list[tarIndx].text[tarDay] !== 0 && list[tarIndx].type[tarDay] == 1){
-      this.cancelReservation();
+      this.cancelReservation(e);
     }
     
 
-    if (list[tarIndx].type[tarDay] == 1) {
-      list[tarIndx].type[tarDay] = 0;
-    } else {
-      list[tarIndx].type[tarDay] = 1;
-    }
+    // if (list[tarIndx].type[tarDay] == 1) {
+    //   list[tarIndx].type[tarDay] = 0;
+    // } else {
+    //   list[tarIndx].type[tarDay] = 1;
+    // }
     
-    this.setData({
-      listData:list,
+    // this.setData({
+    //   listData:list,
      
-    })
+    // })
    
     
   },
@@ -130,7 +130,7 @@ Page({
     })
   },
 //预约课程
-reservationClass:function(){
+reservationClass:function(e){
   var that = this;
   wx.showModal({
     title: '预约课程',
@@ -138,6 +138,19 @@ reservationClass:function(){
     success: function (res) {
       if (res.confirm) {
         console.log("确认");
+        var tarIndx = e.currentTarget.dataset.indx;//时间段
+        var tarDay = e.currentTarget.dataset.day;//第几天
+        var list = that.data.listData;
+        if (list[tarIndx].type[tarDay] == 1) {
+          list[tarIndx].type[tarDay] = 0;
+        } else {
+          list[tarIndx].type[tarDay] = 1;
+        }
+
+        that.setData({
+          listData: list,
+
+        })
         that.navToSuccess();
       } else {
         console.log("cancel")
@@ -147,12 +160,26 @@ reservationClass:function(){
 },
 
   // 取消预约
-  cancelReservation:function(){
+  cancelReservation:function(e){
+    var that = this;
     wx.showModal({
       title: '取消课程',
       content: '9月1日08:20-09:20',
       success:function(res){
         if(res.confirm){
+          var tarIndx = e.currentTarget.dataset.indx;//时间段
+          var tarDay = e.currentTarget.dataset.day;//第几天
+          var list = that.data.listData;
+          if (list[tarIndx].type[tarDay] == 1) {
+            list[tarIndx].type[tarDay] = 0;
+          } else {
+            list[tarIndx].type[tarDay] = 1;
+          }
+
+          that.setData({
+            listData: list,
+
+          })
           console.log("确认")
         }else{
           console.log("cancel")

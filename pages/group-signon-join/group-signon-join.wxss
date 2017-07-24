@@ -75,6 +75,7 @@
   float: right;
   justify-content: space-between;
   align-items: center;
+  border-radius: 0;
 }
 .share image{
   height: 50rpx;

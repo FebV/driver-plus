@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/smart-bus/smart-bus",
     "pages/index/index",
+    
+    "pages/smart-bus/smart-bus",
     
     "pages/coach-choosing/coach-choosing",
     "pages/mycoach/mycoach",

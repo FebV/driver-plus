@@ -116,7 +116,7 @@ Page({
   },
   navtoMyCoach:function(){
     wx.navigateTo({
-      url: '../mycoach/mycoach',
+      url: '../coach-choosing/coach-choosing',
       success: function(res) {},
       fail: function(res) {},
       complete: function(res) {},
@@ -144,6 +144,14 @@ Page({
       success: function (res) { },
       fail: function (res) { },
       complete: function (res) { },
+    })
+  },
+  navtoNotice:function(){
+    wx.navigateTo({
+      url: '../important-notice/homePageHasNotice',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   }
 })

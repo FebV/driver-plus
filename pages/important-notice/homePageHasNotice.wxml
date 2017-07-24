@@ -1,9 +1,11 @@
-<view class="top">
-    <view class="normal {{num==1?'selected':''}}" data-num="1" bindtap="clickNum">科目二</view>
-    <view class="normal  {{num==2?'selected':''}}" data-num="2" bindtap="clickNum">科目三</view>
 
-</view>
-
+ <view class="options">
+    <view class="border">
+      <view class="one-option {{num==1?'one-option-active':''}}" bindtap="clickNum" data-num="1">科目一</view>
+      <view class="one-option {{num==2?'one-option-active':''}}" bindtap="clickNum" data-num="2">科目四</view>
+    </view>
+    
+  </view>
 
 <view class="info" bindtap="link">
   <view class="time">2017-08-17 18：00</view>
