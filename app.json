@@ -1,17 +1,16 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/theory-study/theory-study",
+    "pages/theory-study/projectPractice",
+    "pages/theory-study/chapterPractice",
     
+    "pages/exam/mock-exam",
+    "pages/exam/practice-test",
     "pages/smart-bus/smart-bus",
-    
+    "pages/index/index",
     "pages/coach-choosing/coach-choosing",
     "pages/mycoach/mycoach",
-    
-
-  
     "pages/smart-bus/stopBus",
-    
-    
     "pages/important-notice/important-notice",
     "pages/important-notice/homePageHasNotice",
     "pages/important-notice/homePage",
@@ -20,11 +19,8 @@
     "pages/group-signon/group-signon",
     "pages/group-signon-join-pay/group-signon-join-pay",
     "pages/sign-up-success/sign-up-success",
-    "pages/theory-study/theory-study",
     "pages/group-signon-intro/group-signon-intro",
     "pages/signon-payment/signon-payment",
-    "pages/exam/practice-test",
-    "pages/exam/mock-exam",
     "pages/free-to-try/free-to-try",
     "pages/free-to-try/free-to-try-result",
     "pages/myorder/myorder",
@@ -45,6 +41,7 @@
     "pages/login/login",
     "pages/mycoach/confirmCoach",
     "pages/smart-bus/selectedLine"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

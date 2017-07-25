@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    kemu: 1,
+    kemu: 0,
   },
 
   /**
@@ -71,6 +71,22 @@ Page({
       complete: function(res) {},
     })
   },
+  navtoChapterPractice: function () {
+    wx.navigateTo({
+      url: 'chapterPractice',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  navtoProjectPractice: function () {
+    wx.navigateTo({
+      url: 'projectPractice',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
   navtoExam:function(){
     wx.navigateTo({
       url: '../exam/mock-exam',
@@ -90,6 +106,18 @@ Page({
         kemu: kemuu
       })
     }
-
+    
   },
+  remoteTest:function(){
+    wx.showModal({
+      title: '温馨提示',
+      content: '暂无远程测考权限请联系在线客服!',
+      success: function (res) {
+        if (res.confirm) {
+          console.log("确认")
+        }
+      },
+      showCancel: false,
+    })
+  }
 })

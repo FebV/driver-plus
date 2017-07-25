@@ -19,10 +19,10 @@
   </view>
   <view class="small-divider"></view>
   <view class="one-practice">
-    <view class="img" bindtap="navtoPractice">
+    <view class="img" bindtap="navtoChapterPractice">
       <image src="asset/imgs/zhangjie.png" style="height:40rpx"></image>
     </view>
-    <view class="img" bindtap="navtoPractice">
+    <view class="img" bindtap="navtoProjectPractice">
       <image src="asset/imgs/zhuanxiang.png"></image>
     </view>
   </view>
@@ -43,9 +43,9 @@
     <image src="asset/imgs/collection.png"></image>      
     <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">题目收藏(<text class="blue-word">21</text>)</view> 
   </view>
-  <view class="row-box">
+  <view class="row-box" bindtap="remoteTest">
     <image src="asset/imgs/remote.png"></image>      
-    <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">远程测考</view> 
+    <view class="gray-word"  style="font-size:30rpx;margin-left:10rpx">远程测考</view> 
   </view>
  
 </view>

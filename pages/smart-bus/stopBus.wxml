@@ -1,5 +1,4 @@
-<!--pages/smart-bus/stopBus.wxml-->
-<!--smart-bus.wxml-->
+
 <view class="wrap">
   <view class="mainbody">
     <view class="top" bindtap="showList">
