@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    orderList:[1,0],
+    state:{a:'un',b:'un',c:'un',d:'un'},
+    answer:'a',
+    chose: false
   },
 
   /**
@@ -60,7 +63,59 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  // onShareAppMessage: function () {
   
+  // },
+  changeOrderList:function(e){
+    var indx = e.currentTarget.dataset.indx;
+    var list = this.data.orderList;
+    for (var i = 0; i < list.length; i++) {
+      list[i] = 0;
+    }
+    console.log(indx);
+    list[indx] = 1;
+    this.setData({
+      orderList: list
+    });
+    var st = this.data.state;
+    if(list[1]==1){
+      st.a ='un';
+      st.b = 'un'
+      st.c = 'un'
+      st.d = 'un'
+      
+      // console.log(this.data);
+      st[this.data.answer] = 'r';
+    }
+    this.setData({
+      state: st
+    })
+  },
+
+
+  //选项处理
+  chooseOption:function(e){
+    if(this.data.chose){
+
+    }else{
+      if (this.data.orderList[1] == 1) {
+
+      } else {
+        var op = e.currentTarget.dataset.op;
+        var st = this.data.state;
+        if (op == this.data.answer) {
+          st[op] = 'r';
+        } else {
+          st[op] = 'w';
+          st[this.data.answer] = 'r';
+        }
+        this.setData({
+          state: st,
+          chose:true
+        })
+      }
+    }
+    
+    
   }
 })

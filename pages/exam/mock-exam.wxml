@@ -11,27 +11,38 @@
 <view class="gap"></view>
 
 <view class="options" style="font-size:30rpx;width:85%;margin:40rpx auto;line-height:45rpx">
-  <view class="each-option gray-word" style="margin-top:40rpx">
+  <view class="each-option gray-word" style="margin-top:40rpx"  data-op="a" bindtap="chooseOption">
     <view class="round inline-block" style="font-size:40rpx">A</view>
+    <image src="asset/imgs/right.png" class=" round-right" style="display:{{state.a=='r'?'inline-block':'none'}}"></image>
+    <image src="asset/imgs/wrong.png" class=" round-wrong" style="display:{{state.a=='w'?'inline-block':'none'}}"></image>    
     <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx">
-    <view class="round round-active inline-block" style="font-size:40rpx">B</view>
-    <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
+  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="b" bindtap="chooseOption">
+<view class="round inline-block" style="font-size:40rpx">B</view>
+    <image src="asset/imgs/right.png" class="round-right" style="display:{{state.b=='r'?'inline-block':'none'}}"></image>
+    <image src="asset/imgs/wrong.png" class="round-wrong" style="display:{{state.b=='w'?'inline-block':'none'}}"></image>    
+        <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx">
-    <view class="round round-right inline-block" style="font-size:40rpx">C</view>
-    <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</view>
+  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="c" bindtap="chooseOption">
+<view class="round inline-block" style="font-size:40rpx">C</view>
+    <image src="asset/imgs/right.png" class="round-right" style="display:{{state.c=='r'?'inline-block':'none'}}"></image>
+    <image src="asset/imgs/wrong.png" class="round-wrong" style="display:{{state.c=='w'?'inline-block':'none'}}"></image>    
+        <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx">
-    <view class="round inline-block" style="font-size:40rpx">D</view>
-    <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
+  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="d" bindtap="chooseOption">
+<view class="round inline-block" style="font-size:40rpx">D</view>
+    <image src="asset/imgs/right.png" class="round-right" style="display:{{state.d=='r'?'inline-block':'none'}}"></image>
+    <image src="asset/imgs/wrong.png" class="round-wrong" style="display:{{state.d=='w'?'inline-block':'none'}}"></image>    
+        <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
   <view class="gray-word" style="margin-top:50rpx">
-    解析：这里是解析
+    解析：
+  </view>
+ <view class="gray-word" style="margin-top:20rpx">
+    这里是解析
   </view>
  
 

@@ -1,0 +1,9 @@
+<!--sorry.wxml-->
+<view class="container">
+  <image src="asset/imgs/right.png"></image>
+  <view class="">非常抱歉</view>
+  <view class="" style="font-size:30rpx">理论学习功能 </view>
+  <view class="" style="font-size:30rpx;">暂时只对小车-C1/C2/C3学员开放</view>
+  <view class="gray-word" style="font-size:30rpx;">如有疑问请联系在线客服</view>
+</view>
+

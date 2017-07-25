@@ -1,13 +1,11 @@
-// mock-exam.js
+// sorry.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    state: { a: 'un', b: 'un', c: 'un', d: 'un' },
-    answer: 'a',
-    chose:false
+  
   },
 
   /**
@@ -62,27 +60,7 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  // onShareAppMessage: function () {
+  onShareAppMessage: function () {
   
-  // },
-  //选项处理
-  chooseOption: function (e) {
-    if(this.data.chose){
-
-    }else{
-      var op = e.currentTarget.dataset.op;
-      var st = this.data.state;
-      if (op == this.data.answer) {
-        st[op] = 'r';
-      } else {
-        st[op] = 'w';
-        st[this.data.answer] = 'r';
-      }
-      this.setData({
-        state: st,
-        chose:true
-      })
-    }
-   
   }
 })

@@ -88,12 +88,41 @@ Page({
     })
   },
   navtoExam:function(){
-    wx.navigateTo({
-      url: '../exam/mock-exam',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
+    if(this.data.kemu == 0){
+      wx.showModal({
+        title: '考试规则',
+        content: 'C1/C2/C3科目一考试，考试时间为45分钟，模拟考试下不能修改答案，每做错一题扣1分，合格标准为成绩≥90分。',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '../exam/mock-exam',
+              success: function (res) { },
+              fail: function (res) { },
+              complete: function (res) { },
+            })
+          }
+        },
+        showCancel: false,
+      })
+    }else{
+      wx.showModal({
+        title: '考试规则',
+        content: 'C1/C2/C3科目四考试，考试时间为30分钟，模拟考试下不能修改答案，每做错一题扣2分，合格标准为成绩≥90分。',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '../exam/mock-exam',
+              success: function (res) { },
+              fail: function (res) { },
+              complete: function (res) { },
+            })
+          }
+        },
+        showCancel: false,
+      })
+    }
+    
+    
   },
   //科目一科目四转换
   setKemu: function (e) {
@@ -119,5 +148,31 @@ Page({
       },
       showCancel: false,
     })
+  },
+  canRemoteTest:function(){
+    if(this.data.kemu == 0){
+      wx.showModal({
+        title: '考试规则',
+        content: '科目一远程测考，考试时间为45分钟，远程测考下不能修改答案，每做错一题扣1分，合格标准为成绩≥XX分。',
+        success: function (res) {
+          if (res.confirm) {
+            console.log("确认")
+          }
+        },
+        showCancel: false,
+      })
+    }else{
+      wx.showModal({
+        title: '考试规则',
+        content: '科目四远程测考，考试时间为30分钟，远程测考下不能修改答案，每做错一题扣2分，合格标准为成绩≥XX分。',
+        success: function (res) {
+          if (res.confirm) {
+            console.log("确认")
+          }
+        },
+        showCancel: false,
+      })
+    }
+   
   }
 })

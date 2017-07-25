@@ -1,0 +1,11 @@
+<!--mock-bad-unfinish.wxml-->
+<view class="container">
+  <image src="asset/imgs/right.png"></image>
+  <view class="red-word">成绩不合格</view>
+  <view class="red-word">18 <view class="gray-word inline-block">分</view> </view>
+  <view class="gray-word" style="font-size:30rpx;">答错6题</view>
+</view>
+<view class="two-button">
+  <view class="classname">现在交卷</view>
+  <view class="classname">继续答题</view>
+</view>
