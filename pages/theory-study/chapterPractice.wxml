@@ -1,0 +1,15 @@
+<view class="line topBorder">
+  <view><view class="number red">1</view></view>
+  <view>阿阿阿阿阿</view>
+  <view>199题</view>
+</view>
+<view class="line">
+  <view><view class="number blue">2</view></view>
+  <view>阿阿阿阿阿</view>
+  <view>99题</view>
+</view>
+<view class="line">
+  <view><view class="number orange">3</view></view>
+  <view>阿阿阿阿阿aa</view>
+  <view>9题</view>
+</view>

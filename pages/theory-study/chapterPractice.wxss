@@ -1,0 +1,47 @@
+/* chapterPractice.wxss */
+.line{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 80rpx;
+  height: 80rpx;
+  border-bottom: 1rpx solid #fbfbfb;
+  font-size: 31rpx;
+ 
+}
+.topBorder{
+  border-top: 1rpx solid #f3f6f7;
+}
+.line>view:nth-child(1){
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.line>view:nth-child(2){
+  flex: 5
+}
+.line>view:nth-child(3){
+  flex: 1;
+  text-align: right;
+  padding-right: 20rpx;
+  color: #b3b3b3;
+}
+.number{
+  
+  width: 40rpx;
+  height: 40rpx;  
+  line-height: 40rpx;
+  border-radius: 20rpx;
+  text-align: center;
+}
+.red{
+  background-color: #fc7878;
+}
+.blue{
+  background-color: #25c8da;
+}
+.orange{
+  background-color: #faa912;
+}
