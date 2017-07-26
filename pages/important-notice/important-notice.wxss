@@ -59,6 +59,12 @@ page{
   height: 100rpx;
   line-height: 100rpx;
 }
-
+.time{
+  margin-bottom: 30rpx;
+}
+.content{
+  line-height: 50rpx;
+  font-size: 35rpx;
+}
 
 

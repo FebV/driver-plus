@@ -11,25 +11,30 @@
 <view class="all-practice">
   <view class="one-practice">
     <view class="img" bindtap="navtoPractice">
-      <image src="asset/imgs/shunxu.png" style="height:33rpx"></image>
+      <image src="/asset/imgs/shunxu.png" ></image>
+      顺序练习
     </view>
     <view class="img" bindtap="navtoPractice">
-      <image src="asset/imgs/suiji.png" style="height:35rpx"></image>
+      <image src="/asset/imgs/suiji.png" ></image>
+      随机练习
     </view>
   </view>
   <view class="small-divider"></view>
   <view class="one-practice">
     <view class="img" bindtap="navtoChapterPractice">
-      <image src="asset/imgs/zhangjie.png" style="height:40rpx"></image>
+      <image src="/asset/imgs/zhangjie.png" ></image>
+      章节练习
     </view>
     <view class="img" bindtap="navtoProjectPractice">
-      <image src="asset/imgs/zhuanxiang.png"></image>
+      <image src="/asset/imgs/zhuanxiang.png"></image>
+      专项练习
     </view>
   </view>
   <view class="small-divider"></view>
   <view class="one-practice">
    <view class="img" bindtap="navtoExam">
-      <image src="asset/imgs/mock-test.png" style="height:40rpx"></image>
+      <image src="/asset/imgs/mock-test.png" ></image>
+      模拟考试
     </view>
   </view>
  </view>

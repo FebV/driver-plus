@@ -3,9 +3,14 @@
   <image src="/asset/imgs/ground_detail_img_exp.png"></image>
 </view>
 <view class="ground-detail-intro">
-  <text class="lg-text ground-name">济南高新区公路XX训练场</text>
+<view class="classname">
+<text class="lg-text ground-name">济南高新区公路XX训练场</text>
   <view class="br"></view>
   <text class="md-text ground-location gray-word">济南市经十路</text>
+
+</view>
+  
+  <view class="distance">距您9.7km</view>
 </view>
 <view class="divider"></view>
 <view class="partition-header">

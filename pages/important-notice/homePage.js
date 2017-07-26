@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    num: 1
   },
 
   /**
@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  clickNum: function (e) {
+    this.setData({
+      num: e.target.dataset.num,
+    })
   }
 })

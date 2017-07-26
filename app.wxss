@@ -163,7 +163,7 @@ input{
 .row-choice {
   /*width: 100%;*/
   border: 1px solid rgb(240, 240, 240);
-  height: 15vh;
+  height: 18.75vh;
 }
 .row-choice-icon {
   margin-left: 6vw;

@@ -121,5 +121,13 @@ Page({
       })
       
     }
+  },
+  navToGroupSignOn:function(){
+    wx.navigateTo({
+    url: '../sign-up-success/sign-up-success',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

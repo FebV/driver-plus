@@ -5,8 +5,11 @@
  
   <image class="head_image" src="/asset/imgs/head_image.png"></image>
 </view>
- <view class="intro-row gray-border gray-word coach" bindtap="coach">
- 选他做为我的教练
+ <view class="intro-row gray-border gray-word " style="text-align:center" bindtap="coach">
+ <view class="coach">
+  选他做为我的教练
+ </view>
+
  </view>
 <view class="intro-row gray-border gray-word">
   车型：大众白色（鲁A）
@@ -21,10 +24,7 @@
   <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
   <view class="gap"></view>
   <text class="blue-word md-text">4.7</text>
-  <view class="right-word intro-row" style="padding:0;float:right;margin-left:100rpx">
-    <image src="asset/imgs/write.png" style="width:40rpx;height:40rpx"></image>
-    <view class="blue-word inline-block" style="font-size:30rpx">填写评价</view>
-  </view>
+ 
 </view>
 <view class="divider">
 </view>
@@ -48,7 +48,7 @@
   <text class="gray-word sm-text">2017-07-07</text>
   </view>
   </view>
-  <view class="sm-text gray-word comment-content">
+  <view class="md-text gray-word comment-content">
   还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以还可以
   </view>
   <view class="divider"></view>

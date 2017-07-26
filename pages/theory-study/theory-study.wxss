@@ -46,7 +46,12 @@
   justify-content: space-around;
   height: 120rpx;
   align-items: center;
-  width:40%;
+  /* width:40%; */
+}
+.img image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 30rpx;
 }
 
 .row{
@@ -71,8 +76,8 @@
   height: 40rpx;
 }
 .study-result{
-  height: 60rpx;
-  line-height: 60rpx;
+  height: 96rpx;
+  line-height: 96rpx;
   font-size: 28rpx;
   column-count: 2;
   column-gap:  0;

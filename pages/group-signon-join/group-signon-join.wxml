@@ -14,7 +14,7 @@
 </view>
 <view class="small-divider"></view>
 <view class="group-rule-detail">
-    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text><button class="share" open-type="share"><image src="/asset/imgs/share.png"></image>邀请好友</button></view>
+    <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
   </view>
   <view class="small-divider"></view>
 <view class="group-rule-detail">
@@ -98,4 +98,5 @@
 本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view>
 <view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">马上参团</view>
 </view>
+<button class="share" open-type="share"><image src="/asset/imgs/share.png"></image></button>
 </view>

@@ -61,7 +61,7 @@
 
 <view class="divider"></view>
 
-<view class="group-desc">
+<view class="group-desc pd-bottom">
   <view class="partition-header">
     <view class="partition-header-icon">
       <image src="../../asset/imgs/group_desc.png"></image>
@@ -77,4 +77,6 @@
 本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view>
 <view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">马上开团</view>
 </view>
+<button class="share" open-type="share"><image src="/asset/imgs/share.png"></image></button>
+
 </view>

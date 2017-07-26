@@ -64,14 +64,14 @@ body{
 
 .line{
     font-size: 40rpx;
-    height: 80rpx;
-    line-height: 80rpx;
+    height: 96rpx;
+    line-height: 96rpx;
     display: flex;
     padding-left: 100rpx;
     padding-right: 0rpx;
     justify-content:  flex-start;
     align-items: center;
-    border-bottom: 1px solid #bcbcbc;
+    border-bottom: 1px solid lightgray;
 }
 .station{
  
@@ -89,7 +89,8 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  font-size: 0.875rem;
+  line-height: 96rpx;
 }
 .blue{
     background-color: #2d9dff;
@@ -302,8 +303,8 @@ body{
 }
 .leftList view,.rightList view{
   border-top: 1rpx solid #f2f2f2;
-  height: 70rpx;
-  line-height: 70rpx;
+  height: 80rpx;
+  line-height: 80rpx;
   padding-left: 50rpx;
 }
 .rightList{

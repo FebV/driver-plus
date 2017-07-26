@@ -9,6 +9,6 @@
   width: 100%;
 }
 .about-text {
-  padding: 30rpx;
+  padding: 20rpx;
   line-height: 40rpx;
 }

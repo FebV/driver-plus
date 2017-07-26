@@ -100,6 +100,8 @@ page{
   height: 46rpx;
   color: #ffffff;
   background-color: #2d9dff;
+  padding-left:20rpx;
+
 }
 .content{
   background-color: #ffffff;

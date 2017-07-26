@@ -19,7 +19,7 @@ Page({
   },
   navToGroupSignOnIntro: function () {
     wx.navigateTo({
-      url: '../group-signon-intro/group-signon-intro',
+      url: '../group-signon-open/group-signon-open',
     })
   },
   navToCommonClass: function() {

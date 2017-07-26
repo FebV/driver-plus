@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    orderList:[1,0,0,0]
+    orderList:[1,0,0,0],
+    groupFinish:false,
   },
 
   /**
@@ -103,6 +104,56 @@ Page({
       },
     })
   },
+  //组团订单的线下支付
+  offLineGroup:function(){
+    if (this.data.groupFinish){//结束后
+      wx.showModal({
+        title: '',
+        content: '请确保已经与驾校工作人员完成线下支付前的沟通，以便工作人员进行财务审核，点击确定将提交线下支付请求！确定线下支付吗？',
+        showCancel: true,
+        success: function(res) {
+          if(res.confirm){
+
+          }else{
+
+          }
+        },
+        fail: function(res) {},
+        complete: function(res) {},
+      })
+    }else{//结束前
+      wx.showModal({
+        title: '确定现在支付吗？',
+        content: '1.现在支付尾款您的组团活动将结束，您可享受当前的组团优惠。但在本团固定结束时间前若有更多学员参与组团而是本团优惠更多，您将无法享受额外优惠。\n' +'2.请确保已经与驾校工作人员完成线下支付前的沟通，以便工作人员进行财务审核，点击确定将提交线下支付请求！\n',
+        showCancel: true,
+        success: function (res) {
+          if(res.confirm){
+
+          }else{
+
+          }
+         },
+        fail: function (res) { },
+        complete: function (res) { },
+      })
+    }
+    
+  },
+  weixinPayGroup:function(){
+    if (!this.data.groupFinish){//结束前
+      wx.showModal({
+        title: '确定现在支付吗？',
+        content: '1.现在支付尾款您的组团活动将结束，您可享受当前的组团优惠。但在本团固定结束时间前若有更多学员参与组团而是本团优惠更多，您将无法享受额外优惠。',
+        showCancel: true,
+        success: function(res) {},
+        fail: function(res) {},
+        complete: function(res) {},
+      })
+    }else{
+
+    }
+  },
+
   changeOrderList:function(e){
     var indx = e.currentTarget.dataset.indx;
     var list = this.data.orderList;
