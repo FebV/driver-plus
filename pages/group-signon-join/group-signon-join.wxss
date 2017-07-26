@@ -27,9 +27,13 @@
   
   bottom: 0px;
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0;
+  border: 0;
 }
 .left-time-notice {
   font-size: 0.75rem;
@@ -52,11 +56,18 @@
 .blue-border{
   border: 3rpx solid rgb(45, 157, 255);
   border-radius: 20rpx;
+  padding: 5rpx 10rpx;
 }
 .round-pic{
-  width:120rpx;
-  height: 120rpx;
+  width:80rpx;
+  height: 80rpx;
   border-radius: 60rpx;
+}
+.row-item{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 .group-member{
   width: 95%;
@@ -81,4 +92,7 @@
   height: 50rpx;
   width: 50rpx;
   margin-right: 20rpx;
+}
+.pd-bottom{
+  padding-bottom: 20vh;
 }

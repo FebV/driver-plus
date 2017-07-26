@@ -40,5 +40,29 @@ Page({
   },
   onShareAppMessage:function(){
     
+  },
+  navtoNeedtoknow:function(){
+    wx.navigateTo({
+      url: '../need-to-know/need-to-know',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  navtoGround:function(){
+    wx.navigateTo({
+      url: '../ground-detail/ground-detail',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  navtoSchoolIntro:function(){
+    wx.navigateTo({
+      url: '../school-intro/school-intro',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

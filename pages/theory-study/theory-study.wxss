@@ -71,10 +71,17 @@
   height: 40rpx;
 }
 .study-result{
-  height: 55rpx;
-  line-height: 55rpx;
+  height: 60rpx;
+  line-height: 60rpx;
   font-size: 28rpx;
-  text-align: center;
+  column-count: 2;
+  column-gap:  0;
+
+}
+.study-result view{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .group-desc-content {
   padding: 30rpx;

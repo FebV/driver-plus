@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    forePaid: true,
+    needZJZ: true,
+    noID: false
   },
 
   /**
@@ -60,7 +62,15 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
   
-  }
+  onChangeState: function (e) {
+    var ty = e.currentTarget.dataset.type;
+    console.log(ty);
+    var editType = this.data[ty];
+    editType = !editType;
+    var a = {}
+    a[ty] = editType;
+    this.setData(a)
+
+  },
 })

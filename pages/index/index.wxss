@@ -63,12 +63,19 @@
 }
 .kefu{
   width: 100rpx;
-  height: 35rpx;
+  height: 40rpx;
   position: fixed;
   right: 0;
   bottom: 30vh;
 }
-.kefu image{
+.kefu button image{
   width: 100rpx;
-  height: 35rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 0;
+}
+.kefu button{
+  border: 0;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
 }

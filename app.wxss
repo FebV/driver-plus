@@ -46,7 +46,7 @@
 .partition-header-title {
   font-family: monospace;
   font-size: 30rpx;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #888888;
 }
 
@@ -67,7 +67,7 @@
   text-align: center;
   padding: 2vh 5vw;
   color: white;
-  margin: 5vh auto;
+  margin: 2vh auto;
   border-radius: 50rpx;
   font-weight: bold;
   font-size: 1.2rem;

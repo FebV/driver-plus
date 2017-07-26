@@ -6,11 +6,12 @@
 </view>
 <view class="input">
 <text class="input-cap">推荐码</text>
-  <input placeholder="输入推荐码，享受优惠价" />
+  <input placeholder="输入推荐码，享受优惠价" style="font-size:16px;"/>
 </view>
-<view class="input">
-<text class="input-cap">预付定金</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="forePaid">
+<text class="input-c">预付定金</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox"  wx:if="{{forePaid}}"/>
+  <view class="checkbox-none" wx:if="{{!forePaid}}"></view>
 </view>
 <view class="divider"></view>
 <view class="input">
@@ -23,23 +24,25 @@
 </view>
 <view class="input">
 <text class="input-cap">本地手机号:</text>
-  <input placeholder="用于接收车管所验证码，需为本地手机号" />
+  <input placeholder="用于接收车管所验证码，需为本地手机号"style="font-size:16px;" />
 </view>
 <view class="input">
 <text class="input-cap">QQ号</text>
-  <input placeholder="用于接收车管所验证码，需为本地手机号" />
+  <input style="font-size:16px;" />
 </view>
 <view class="divider"></view>
-<view class="input">
-<text class="input-cap">没有本地暂住证</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="needZJZ">
+<text class="input-c">没有本地暂住证</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{needZJZ}}"/>
+  <view class="checkbox-none" wx:if="{{!needZJZ}}"></view>
 </view>
 <view class="gray-notice">
 无本地暂住证的请选择
 </view>
-<view class="input">
-<text class="input-cap">暂时无法提供身份证原件</text>
-<icon type="success" color="rgb(0, 150, 250)" class="checkbox" />
+<view class="input" bindtap="onChangeState" data-type="noID">
+<text class="input-c">暂时无法提供身份证原件</text>
+<icon type="success" color="rgb(0, 150, 250)" class="checkbox" wx:if="{{noID}}"/>
+  <view class="checkbox-none" wx:if="{{!noID}}"></view>
 </view>
 <view class="gray-notice">
 如身份证遗失、过期、未携带请选中，不影响报名

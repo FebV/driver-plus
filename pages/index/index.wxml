@@ -67,7 +67,7 @@
 </view>
 <view class="divider"></view>
 <view class="items-row">
-  <view class="items">
+  <view class="items" bindtap="navtoSchoolIntro">
     <image src="asset/imgs/school_intro.png"></image>
   </view>
   <view class="items">
@@ -76,7 +76,7 @@
   <view class="items">
     <image src="asset/imgs/study_flow.png"></image>
   </view>
-  <view class="items">
+  <view class="items" bindtap="navtoNeedtoknow">
     <image src="asset/imgs/study_prepare.png"></image>
   </view>
 </view>
@@ -89,7 +89,7 @@
     <text class="partition-header-title">场地分布</text>
   </view>
 </view>
-<view class="row-choice-group">
+<view class="row-choice-group" bindtap="navtoGround">
   <view class="row-choice three-column" >
     <view class="row-choice-icon">
       <image style="width:60rpx;height:70rpx" src="asset/imgs/location_icon.png"></image>
@@ -101,13 +101,28 @@
     <view class="right-word gray-word">9.6km</view>
   </view>
 </view>
+<view class="row-choice-group" bindtap="navtoGround">
+  <view class="row-choice three-column" >
+    <view class="row-choice-icon">
+      <image style="width:60rpx;height:70rpx" src="asset/imgs/location_icon.png"></image>
+    </view>
+    <view class="row-choice-content gray-word">
+      locationfjsdoifjosajfoijs sdjfls
+      
+    </view>
+    <view class="right-word gray-word">9.6km</view>
+  </view>
+</view>
+
+
+
 <view class="kefu">
-  <image  src="/asset/imgs/kefu.png" ></image>
-<contact-button 
+ <button open-type="contact" class="kefu"><image  src="/asset/imgs/kefu.png" ></image></button> 
+<!-- <contact-button 
   type="default-light" 
   size="20"
   session-from="weapp"
 >
-</contact-button>
+</contact-button> -->
 </view>
 
