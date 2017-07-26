@@ -1,35 +1,14 @@
-<!--process.wxml-->
- <view class="spot-group ">
-    
-    
-    
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner"></view></view>
-      <view class="inline-block spot-word">已经完成的</view>
-      </view>
-      <view class="spot-line-2"></view>
-    </view>
-
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner"></view></view>
-      <view class="inline-block spot-word">正在进行的</view>
-      </view>
-
-      <view class="spot-line-2-active"></view>
-    </view>
-
-     <view class="spot-line">
-     <view class="spot-line-1">
-      <view class="spot-out"><view class="spot-inner-active"></view></view>
-      <view class="inline-block spot-word blue-word">尚未开始的</view>
-      </view>
-      
-    </view>
-
-    
-   
-    
-  
-  </view>
+<view class="top">
+  <view class="{{num==1?'green':''}}" bindtap="clickNum" data-num="1">报名</view>
+  <view class="{{num==2?'green':''}}" bindtap="clickNum" data-num="2">科一</view>
+  <view class="{{num==3?'green':''}}" bindtap="clickNum" data-num="3">科二</view>
+  <view class="{{num==4?'green':''}}" bindtap="clickNum" data-num="4">科三</view>
+  <view class="{{num==5?'green':''}}" bindtap="clickNum" data-num="5">科四</view>
+  <view class="{{num==6?'green':''}}" bindtap="clickNum" data-num="6">拿证</view>
+</view>
+<view class="leftTri" style="left:{{leftleft}}"></view>
+<view class="rightTri" style="left:{{rightleft}}"></view>
+<view class="wrapper">
+  <view class="title">啊啊啊啊啊啊</view>
+  <view class="content">蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤蛤</view>
+</view>

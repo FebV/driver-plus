@@ -1,11 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    
-    "pages/important-notice/homePage",
-    
-    "pages/important-notice/important-notice",
-    
+    "pages/promise/promise",
     "pages/exam/mock-good",
     
     "pages/theory-study/remote-bad",
@@ -22,8 +18,9 @@
     "pages/coach-choosing/coach-choosing",
     "pages/mycoach/mycoach",
     "pages/smart-bus/stopBus",
-    
+    "pages/important-notice/important-notice",
     "pages/important-notice/homePageHasNotice",
+    "pages/important-notice/homePage",
     "pages/practice-reservation/reservation-fail",
     "pages/process/process",
     "pages/group-signon/group-signon",
