@@ -1,11 +1,10 @@
 {
   "pages": [
+    "pages/process/process",
+    "pages/promise/promise",
     "pages/index/index",
-    
     "pages/exam/mock-good",
-    
     "pages/theory-study/remote-bad",
-    
     "pages/theory-study/sorry",
     "pages/exam/mock-bad",
     "pages/exam/mock-bad-unfinish",
@@ -22,7 +21,7 @@
     "pages/important-notice/homePageHasNotice",
     "pages/important-notice/homePage",
     "pages/practice-reservation/reservation-fail",
-    "pages/process/process",
+    
     "pages/group-signon/group-signon",
     "pages/group-signon-join-pay/group-signon-join-pay",
     "pages/sign-up-success/sign-up-success",

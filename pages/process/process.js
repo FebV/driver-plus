@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    num:1,
+    leftleft:'252rpx',
+    rightleft:"126rpx"
   },
 
   /**
@@ -62,5 +64,51 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  clickNum:function(e){
+    console.log(e.target.dataset.num)
+    switch(e.target.dataset.num){
+      case '1':
+      console.log(1)
+        this.setData({
+          leftleft: '252rpx',
+          rightleft: "126rpx"
+        })
+        break;
+      case '2':
+        console.log(1)
+        this.setData({
+          leftleft: '126rpx',
+          rightleft: "251rpx"
+        })
+        break;
+      case '3':
+        this.setData({
+          leftleft: '251rpx',
+          rightleft: "376rpx"
+        })
+        break;
+      case '4':
+        this.setData({
+          leftleft: '376rpx',
+          rightleft: "501rpx"
+        })
+        break;
+      case '5':
+        this.setData({
+          leftleft: '501rpx',
+          rightleft: "626rpx"
+        })
+        break;
+      case '6':
+        this.setData({
+          leftleft: '626rpx',
+          rightleft: "720rpx"
+        })
+        break;
+    }
+    this.setData({
+      num:e.target.dataset.num,
+    })
   }
 })
