@@ -64,5 +64,21 @@ Page({
       fail: function(res) {},
       complete: function(res) {},
     })
+  },
+  navtoPromiss:function(){
+    wx.navigateTo({
+      url: '../promise/promise',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  navtoProcess:function(){
+    wx.navigateTo({
+      url: '../process/process',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

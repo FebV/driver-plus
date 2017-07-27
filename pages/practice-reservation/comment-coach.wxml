@@ -12,7 +12,7 @@
 </view>
 <view class="small-divider"></view>
 <view class="text-area">
-  <textarea placeholder-class="pholder" placeholder="评价教练可以参考一下方面\n 1、练车人数是否预约人数相同？\n2、教练教学是否有责任心，教学认真、尽职尽责？\n3、教练是否存在“吃拿卡要”的情况？\n4、教练是否存在辱骂学员的情况？\n5、教练风趣幽默，尊重学员，热心教学？\n评价都是匿名的，您可放心批评或者表扬您的教练，帮助您的教练不断提高教学质量，更好的服务学员朋友们！"/>
+  <textarea placeholder-class="pholder" placeholder="评价教练可以参考一下方面\n1、练车人数是否预约人数相同？\n2、教练教学是否有责任心，教学认真、尽职尽责？\n3、教练是否存在“吃拿卡要”的情况？\n4、教练是否存在辱骂学员的情况？\n5、教练风趣幽默，尊重学员，热心教学？\n评价都是匿名的，您可放心批评或者表扬您的教练，帮助您的教练不断提高教学质量，更好的服务学员朋友们！"/>
 </view>
 <view class="sub-b">
 <view class="sub" bindtap="subcomment">提交评价</view></view>

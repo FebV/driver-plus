@@ -80,13 +80,13 @@
     <image src="asset/imgs/school_intro.png"></image>
     <view class="item-word">驾校介绍</view>
   </view>
-  <view class="items">
+  <view class="items"  bindtap="navtoPromiss">
     <image src="asset/imgs/serve_promise.png"></image>
     <view class="item-word">服务承诺</view>
     
   </view>
-  <view class="items">
-    <image src="asset/imgs/study_flow.png"></image>
+  <view class="items" bindtap="navtoProcess">
+    <image src="asset/imgs/study_flow.png" ></image>
     <view class="item-word">学车流程</view>
     
   </view>

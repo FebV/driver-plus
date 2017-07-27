@@ -69,7 +69,7 @@
   </view>
   <view class="gap"></view>
   <view class="box">
-    <view class="half-width all-border" bindtap="cancelOrder">查看详情</view>
+    <view class="half-width all-border" bindtap="groupOrderDetail">查看详情</view>
      <view class="half-width all-border" bindtap="offLineGroup">线下支付</view>
     <view class="blue-word half-width all-border" bindtap="weixinPayGroup">微信支付</view>
   </view>

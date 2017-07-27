@@ -44,4 +44,6 @@ textarea{
   border-radius: 50rpx;
   margin: 40rpx auto;
 }
-
+textarea{
+  height:400rpx;
+}

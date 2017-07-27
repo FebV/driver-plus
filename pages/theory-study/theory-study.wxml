@@ -40,11 +40,11 @@
  </view>
  <view class="divider"></view>
  <view class="row">
-  <view class="row-box">
+  <view class="row-box" bindtap="navtoPractice">
     <image src="asset/imgs/wrong-book.png"></image>      
     <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">错题攻克(<text class="blue-word">21</text>)</view> 
   </view>
-  <view class="row-box">
+  <view class="row-box" bindtap="navtoPractice">
     <image src="asset/imgs/collection.png"></image>      
     <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">题目收藏(<text class="blue-word">21</text>)</view> 
   </view>

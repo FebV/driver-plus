@@ -143,7 +143,7 @@ Page({
     if (!this.data.groupFinish){//结束前
       wx.showModal({
         title: '确定现在支付吗？',
-        content: '1.现在支付尾款您的组团活动将结束，您可享受当前的组团优惠。但在本团固定结束时间前若有更多学员参与组团而是本团优惠更多，您将无法享受额外优惠。',
+        content: '现在支付尾款您的组团活动将结束，您可享受当前的组团优惠。但在本团固定结束时间前若有更多学员参与组团而是本团优惠更多，您将无法享受额外优惠。',
         showCancel: true,
         success: function(res) {},
         fail: function(res) {},
@@ -164,6 +164,14 @@ Page({
     list[indx] = 1;
     this.setData({
       orderList:list
+    })
+  },
+  groupOrderDetail:function(){
+    wx.navigateTo({
+      url: '../sign-up-success/sign-up-success',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   }
 })
