@@ -1,7 +1,7 @@
 <!--group-signon-open.wxml-->
 <view class="index">
 <view class="banner">
-  <image src="asset/imgs/banner.png"></image>
+  <image src="/asset/imgs/bannergroup.png"></image>
 </view>
 <view class="intro gray-word">
   <view class="discount inline-block">
@@ -26,6 +26,14 @@
     <view class="gray-word small-line-word">组满<text class="blue-word">5</text>人，每人立减<text class="blue-word">￥50</text></view>
   </view>
 <view class="divider"></view>
+<view class="group-member" style="text-align:center">
+  <view class="gray-word small-line-word" >参团享低价,组团活动剩余时间</view>
+   <view class="inline-block blue-border" style="height:50rpx;text-align:center;line-height:50rpx;color:rgb(45, 157, 255);margin-bottom:20rpx;padding:0 20rpx;">10天23:59:59</view>
+  
+  
+</view>
+
+<view class="divider"></view>
 <view class="group-rule">
   <view class="partition-header">
     <view class="partition-header-icon">
@@ -34,16 +42,8 @@
     <text class="partition-header-title">组团玩法</text>
   </view>
   <view class="group-rule-content gray-word">
-    ①支付定金开团/参团<view class="white-space"></view>②邀请参团<view class="white-space"></view>③组团结束，报名成功
-    组团满5人，每人立减200元。
+    ①支付定金开团或参团<view class="white-space"></view>②邀请好友参团<view class="white-space"></view>③组团倒计时结束，组团完成，报名成功。
   </view>
-</view>
-<view class="divider"></view>
-<view class="group-member" style="text-align:center">
-  <view class="gray-word small-line-word" >参团享低价,组团活动剩余时间</view>
-   <view class="inline-block blue-border" style="width:200rpx;height:50rpx;text-align:center;line-height:50rpx;color:rgb(45, 157, 255);margin-bottom:20rpx">23:59:59</view>
-  
-  
 </view>
 <view class="divider"></view>
 
@@ -73,10 +73,12 @@
   </view>
 </view>
 <view class="signon gray-border gray-word" style="background-color:rgb(240, 240, 240)">
-<view class="left-time-notice">
-本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view>
+<!-- <view class="left-time-notice">
+本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view> -->
 <view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">马上开团</view>
 </view>
-<button class="share" open-type="share"><image src="/asset/imgs/share.png"></image></button>
+<button class="share" open-type="share">
+ <image src="/asset/imgs/share.png"></image> 
+</button>
 
 </view>

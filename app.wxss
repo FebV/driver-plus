@@ -188,7 +188,7 @@ input{
 
 .row-choice-title {
   /* font-weight: bold; */
-  font-size: 0.9rem;
+  font-size: 38rpx;
 }
 .row-choice-price {
   box-sizing: border-box;
@@ -221,6 +221,7 @@ input{
 .row-choice-char {
   margin-top: 10rpx;
   font-size: 0.75rem;
+  color: gray;
 }
 .row-choice-char view {
   width: 30vw;

@@ -1,6 +1,6 @@
 <!--login.wxml-->
 <view class="banner">
-  <image src="/asset/imgs/banner.png"></image>
+  <image src="/asset/imgs/brand_banner.png"></image>
 </view>
 
 <view class="input">

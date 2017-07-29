@@ -1,6 +1,6 @@
 <!--group-signon.wxml-->
 <view class="banner">
-  <image src="asset/imgs/banner.png"></image>
+  <image src="/asset/imgs/bannergroup.png"></image>
 </view>
 <view class="intro gray-word">
   <view class="discount inline-block">
@@ -15,7 +15,7 @@
 <view class="group-rule">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image src="asset/imgs/group_rule.png"></image>
+      <image src="/asset/imgs/group_rule.png"></image>
     </view>
     <text class="partition-header-title">组团玩法</text>
   </view>
@@ -28,7 +28,7 @@
 <view class="group-desc">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image src="asset/imgs/group_desc.png"></image>
+      <image src="/asset/imgs/group_desc.png"></image>
     </view>
     <text class="partition-header-title">组团玩法</text>
   </view>

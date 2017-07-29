@@ -3,11 +3,11 @@
 <view class="score">
   <view class="score-title">评分</view>
   <view class="score-star">
-    <image data-score="1" src="asset/imgs/{{score[0]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
-    <image data-score="2" src="asset/imgs/{{score[1]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
-    <image data-score="3" src="asset/imgs/{{score[2]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
-    <image data-score="4" src="asset/imgs/{{score[3]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
-    <image data-score="5" src="asset/imgs/{{score[4]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
+    <image data-score="1" src="/asset/imgs/{{score[0]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
+    <image data-score="2" src="/asset/imgs/{{score[1]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
+    <image data-score="3" src="/asset/imgs/{{score[2]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
+    <image data-score="4" src="/asset/imgs/{{score[3]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
+    <image data-score="5" src="/asset/imgs/{{score[4]?'star-s.png':'star.png'}}" bindtap="changeScore"></image>
   </view>
 </view>
 <view class="small-divider"></view>

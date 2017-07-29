@@ -175,7 +175,7 @@ Page({
     this.setData({
       rightLine: this.data.rightListLine[e.target.dataset.id],
       rightList: !rightList,
-      myStationTop: 362 + e.target.dataset.id*80+'rpx'
+      myStationTop: 375 + e.target.dataset.id*96+'rpx'
     })
 
   }

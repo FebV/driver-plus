@@ -1,6 +1,6 @@
 <!--free-to-try.wxml-->
 <view class="banner">
-  <image src="asset/imgs/banner.png"></image>
+  <image src="/asset/imgs/bannerfty.png"></image>
 </view>
 <view class="input">
 <text class="input-cap">姓名</text>

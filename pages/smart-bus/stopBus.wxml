@@ -109,6 +109,6 @@
   <view>6:50发车</view>
   <view>6:50发车</view>
 </view>
-<image class="location" src="asset/imgs/mystation.png"></image>
+<image class="location" src="/asset/imgs/mystation.png"></image>
 
 </view>

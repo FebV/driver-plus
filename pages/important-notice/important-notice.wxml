@@ -4,7 +4,7 @@
       <view>已读</view>
 </view>
 <view class="noNotice">
-  <view><image class="smile" src="asset/imgs/smile.png"></image></view>
+  <view><image class="smile" src="/asset/imgs/smile.png"></image></view>
   <view>还没有通知呢~耐心等待吆~</view>
 </view>
 <view class="noticeInfo">

@@ -14,11 +14,11 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  font-size: 40rpx;
+  font-size: 33rpx;
 }
 .rect-enter image {
-  width: 60rpx;
-  height: 60rpx;
+  width: 40rpx;
+  height: 40rpx;
   margin-right: 30rpx;
 }
 
@@ -28,6 +28,7 @@
   justify-content: space-around;
   height: 150rpx;
   background-color: rgb(240, 240, 240);
+  padding-bottom: 40rpx;
 }
 
 .items {
@@ -75,32 +76,51 @@
 }
 .kefu{
   width: 100rpx;
-  height: 40rpx;
+  height: 45rpx;
   position: fixed;
   right: 0;
   bottom: 30vh;
+  border: 0;
+  
 }
 .kefu button image{
   width: 100rpx;
-  height: 40rpx;
+  height: 45rpx;
   position: absolute;
   left: 0;
+    border: 0;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 .kefu button{
   border: 0;
   border-top-left-radius: 40rpx;
   border-bottom-left-radius: 40rpx;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
-
+.kefu button::after{
+  border: 0;
+}
 .right{
- margin-left: 30rpx;
+ margin-left: 60rpx;
 }
 .right image{
-  width: 60rpx;
-  height: 60rpx;
+  width: 40rpx;
+  height: 40rpx;
 }
 .row-choice-g {
   /*width: 100%;*/
   border: 1px solid rgb(240, 240, 240);
   height: 8vh;
+}
+.row-w{
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  color: gray;
+  background-color: rgb(240, 240, 240);
 }

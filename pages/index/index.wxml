@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="banner">
-  <image src="asset/imgs/banner.png"></image>
+  <image src="/asset/imgs/banner.png"></image>
 </view>
 <view class="rect-enter-group">
   <view class="rect-enter" bindtap="navToFreeToTry">
@@ -16,7 +16,7 @@
 <view class="study-package">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image src="asset/imgs/study_package_icon.png"></image>
+      <image src="/asset/imgs/study_package_icon.png"></image>
     </view>
     <text class="partition-header-title">学车套餐</text>
   </view>
@@ -24,7 +24,7 @@
 <view class="row-choice-group">
   <view class="row-choice" bindtap="navToCommonClass">
     <view class="row-choice-icon">
-      <image src="asset/imgs/common_class.png"></image>
+      <image src="/asset/imgs/common_class.png"></image>
     </view>
     <view class="row-choice-content">
       <view class="row-choice-content-top">
@@ -50,7 +50,7 @@
   </view>
   <view class="row-choice">
     <view class="row-choice-icon">
-      <image src="asset/imgs/vip_class.png"></image>
+      <image src="/asset/imgs/vip_class.png"></image>
     </view>
     <view class="row-choice-content">
       <view class="row-choice-content-top">
@@ -75,23 +75,24 @@
   </view>
 </view>
 <view class="divider"></view>
+<view class="row-w">————  了解我们  ————</view>
 <view class="items-row">
   <view class="items" bindtap="navtoSchoolIntro">
-    <image src="asset/imgs/school_intro.png"></image>
+    <image src="/asset/imgs/school_intro.png"></image>
     <view class="item-word">驾校介绍</view>
   </view>
   <view class="items"  bindtap="navtoPromiss">
-    <image src="asset/imgs/serve_promise.png"></image>
+    <image src="/asset/imgs/serve_promise.png"></image>
     <view class="item-word">服务承诺</view>
     
   </view>
   <view class="items" bindtap="navtoProcess">
-    <image src="asset/imgs/study_flow.png" ></image>
+    <image src="/asset/imgs/study_flow.png" ></image>
     <view class="item-word">学车流程</view>
     
   </view>
   <view class="items" bindtap="navtoNeedtoknow">
-    <image src="asset/imgs/study_prepare.png"></image>
+    <image src="/asset/imgs/study_prepare.png"></image>
     <view class="item-word">学车须知</view>
     
   </view>
@@ -100,7 +101,7 @@
 <view class="area-location">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image style="width:28rpx;height:40rpx" src="asset/imgs/area_location_icon.png"></image>
+      <image style="width:28rpx;height:40rpx" src="/asset/imgs/area_location_icon.png"></image>
     </view>
     <text class="partition-header-title">场地分布</text>
   </view>
@@ -108,7 +109,7 @@
 <view class="row-choice-group" bindtap="navtoGround">
   <view class="row-choice-g three-column" >
     <view class="row-choice-icon" style="margin-left:20rpx">
-      <image style="width:40rpx;height:40rpx" src="asset/imgs/location_icon.png"></image>
+      <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
     <view class="row-choice-content gray-word">
       locationfjsdoifjosajfoijs
@@ -116,14 +117,14 @@
     </view>
     <view class="right-word gray-word">9.6km</view>
     <view class="inline-block" style="margin-left: 0rpx;">
-        <image src="/asset/imgs/more.png" style="width:40rpx;height:40rpx"></image>
+        <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>
 </view>
 <view class="row-choice-group" bindtap="navtoGround">
   <view class="row-choice-g three-column" >
     <view class="row-choice-icon" style="margin-left:20rpx">
-      <image style="width:40rpx;height:40rpx" src="asset/imgs/location_icon.png"></image>
+      <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
     <view class="row-choice-content gray-word">
       locationfjsdoifjosajfoijs
@@ -133,7 +134,7 @@
     
     </view>
     <view class="inline-block" style="margin-left: 0rpx;">
-        <image src="/asset/imgs/more.png" style="width:40rpx;height:40rpx"></image>
+        <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>
 </view>

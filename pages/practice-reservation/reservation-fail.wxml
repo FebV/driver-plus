@@ -1,7 +1,7 @@
 <!--reservation-fail.wxml-->
 <view class="small-divider"></view>
 <view class="big-icon">
-  <image src="asset/imgs/order-fail.png"></image>
+  <image src="/asset/imgs/order-fail.png"></image>
 </view>
 <view class="" style="text-align:center">
   <view style="color:red">预约失败</view>

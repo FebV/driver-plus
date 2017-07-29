@@ -1,7 +1,7 @@
 <!--reservation-success.wxml-->
 <view class="small-divider"></view>
 <view class="big-icon">
-  <image src="asset/imgs/order-success.png"></image>
+  <image src="/asset/imgs/order-success.png"></image>
 </view>
 <view class="" style="text-align:center">
   <view class="blue-word">恭喜您，预约成功！</view>

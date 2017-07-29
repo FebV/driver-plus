@@ -1,6 +1,6 @@
 <!--mock-good.wxml-->
 <view class="container">
-  <image src="asset/imgs/right.png"></image>
+  <image src="/asset/imgs/good.png"></image>
   <view class="blue-word">考试通过</view>
   <view class="blue-word">18 <view class="gray-word inline-block">分</view> </view>
   <view class="gray-word" style="font-size:30rpx;">答错6题</view>

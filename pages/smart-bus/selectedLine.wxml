@@ -92,6 +92,6 @@
   <view bindtap="changeRightLine" data-id="1">{{rightListLine[1]}}</view>
   <view bindtap="changeRightLine" data-id="2">{{rightListLine[2]}}</view>
 </view>
-<image style="top:{{myStationTop}}" class="location" src="asset/imgs/mystation.png"></image>
+<image style="top:{{myStationTop}}" class="location" src="/asset/imgs/mystation.png"></image>
 
 </view>

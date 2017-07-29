@@ -1,11 +1,11 @@
 <!--promise.wxml-->
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
-<view><image src="asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
+<view><image src="/asset/imgs/1.jpg"></image></view>
