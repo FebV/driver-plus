@@ -147,7 +147,8 @@ Page({
     this.setData({
       leftStation: left,
       rightStation: right,
-      station: this.data.station.reverse()
+      station: this.data.station.reverse(),
+      icon:this.data.icon.reverse()
     })
 
   },
@@ -173,11 +174,16 @@ Page({
 
     var rightList = this.data.rightList;
     var iconDisplay=this.data.icon[e.target.dataset.id];
-    
+    var _icon = this.data.icon;
+    for(var i = 0;i<_icon.length;i++){
+      _icon[i] = false;
+    }
+    _icon[e.target.dataset.id] = !iconDisplay;
+    console.log(e.target.dataset.id);
     this.setData({
       rightLine: this.data.rightListLine[e.target.dataset.id],
       rightList: !rightList,
-      iconDisplay:!iconDisplay
+      icon:_icon
     })
    
 

@@ -64,7 +64,7 @@
 <view class="group-desc pd-bottom">
   <view class="partition-header">
     <view class="partition-header-icon">
-      <image src="../../asset/imgs/group_desc.png"></image>
+      <image src="../../asset/imgs/group_strategy.png"></image>
     </view>
     <text class="partition-header-title">组团攻略</text>
   </view>

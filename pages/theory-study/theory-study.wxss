@@ -89,6 +89,6 @@
   align-items: center;
 }
 .group-desc-content {
-  padding: 30rpx;
+  padding: 15rpx 30rpx;
   font-size: 0.7rem;
 }

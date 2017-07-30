@@ -17,7 +17,7 @@
   background-color: black;
   width: 30vw;
   height: 25vw;
-  margin: 2vw 5vw;
+  margin: 2vw 3vw;
 }
 .select-area-image image {
   width: 100%;
@@ -26,15 +26,18 @@
 .select-area-content {
   display: inline-block;
 }
-.select-area-name text{
-  font-size: 0.75rem;
-  font-weight: bold;
+.select-area-name view,text{
+  font-size: 30rpx;
+  /* font-weight: bold; */
+  display: inline-block;
+
 }
+
 .serve-promise-content {
   padding: 0 20rpx;
 }
 .select-area-intro text{
-  font-size: 0.7rem;
+  font-size: 30rpx;
   font-weight: bold;
   color: #888888;
 }
@@ -46,4 +49,9 @@
 .select-area-content{
   padding-top: 20rpx;
   line-height: 60rpx;
+  max-width: 60vw;
+}
+
+.ground-text{
+   width: 240rpx; 
 }

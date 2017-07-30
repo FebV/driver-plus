@@ -219,6 +219,13 @@ input{
   justify-content: flex-start;
   align-items: center;
 }
+.row-choice-content-bottom-i {
+ display: inline-block;
+  font-size: 0.8rem;
+  line-height: 16px;
+  justify-content: flex-start;
+  align-items: center;
+}
 .row-choice-content-bottom text {
   display: inline-block;
   

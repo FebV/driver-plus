@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
+    
+    "pages/smart-bus/selectedLine",
+    
+    
     "pages/common-class/common-class",
     "pages/group-signon-join/group-signon-join",
     "pages/free-to-try/free-to-try",
@@ -18,11 +23,9 @@
     "pages/mycoach/mycoach",
     "pages/coach-choosing/coach-choosing",
    
-    "pages/smart-bus/selectedLine",
     "pages/smart-bus/smart-bus",
     "pages/smart-bus/stopBus", 
    "pages/ground-detail/ground-detail",
-    "pages/index/index",
     "pages/process/process",
     "pages/theory-study/theory-study",
     

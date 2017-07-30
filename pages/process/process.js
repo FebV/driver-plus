@@ -79,31 +79,31 @@ Page({
         console.log(1)
         this.setData({
           leftleft: '126rpx',
-          rightleft: "251rpx"
+          rightleft: "250rpx"
         })
         break;
       case '3':
         this.setData({
-          leftleft: '251rpx',
-          rightleft: "376rpx"
+          leftleft: '250rpx',
+          rightleft: "375rpx"
         })
         break;
       case '4':
         this.setData({
-          leftleft: '376rpx',
-          rightleft: "501rpx"
+          leftleft: '375rpx',
+          rightleft: "500rpx"
         })
         break;
       case '5':
         this.setData({
-          leftleft: '501rpx',
-          rightleft: "626rpx"
+          leftleft: '500rpx',
+          rightleft: "625rpx"
         })
         break;
       case '6':
         this.setData({
-          leftleft: '626rpx',
-          rightleft: "720rpx"
+          leftleft: '625rpx',
+          rightleft: "719rpx"
         })
         break;
     }

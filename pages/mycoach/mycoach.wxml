@@ -23,6 +23,7 @@
   <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
   <view class="gap"></view>
   <text class="blue-word md-text number">4.7</text>
+ <image class="phone" src="/asset/imgs/phone.png"></image>
  
 </view>
 <view class="divider">
@@ -52,4 +53,3 @@
   </view>
   <view class="divider"></view>
 </view>
- <image class="phone" src="/asset/imgs/phone.png"></image>

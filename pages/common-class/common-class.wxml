@@ -13,8 +13,8 @@
     </view>
     <view class="select-area-content">
       <view class="select-area-name">
-        <text>济南高新区训练场</text>
-        <text style="margin-left:20rpx">7.9km</text>
+        <view class="ground-text">济南高新区训练场</view>
+        <text style="margin-left:20rpx">117.9km</text>
       </view>
       <view class="select-area-intro">
         <text>济南市经十东路26777号</text>
