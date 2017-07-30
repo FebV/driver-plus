@@ -43,3 +43,7 @@
   line-height: 50rpx;
   color: #888888;
 }
+.select-area-content{
+  padding-top: 20rpx;
+  line-height: 60rpx;
+}

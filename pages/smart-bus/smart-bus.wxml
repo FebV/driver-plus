@@ -35,7 +35,7 @@
     <view class="bottomList">
         
             <view class="inline-block line">
-                <view class="leftImg" ><image src="/asset/imgs/begin.png"></image></view>
+                <view class="leftImg" ></view>
                 <view class="inline-block" class="station" style="margin-left:30rpx">{{station[0]}}</view>
             </view>
            

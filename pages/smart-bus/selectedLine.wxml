@@ -37,22 +37,23 @@
             <view class="inline-block line">
                 <view class="leftImg" ><image src="/asset/imgs/begin.png"></image></view>
                 <view class="inline-block" class="station" style="margin-left:30rpx">{{station[0]}}</view>
+                
             </view>
            
        
        <view class="inline-block line">
-                
-                <view class="inline-block" class="station" style="margin-left:80rpx">{{station[1]}}</view>
+                <view class="leftImg"><image wx:if="{{icon[0]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[1]}}</view>
                 <view class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
       </view>
         <view class="inline-block line">
-                
-                <view class="inline-block" class="station" style="margin-left:80rpx">{{station[2]}}</view>
+                 <view class="leftImg"><image wx:if="{{icon[1]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[2]}}</view>
                 <view class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
       </view>
         <view class="inline-block line">
-                
-                <view class="inline-block" class="station" style="margin-left:80rpx">{{station[3]}}</view>
+                 <view class="leftImg"><image wx:if="{{icon[2]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[3]}}</view>
                 <view class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
       </view>
         
@@ -92,6 +93,6 @@
   <view bindtap="changeRightLine" data-id="1">{{rightListLine[1]}}</view>
   <view bindtap="changeRightLine" data-id="2">{{rightListLine[2]}}</view>
 </view>
-<image style="top:{{myStationTop}}" class="location" src="/asset/imgs/mystation.png"></image>
+
 
 </view>

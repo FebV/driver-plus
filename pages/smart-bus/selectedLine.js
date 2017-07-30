@@ -17,8 +17,8 @@ Page({
     leftListLine: ['1111班次', '2222班次', '333班次'],
     rightListLine: ['222222站点', '3333站点', '4444站点'],
     station: ["山东大学中心校区", "222222222222", "3333", "444", '路舜驾校'],
-    myStationTop:"0rpx",
-    carTop:"282rpx"
+    icon:[false,false,false],
+    carTop:"348rpx"
   },
 
   /**
@@ -172,11 +172,14 @@ Page({
   changeRightLine: function (e) {
 
     var rightList = this.data.rightList;
+    var iconDisplay=this.data.icon[e.target.dataset.id];
+    
     this.setData({
       rightLine: this.data.rightListLine[e.target.dataset.id],
       rightList: !rightList,
-      myStationTop: 375 + e.target.dataset.id*96+'rpx'
+      iconDisplay:!iconDisplay
     })
+   
 
   }
 

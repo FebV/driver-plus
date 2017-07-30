@@ -121,6 +121,6 @@
   text-align: center;
   line-height: 70rpx;
   font-size: 30rpx;
-  color: gray;
+  color: rgb(160, 160, 160);
   background-color: rgb(240, 240, 240);
 }

@@ -1,5 +1,5 @@
 /* mycoach.wxss */
-/* coach-index.wxss */
+
 .coach-banner {
   height: 20vh;
   width: 100%;
@@ -81,4 +81,16 @@
   display: inline-block;
   margin: 0 auto;
   border-radius: 60rpx;
+}
+.phone{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 750rpx;
+  right: 50rpx;
+}
+.number{
+  position: relative;
+  bottom: 4rpx;
+  right: 15rpx;
 }

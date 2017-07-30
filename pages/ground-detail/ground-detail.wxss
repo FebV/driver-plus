@@ -16,13 +16,13 @@
   height: 100%;
 }
 .more {
-  height: 10vh;
+  height: 7vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .traffic-hint {
-  padding: 30rpx;
+  padding:20rpx 30rpx 0;
   line-height: 50rpx;
 }
 

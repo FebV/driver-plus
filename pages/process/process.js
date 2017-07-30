@@ -7,7 +7,7 @@ Page({
   data: {
     num:1,
     leftleft:'252rpx',
-    rightleft:"126rpx"
+    rightleft:"125rpx"
   },
 
   /**
@@ -72,7 +72,7 @@ Page({
       console.log(1)
         this.setData({
           leftleft: '252rpx',
-          rightleft: "126rpx"
+          rightleft: "125rpx"
         })
         break;
       case '2':

@@ -98,8 +98,9 @@ body{
     justify-content:space-around;
     align-items: center;
     font-size: 30rpx;
-    height: 60rpx;
-    line-height: 60rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    margin-top: 
 }
 .blue view{
   display: flex;
@@ -296,7 +297,7 @@ body{
   color: #fff;
   
   position: absolute;
-  top: 274rpx;
+  top: 324rpx;
   left: -1rpx;
   z-index: 5;
 }
@@ -311,7 +312,7 @@ body{
   background-color: #2d9dff;
   color: #fff;
   position: absolute;
-  top: 274rpx;
+  top: 324rpx;
   right: -1rpx;
   z-index: 5;
 }

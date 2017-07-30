@@ -7,7 +7,7 @@
 </view>
  <view class="intro-row gray-border gray-word " style="text-align:center" bindtap="coach">
  <view class="coach">
-  选他做为我的教练
+  选为我的教练
  </view>
 
  </view>
@@ -15,15 +15,14 @@
   车型：大众白色（鲁A）
 </view>
 <view class="intro-row gray-border gray-word">
-  电话：
-  <text class="a-tag">110</text>
+  车排：鲁A 8888
 </view>
 <view class="intro-row gray-border gray-word">
   综合评分：
   <view class="gap"></view>
   <image class="grade-star" src="/asset/imgs/grade_star.png"></image>
   <view class="gap"></view>
-  <text class="blue-word md-text">4.7</text>
+  <text class="blue-word md-text number">4.7</text>
  
 </view>
 <view class="divider">
@@ -53,3 +52,4 @@
   </view>
   <view class="divider"></view>
 </view>
+ <image class="phone" src="/asset/imgs/phone.png"></image>

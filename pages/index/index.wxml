@@ -108,7 +108,7 @@
 </view>
 <view class="row-choice-group" bindtap="navtoGround">
   <view class="row-choice-g three-column" >
-    <view class="row-choice-icon" style="margin-left:20rpx">
+    <view class="locationIcon" >
       <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
     <view class="row-choice-content gray-word">
@@ -123,7 +123,7 @@
 </view>
 <view class="row-choice-group" bindtap="navtoGround">
   <view class="row-choice-g three-column" >
-    <view class="row-choice-icon" style="margin-left:20rpx">
+    <view class="locationIcon">
       <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
     <view class="row-choice-content gray-word">

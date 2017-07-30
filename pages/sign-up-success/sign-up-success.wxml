@@ -9,7 +9,7 @@
   <view class="row">已支付:  <text class="blue-word">200</text>元</view>
 </view>
 <view class="divider"></view>
-<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自习核对以下信息</view>
+<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自行核对以下信息</view>
 <view class="small-divider"></view>
 <view class="box gray-word" style="font-size:26rpx;">
   <view class="row">姓名： <text class="blue-word">帅啊</text></view>
@@ -24,7 +24,7 @@
   </view>
 </view>
 <view class="divider" style="margin-top:50rpx"></view>
-<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自习阅读以下提示</view>
+<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自行阅读以下提示</view>
 <view class="small-divider"></view>
 <view class="box gray-word" style="font-size:26rpx;line-height:40rpx;margin-top:20rpx;">
   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafsfsdf sdfdsaf sadf 

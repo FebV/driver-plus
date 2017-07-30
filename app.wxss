@@ -157,19 +157,22 @@ input{
   font-size: 0.75rem;
 }
 .lg-text {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .row-choice {
   /*width: 100%;*/
   border: 1px solid rgb(240, 240, 240);
-  height: 18.75vh;
+  height: 15vh;
 }
 .row-choice-icon {
-  margin-left: 6vw;
+  padding-left: 20rpx;
+  width: 120rpx;
   height: 100%;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  
 }
 .row-choice-icon image {
   width: 10vw;
@@ -210,16 +213,19 @@ input{
   width: 100%;
 }
 .row-choice-content-bottom {
-  display: inline-block;
+  display: inline-flex;
   font-size: 0.8rem;
   line-height: 16px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .row-choice-content-bottom text {
   display: inline-block;
-  width: 40vw;
+  
 }
 .row-choice-char {
   margin-top: 10rpx;
+  margin-right: 30rpx;
   font-size: 0.75rem;
   color: gray;
 }
