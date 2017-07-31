@@ -22,7 +22,7 @@
         </view>
         <view class="">
           <view class="black" style="height:50rpx;color:black;font-size:35rpx">{{item.name}}
-            <image src="../../asset/imgs/grade_star.png" style="width:40rpx;height:40rpx;margin-left:30rpx"></image>
+            <image src="../../asset/imgs/grade_star.png" style="width:40rpx;height:40rpx;margin:5rpx 0 5rpx 30rpx"></image>
             <text class="blue-word">{{item.score}}分</text>
           </view>
           <view class="gray-word" style="font-size:30rpx;height:50rpx;line-height:50rpx">{{item.carNO}}</view>

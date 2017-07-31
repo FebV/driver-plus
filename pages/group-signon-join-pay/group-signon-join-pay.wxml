@@ -13,18 +13,15 @@
       <view class="ground-image inline-block">
         <image src="/asset/imgs/ground_img_exp.png"></image>
       </view>
-      <view class="ground-intro inline-block">
-        <text class="ground-intro-title">{{item.name}}</text>
-        <view class="br"></view>
-        <text class="ground-intro-content">{{item.cover}}</text>
-        <view class="br"></view>
-        <view class="ground-intro-sign-num">
-          <text>报名人数:{{item.number}}
-            <text class="blue-word">xxx</text>
-          </text>
-        </view>
-        
+      <view class="select-area-content">
+      <view class="select-area-name">
+        <view class="ground-text">济南高新区训练场</view>
+        <text style="margin-left:20rpx">117.9km</text>
       </view>
+      <view class="select-area-intro">
+        <text>济南市经十东路26777号</text>
+      </view>
+    </view>
       <view style="display:{{item.onActive}};" class="active-check-box" >
       
          <icon type="success_no_circle" color="white" class="active-check-icon" />
@@ -72,7 +69,7 @@ bindtap="changeClass" data-class="0">
   <text class="input-cap">推荐码</text>
   <input />
 </view>
-<view class="input" bindtap="onChangeState" data-type="forePaid">
+ <view class="input" bindtap="" data-type="forePaid"><!--这里必须交定金 --> 
   <text class="input-c">预付定金（100元）</text>
   <icon type="success" color="rgb(0, 150, 250)" class="checkbox"  wx:if="{{forePaid}}"/>
   <view class="checkbox-none" wx:if="{{!forePaid}}"></view>
@@ -88,7 +85,7 @@ bindtap="changeClass" data-class="0">
 </view>
 <view class="input">
   <text class="input-cap">本地手机号：</text>
-  <input placeholder="用于接收车管所验证码，需为本地手机号" style="font-size:16px;"/>
+  <input placeholder="用于接收车管所验证码，需为本地手机号" placeholder-style="font-size:16px;"/>
 </view>
 <view class="input">
   <text class="input-cap">QQ号：</text>

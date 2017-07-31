@@ -48,8 +48,9 @@
     <image src="/asset/imgs/collection.png"></image>      
     <view class="gray-word" style="font-size:30rpx;margin-left:10rpx">题目收藏(<text class="blue-word">21</text>)</view> 
   </view>
-  <view class="row-box" bindtap="remoteTest">
-    <image src="/asset/imgs/remote.png"></image>      
+  <view class="row-box" bindtap="{{ableRemote?'canRemoteTest':'remoteTest'}}">
+    <image wx:if="{{!ableRemote}}" src="/asset/imgs/remote.png"></image> 
+    <image wx:if="{{ableRemote}}" src="/asset/imgs/remote_fill.png"></image>      
     <view class="gray-word"  style="font-size:30rpx;margin-left:10rpx">远程测考</view> 
   </view>
  

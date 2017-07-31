@@ -8,14 +8,14 @@ Page({
     groundList: [
       {
         "name": "XXX训练场",
-        "cover": "8万平方米",
-        "number": "111",
+        "distance": "117.9km",
+        "address": "xzxxxxxxxxxxx",
         "onActive": "none",
       },
       {
         "name": "XXX训练场",
-        "cover": "8万平方米",
-        "number": "111",
+        "distance": "117.9km",
+        "address": "xzxxxxxxxxxxx",
         "onActive": "inline-block",
       }
     ],

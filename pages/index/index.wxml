@@ -111,12 +111,12 @@
     <view class="locationIcon" >
       <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
-    <view class="row-choice-content gray-word">
+    <view class="row-choice-content gray-word" style="width:62vw">
       locationfjsdoifjosajfoijs
       
     </view>
-    <view class="right-word gray-word">9.6km</view>
-    <view class="inline-block" style="margin-left: 0rpx;">
+    <view class="right-word  blue-word">9.6km</view>
+    <view class="inline-block right-more" >
         <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>
@@ -126,14 +126,14 @@
     <view class="locationIcon">
       <image style="width:40rpx;height:40rpx" src="/asset/imgs/location_icon.png"></image>
     </view>
-    <view class="row-choice-content gray-word">
+    <view class="row-choice-content gray-word" style="width:62vw">
       locationfjsdoifjosajfoijs
       
     </view>
-    <view class="right-word gray-word">9.6km
+    <view class="right-word blue-word">9.6km
     
     </view>
-    <view class="inline-block" style="margin-left: 0rpx;">
+    <view class="inline-block right-more" >
         <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>

@@ -71,3 +71,9 @@
   color: #ffffff;
   padding-left: 20rpx;
 }
+.black{
+  /* vertical-align: text-bottom; */
+  line-height: 50rpx;
+  display: flex;
+  align-items: center;
+}

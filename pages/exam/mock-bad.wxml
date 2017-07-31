@@ -7,5 +7,5 @@
 </view>
 <view class="two-button">
 
-  <view class="classname">继续模拟</view>
+  <view class="classname" bindtap="navtotheroy">继续模拟</view>
 </view>

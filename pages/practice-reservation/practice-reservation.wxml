@@ -1,11 +1,13 @@
 <!--practice-reservation.wxml-->
+<view class="small-divider"></view>
  <view class="options">
     <view class="border">
-      <view class="one-option {{kemu==1?'':'one-option-active'}}" bindtap="setKemu" data-kemu="0">科目一</view>
-      <view class="one-option {{kemu==1?'one-option-active':''}}" bindtap="setKemu" data-kemu="1">科目四</view>
+      <view class="one-option {{kemu==1?'':'one-option-active'}}" bindtap="setKemu" data-kemu="0">科目二</view>
+      <view class="one-option {{kemu==1?'one-option-active':''}}" bindtap="setKemu" data-kemu="1">科目三</view>
     </view>
     
   </view>
+<view class="divider"></view>
 
 <view class="wrap">
   

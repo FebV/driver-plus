@@ -71,8 +71,15 @@
 }
 .three-column{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
+}
+.locationIcon{
+  margin-left: 2vw;
+}
+.right-more{
+  float: right;
+  margin-left: 10vw;
 }
 .kefu{
   width: 100rpx;
@@ -123,4 +130,7 @@
   font-size: 30rpx;
   color: rgb(160, 160, 160);
   background-color: rgb(240, 240, 240);
+}
+.item-word{
+  color: gray;
 }

@@ -84,5 +84,13 @@ Page({
       })
     }
    
+  },
+  navtoresult:function(){
+    wx.navigateTo({
+      url: 'mock-bad-unfinish',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

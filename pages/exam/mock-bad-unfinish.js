@@ -57,10 +57,17 @@ Page({
   
   },
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
   
+  navback:function(){
+    wx.navigateBack({
+      delta: 1,
+    })
+  },
+  navtotheroy: function () {
+    // console.log(1);
+    
+    wx.navigateBack({
+      delta: 2,
+    })
   }
 })

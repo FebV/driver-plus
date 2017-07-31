@@ -5,7 +5,7 @@
  
   <image class="head_image" src="/asset/imgs/head_image.png"></image>
 </view>
- <view class="intro-row gray-border gray-word " style="text-align:center" bindtap="coach">
+ <view class="intro-row gray-word " style="text-align:center;border:1px solid rgb(240, 240, 240);border-top:0;" bindtap="coach">
  <view class="coach">
   选为我的教练
  </view>
@@ -15,7 +15,7 @@
   车型：大众白色（鲁A）
 </view>
 <view class="intro-row gray-border gray-word">
-  车排：鲁A 8888
+  车牌：鲁A 8888
 </view>
 <view class="intro-row gray-border gray-word">
   综合评分：

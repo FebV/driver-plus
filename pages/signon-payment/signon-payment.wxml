@@ -24,11 +24,12 @@
 </view>
 <view class="input">
 <text class="input-cap">本地手机号:</text>
-  <input placeholder="用于接收车管所验证码，需为本地手机号"style="font-size:16px;" />
+    <input placeholder="用于接收车管所验证码，需为本地手机号" placeholder-style="font-size:16px;"/>
+
 </view>
 <view class="input">
 <text class="input-cap">QQ号</text>
-  <input style="font-size:16px;" />
+   <input  /> 
 </view>
 <view class="divider"></view>
 <view class="input" bindtap="onChangeState" data-type="needZJZ">

@@ -6,6 +6,6 @@
   <view class="gray-word" style="font-size:30rpx;">答错6题</view>
 </view>
 <view class="two-button">
-  <view class="classname">现在交卷</view>
-  <view class="classname">继续答题</view>
+  <view class="classname" bindtap="navtotheroy">现在交卷</view>
+  <view class="classname" bindtap="navback">继续答题</view>
 </view>

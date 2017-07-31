@@ -9,7 +9,8 @@
   flex: 1;
   text-align: center;
   font-size: 26rpx;
- 
+ border: 0;
+ margin: 0;
   
 }
  /* .top>view:nth-child(1)::before{
@@ -83,7 +84,7 @@
   border-bottom:40rpx solid transparent;
   border-left: 20rpx solid #ffffff;
   border-right: 0rpx;
-
+  margin: 0;
 }
 .rightTri{
  position: absolute;
@@ -96,6 +97,7 @@
   border-bottom:40rpx solid transparent;
   border-left: 20rpx solid #2D9DFF;
   border-right: 0rpx;
+  margin: 0;
 }
 .wrapper{
   width: 90%;

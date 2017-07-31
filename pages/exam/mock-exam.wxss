@@ -12,8 +12,8 @@
    /* border: 0rpx solid  #4cd964;  */
    background-color:  white; 
   /* color: white; */
-  width: 53rpx;
-  height: 53rpx;
+  width: 55rpx;
+  height: 55rpx;
   border-radius: 50rpx;
   
   position: absolute;
@@ -24,8 +24,8 @@
    /* border: 0rpx solid red;    */
   background-color: white; 
   /* color: white; */
-  width: 53rpx;
-  height: 53rpx;
+  width: 55rpx;
+  height: 55rpx;
   border-radius: 50rpx;
   
   position: absolute;

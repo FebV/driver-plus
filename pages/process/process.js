@@ -7,7 +7,7 @@ Page({
   data: {
     num:1,
     leftleft:'252rpx',
-    rightleft:"125rpx"
+    rightleft:"126rpx"
   },
 
   /**
@@ -72,38 +72,38 @@ Page({
       console.log(1)
         this.setData({
           leftleft: '252rpx',
-          rightleft: "125rpx"
+          rightleft: "126rpx"
         })
         break;
       case '2':
         console.log(1)
         this.setData({
           leftleft: '126rpx',
-          rightleft: "250rpx"
+          rightleft: "251rpx"
         })
         break;
       case '3':
         this.setData({
-          leftleft: '250rpx',
-          rightleft: "375rpx"
+          leftleft: '251rpx',
+          rightleft: "376rpx"
         })
         break;
       case '4':
         this.setData({
-          leftleft: '375rpx',
-          rightleft: "500rpx"
+          leftleft: '376rpx',
+          rightleft: "501rpx"
         })
         break;
       case '5':
         this.setData({
-          leftleft: '500rpx',
-          rightleft: "625rpx"
+          leftleft: '501rpx',
+          rightleft: "626rpx"
         })
         break;
       case '6':
         this.setData({
-          leftleft: '625rpx',
-          rightleft: "719rpx"
+          leftleft: '626rpx',
+          rightleft: "720rpx"
         })
         break;
     }

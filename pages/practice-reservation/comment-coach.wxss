@@ -26,9 +26,11 @@
 }
 textarea{
   font-size: 30rpx;
-  width: 100%;
+   width: 95%; 
   background-color: whitesmoke;
   line-height: 50rpx;
+    padding: 20rpx 10rpx;   
+   margin: 0 auto;
 }
 .sub-b{
   text-align: center;
@@ -46,4 +48,13 @@ textarea{
 }
 textarea{
   height:400rpx;
+   color: gray;
+
+}
+.text-area{
+  width: 96%;
+  margin: 10rpx auto;
+}
+.pholder{
+   color: rgb(170, 170, 170);
 }

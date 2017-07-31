@@ -31,7 +31,7 @@
   text-align: center;
   font-size: 25rpx;
   margin: 80rpx auto auto 20rpx;
-  color: lightgray;
+  color: gray;
 }
 .plus-logo view{
   margin: 30rpx auto;

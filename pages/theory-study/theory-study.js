@@ -6,6 +6,7 @@ Page({
    */
   data: {
     kemu: 0,
+    ableRemote:false
   },
 
   /**

@@ -7,7 +7,7 @@
   height: 120rpx;
   align-items: center;
   font-size: 35rpx;
-
+  background-color: white;
 
 }
 .border{
