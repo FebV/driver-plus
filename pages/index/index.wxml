@@ -115,8 +115,8 @@
       locationfjsdoifjosajf
       
     </view>
-    <view class="right-word  blue-word">9.6km</view>
-    <view class="inline-block right-more" >
+    <view class="right-more blue-word">9.6km</view>
+    <view class="inline-block">
         <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>
@@ -130,10 +130,10 @@
       locationfjsdoifjosajf
       
     </view>
-    <view class="right-word blue-word">9.6km
+    <view class="right-more blue-word">9.6km
     
     </view>
-    <view class="inline-block right-more" >
+    <view class="inline-block" >
         <image src="/asset/imgs/more.png" style="width:35rpx;height:35rpx"></image>
       </view>
   </view>
