@@ -213,7 +213,7 @@ input{
   width: 100%;
 }
 .row-choice-content-bottom {
-  display: inline-flex;
+  display: inline-block;
   font-size: 0.8rem;
   line-height: 16px;
   justify-content: flex-start;
