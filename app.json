@@ -1,61 +1,37 @@
 {
   "pages": [
     "pages/index/index",
-    
     "pages/smart-bus/selectedLine",
-    
-    
     "pages/common-class/common-class",
     "pages/group-signon-join/group-signon-join",
     "pages/free-to-try/free-to-try",
-   
     "pages/group-signon-join-pay/group-signon-join-pay",
-    
     "pages/group-signon/group-signon",
     "pages/group-signon-intro/group-signon-intro",
-    
-    
-
-    
-   
     "pages/sign-up-success/sign-up-success",
     "pages/practice-reservation/reservation-success",
     "pages/mycoach/mycoach",
     "pages/coach-choosing/coach-choosing",
-   
     "pages/smart-bus/smart-bus",
-    "pages/smart-bus/stopBus", 
-   "pages/ground-detail/ground-detail",
+    "pages/smart-bus/stopBus",
+    "pages/ground-detail/ground-detail",
     "pages/process/process",
     "pages/theory-study/theory-study",
-    
     "pages/promise/promise",
     "pages/exam/mock-good",
     "pages/theory-study/remote-bad",
-    
     "pages/theory-study/sorry",
     "pages/exam/mock-bad",
     "pages/exam/mock-bad-unfinish",
-    
     "pages/theory-study/projectPractice",
     "pages/theory-study/chapterPractice",
     "pages/exam/mock-exam",
     "pages/exam/practice-test",
-   
-    
-    
-    
     "pages/important-notice/important-notice",
     "pages/important-notice/homePageHasNotice",
     "pages/important-notice/homePage",
     "pages/practice-reservation/reservation-fail",
-   
-    
-   
-   
-    
     "pages/signon-payment/signon-payment",
-    
     "pages/free-to-try/free-to-try-result",
     "pages/myorder/myorder",
     "pages/need-to-know/need-to-know",
@@ -63,19 +39,15 @@
     "pages/vip-class/vip-class",
     "pages/test-result/test-result",
     "pages/personal-center/personal-center",
-
-   
     "pages/about/about",
     "pages/group-signon-open/group-signon-open",
-    
     "pages/school-intro/school-intro",
     "pages/logs/logs",
     "pages/practice-reservation/comment-coach",
-    
     "pages/login/login",
     "pages/mycoach/confirmCoach",
-    
-    "pages/theory-study/remote-good"
+    "pages/theory-study/remote-good",
+    "pages/smart-bus/selectedLine-going"
   ],
   "window": {
     "backgroundTextStyle": "light",

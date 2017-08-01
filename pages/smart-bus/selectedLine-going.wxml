@@ -1,0 +1,100 @@
+<!--smart-bus.wxml-->
+<view class="wrap">
+  <view class="mainbody">
+    <view class="top" bindtap="showList">
+        <view><image src="/asset/imgs/bus.png"></image></view>
+        <view>{{line}}</view>
+        <view><image src="/asset/imgs/pulldown.png"></image></view>
+    </view>
+
+
+    <view class="middle">
+        <view>
+            <view>始发站</view>
+            <view>终点站</view>
+        </view>
+        <view>
+            <view class="middleWord">{{leftStation}}</view>
+            <view class="leftImg" bindtap="changeStation"><image src="/asset/imgs/turn-blue.png"></image></view>
+            <view class="middleWord">{{rightStation}}</view>
+        </view>
+        
+    </view>
+    <view class="blue">
+    <view class="classname"  bindtap="showLeftList">
+    {{leftLine}}
+    <image src="/asset/imgs/pulldown.png"></image>
+    </view>
+    
+    <view class="classname" bindtap="showRightList">
+    {{rightLine}}
+    <image src="/asset/imgs/pulldown.png"></image>
+    </view>
+    
+    </view>
+    <view class="bottomList">
+        
+            <view class="inline-block line">
+                <view class="leftImg" ><image src="/asset/imgs/begin.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[0]}}</view>
+                <view wx:if="{{curStation==1}}" class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
+                
+            </view>
+           
+       
+       <view class="inline-block line">
+                <view class="leftImg"><image wx:if="{{icon[0]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[1]}}</view>
+                <view wx:if="{{curStation==2}}" class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
+                
+      </view>
+        <view class="inline-block line">
+                 <view class="leftImg"><image wx:if="{{icon[1]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[2]}}</view>
+                <view wx:if="{{curStation==3}}" class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
+      </view>
+        <view class="inline-block line">
+                 <view class="leftImg"><image wx:if="{{icon[2]}}" src="/asset/imgs/mystation.png"></image></view>
+                <view class="inline-block" class="station" style="margin-left:30rpx">{{station[3]}}</view>
+                <view wx:if="{{curStation==4}}" class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
+      </view>
+        
+            <view class="inline-block line">
+                <view class="leftImg"><image src="/asset/imgs/end.png"></image></view>
+                <view class="station" style="margin-left:30rpx">{{station[4]}}</view>
+                <view wx:if="{{curStation==5}}" class="right"><image src="/asset/imgs/count-down.png" style="margin-right:30rpx"></image>  30'35"</view>
+            </view>
+            
+       
+
+    </view>
+</view>
+
+<view style="top:{{carTop}}" class="iconBus"><image  src="/asset/imgs/start-bus.png"></image> </view>
+
+
+    <view class="triangleview" wx:if="{{List}}">
+            <view class="triangle"></view>
+    </view>
+    <view class="topList" wx:if="{{List}}">
+        <view class="Listword" bindtap="changeLine" data-id="0">{{listLine[0]}}</view>
+        <view class="Listword" bindtap="changeLine" data-id="1">{{listLine[1]}}</view>
+        <view class="Listword" bindtap="changeLine" data-id="2">{{listLine[2]}}</view>
+    </view>
+
+
+
+
+<view class="leftList" wx:if="{{leftList}}">
+  <view bindtap="changeLeftLine" data-id="0">{{leftListLine[0]}}</view>
+  <view bindtap="changeLeftLine" data-id="1">{{leftListLine[1]}}</view>
+  <view bindtap="changeLeftLine" data-id="2">{{leftListLine[2]}}</view>
+</view>
+<view class="rightList" wx:if="{{rightList}}">
+  <view bindtap="changeRightLine" data-id="0">{{rightListLine[0]}}</view>
+  <view bindtap="changeRightLine" data-id="1">{{rightListLine[1]}}</view>
+  <view bindtap="changeRightLine" data-id="2">{{rightListLine[2]}}</view>
+</view>
+
+
+</view>

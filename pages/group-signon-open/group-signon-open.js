@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    timeout:false
   },
 
   /**
@@ -64,11 +64,29 @@ Page({
   
   },
   navToGroupSignOn:function(){
-    wx.navigateTo({
-      url: '../group-signon-join/group-signon-join',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
+    if(this.data.timeout){
+      wx.showModal({
+        title: '',
+        content: '您来晚了，组团报名活动已结束！',
+        showCancel: false,
+        success: function(res) {
+          if(res.confirm){
+
+          }else{
+
+          }
+        },
+        fail: function(res) {},
+        complete: function(res) {},
+      })
+    }else{
+      wx.navigateTo({
+        url: '../group-signon-join/group-signon-join',
+        success: function (res) { },
+        fail: function (res) { },
+        complete: function (res) { },
+      })
+    }
+    
   }
 })

@@ -99,3 +99,6 @@
   width: 40rpx ;
   /* margin-right: 20rpx; */
 }
+.gray-btn{
+  background-color: gray;
+}

@@ -75,7 +75,7 @@
 <view class="signon gray-border gray-word" style="background-color:rgb(240, 240, 240)">
 <!-- <view class="left-time-notice">
 本次活动剩余时间<view class="left-time inline-block">XX:XX:XX</view></view> -->
-<view class="signon-btn row-btn l2r-gradient" bindtap="navToGroupSignOn">马上开团</view>
+<view class="signon-btn row-btn {{timeout==false?'l2r-gradient':'gray-btn'}}" bindtap="navToGroupSignOn">马上开团</view>
 </view>
 <button class="share" open-type="share">
  <image src="/asset/imgs/share.png"></image> 
