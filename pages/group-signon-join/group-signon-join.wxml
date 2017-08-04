@@ -29,7 +29,7 @@
   <view class="gray-word small-line-word">本团<text class="blue-word">4</text>人,每人立减<text class="blue-word">200</text>元<text class="right-word blue-word">剩余时间<text class="blue-border blue-word" style="margin-left:10rpx;height:80rpx">23:59:59</text></text></view>
    <scroll-view scroll-x="true" style="width:100%;height:130rpx; white-space: nowrap;overflow:auto">
     <view class="" style="width:95%">
-      <view class="inline-block row-item">
+      <view class="inline-block row-item" wx:for="{{list}}">
           <view class="inline-block roudn-pic" style="float:left">
           <image src="/asset/imgs/bannergroup.png" class="round-pic"></image>
           </view>

@@ -2,48 +2,48 @@
 <view class="topline"></view>
 <view class="wrapper">
     <view class="line">
-      <view class="block left">
+      <view class="block left" bindtap="navtoPractice">
           <view><view class="number orange">1</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
-      <view class="block">
+      <view class="block" bindtap="navtoPractice">
           <view><view class="number blue">2</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
     </view>
     <view class="line">
-      <view class="block left">
+      <view class="block left" bindtap="navtoPractice">
           <view><view class="number orange">1</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
-      <view class="block">
+      <view class="block" bindtap="navtoPractice">
           <view><view class="number blue">2</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
     </view>
     <view class="line">
-      <view class="block left">
+      <view class="block left" bindtap="navtoPractice">
           <view><view class="number orange">1</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
-      <view class="block">
+      <view class="block" bindtap="navtoPractice">
           <view><view class="number blue">2</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
     </view>
     <view class="line">
-      <view class="block left">
+      <view class="block left" bindtap="navtoPractice">
           <view><view class="number orange">1</view></view>
           <view>文字题</view>
           <view>558题</view>
       </view>
-      <view class="block">
+      <view class="block" bindtap="navtoPractice">
           <view><view class="number blue">2</view></view>
           <view>文字题</view>
           <view>558题</view>

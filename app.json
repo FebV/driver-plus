@@ -1,6 +1,11 @@
 {
   "pages": [
     "pages/index/index",
+    
+    "pages/exam/mock-exam",
+    
+    "pages/exam/practice-test",
+    
     "pages/smart-bus/selectedLine",
     "pages/common-class/common-class",
     "pages/group-signon-join/group-signon-join",
@@ -25,8 +30,6 @@
     "pages/exam/mock-bad-unfinish",
     "pages/theory-study/projectPractice",
     "pages/theory-study/chapterPractice",
-    "pages/exam/mock-exam",
-    "pages/exam/practice-test",
     "pages/important-notice/important-notice",
     "pages/important-notice/homePageHasNotice",
     "pages/important-notice/homePage",

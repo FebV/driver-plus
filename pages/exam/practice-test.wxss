@@ -42,6 +42,7 @@ position: fixed;
   border: 0;
   margin: 0;
   border-top: 3rpx solid lightgrey;
+  background-color: white;
 }
 .flex-bottom{
   
@@ -78,4 +79,38 @@ position: fixed;
 }
 .comment-col-selected {
   border-bottom: 8rpx solid rgb(45, 157, 255);
+}
+.pic{
+  width: 85%;
+  margin: 0 auto;
+  height: 250rpx;
+
+}
+.pic image{
+  width: 100%;
+  height: 300rpx;
+}
+.qtype{
+  background-color: rgb(45, 157, 255);
+  color: white;
+  display: inline-block;
+  padding: 0 10rpx;
+  font-size: 25rpx;
+  border-radius: 8rpx;
+  line-height: 35rpx;
+  /* margin: 5rpx 0; */
+  height: 35rpx;
+  vertical-align: text-bottom;
+}
+.round-gray{
+  background-color: gray;
+}
+.btn{
+  width: 40vw;
+  background-color: rgb(45, 157, 255);
+  color: white;
+  margin: 30rpx auto;
+  text-align: center;
+  padding: 10rpx 0;
+  border-radius: 10rpx;
 }

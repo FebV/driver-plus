@@ -2,8 +2,8 @@
 .line{
   display: flex;
   justify-content: flex-end;
-  line-height: 80rpx;
-  height: 80rpx;
+  line-height: 100rpx;
+  height: 100rpx;
   border-bottom: 1rpx solid #fbfbfb;
   font-size: 31rpx;
  

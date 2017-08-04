@@ -57,10 +57,12 @@ Page({
   
   },
 
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  navtopractice:function(){
+    wx.navigateTo({
+      url: '../exam/practice-test',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
   }
 })

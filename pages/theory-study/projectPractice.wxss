@@ -10,8 +10,8 @@
 .line{
   column-count: 2;
   column-gap: 0;
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 100rpx;
+  line-height: 100rpx;
   border-bottom: 1rpx solid #f1f1f2;
 }
 .block{

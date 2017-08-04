@@ -4,54 +4,71 @@
   剩余 <text class="blue-word">14:44</text>交卷
 </view>
 <view class="gap"></view>
-<view class="gray-word" style="font-size:30rpx;width:85%;margin:0 auto;line-height:45rpx">
-  8.这里是题目哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
+<swiper indicator-dots="{{false}}"
+  autoplay="{{false}}" duration="500" style="height:100vh" bindchange="changeIndex">
+  <view wx:for="{{List}}" >
+    <swiper-item>
+      <view style="width:85%;margin:0 auto;margin-bottom:100rpx">
+<view class="" style="font-size:30rpx;line-height:45rpx;">
+  <view class="qtype">{{List[curIndex].qtype}}</view> 这里是题目哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
 </view>
-
+<view class="pic">
+  <image mode="aspectFit" src="/asset/imgs/banner.png"></image>
+</view>
 <view class="gap"></view>
 
-<view class="options" style="font-size:30rpx;width:85%;margin:40rpx auto;line-height:45rpx">
-  <view class="each-option gray-word" style="margin-top:40rpx"  data-op="a" bindtap="chooseOption">
-    <view class="round inline-block" style="font-size:40rpx">A</view>
-    <image src="/asset/imgs/right.png" class=" round-right" style="display:{{state.a=='r'?'inline-block':'none'}}"></image>
-    <image src="/asset/imgs/wrong.png" class=" round-wrong" style="display:{{state.a=='w'?'inline-block':'none'}}"></image>    
+<view class="options" style="font-size:30rpx;margin:40rpx auto;line-height:45rpx">
+  <view class="each-option" style="margin-top:40rpx"  data-op="a" bindtap="chooseOption">
+    <view class="round inline-block {{List[curIndex].state.a=='ch'?'round-gray':''}}" style="font-size:40rpx">A</view>
+    <image src="/asset/imgs/right.png" class=" round-right" style="display:{{List[curIndex].state.a=='r'?'inline-block':'none'}}"></image>
+    <image src="/asset/imgs/wrong.png" class=" round-wrong" style="display:{{List[curIndex].state.a=='w'?'inline-block':'none'}}"></image>    
     <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="b" bindtap="chooseOption">
-<view class="round inline-block" style="font-size:40rpx">B</view>
-    <image src="/asset/imgs/right.png" class="round-right" style="display:{{state.b=='r'?'inline-block':'none'}}"></image>
-    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{state.b=='w'?'inline-block':'none'}}"></image>    
+  <view class="each-option" style="margin-top:40rpx" data-op ="b" bindtap="chooseOption">
+<view class="round inline-block {{List[curIndex].state.b=='ch'?'round-gray':''}}" style="font-size:40rpx">B</view>
+    <image src="/asset/imgs/right.png" class="round-right" style="display:{{List[curIndex].state.b=='r'?'inline-block':'none'}}"></image>
+    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{List[curIndex].state.b=='w'?'inline-block':'none'}}"></image>    
         <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="c" bindtap="chooseOption">
-<view class="round inline-block" style="font-size:40rpx">C</view>
-    <image src="/asset/imgs/right.png" class="round-right" style="display:{{state.c=='r'?'inline-block':'none'}}"></image>
-    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{state.c=='w'?'inline-block':'none'}}"></image>    
+  <view class="each-option" style="margin-top:40rpx" data-op ="c" bindtap="chooseOption" wx:if="{{List[curIndex].qtype!='判断题'}}">
+<view class="round inline-block {{List[curIndex].state.c=='ch'?'round-gray':''}}" style="font-size:40rpx">C</view>
+    <image src="/asset/imgs/right.png" class="round-right" style="display:{{List[curIndex].state.c=='r'?'inline-block':'none'}}"></image>
+    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{List[curIndex].state.c=='w'?'inline-block':'none'}}"></image>    
         <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</view>
   </view>
 
-  <view class="each-option gray-word" style="margin-top:40rpx" data-op ="d" bindtap="chooseOption">
-<view class="round inline-block" style="font-size:40rpx">D</view>
-    <image src="/asset/imgs/right.png" class="round-right" style="display:{{state.d=='r'?'inline-block':'none'}}"></image>
-    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{state.d=='w'?'inline-block':'none'}}"></image>    
+  <view class="each-option" style="margin-top:40rpx" data-op ="d" bindtap="chooseOption" wx:if="{{List[curIndex].qtype!='判断题'}}">
+<view class="round inline-block {{List[curIndex].state.d=='ch'?'round-gray':''}}" style="font-size:40rpx">D</view>
+    <image src="/asset/imgs/right.png" class="round-right" style="display:{{List[curIndex].state.d=='r'?'inline-block':'none'}}"></image>
+    <image src="/asset/imgs/wrong.png" class="round-wrong" style="display:{{List[curIndex].state.d=='w'?'inline-block':'none'}}"></image>    
         <view class="inline-block break-word" style="margin-left:20rpx;font-size:40rpx;width:85%;">aaaaaa</view>
   </view>
-  <view class="gray-word" style="margin-top:50rpx">
-    解析：
+  <block>
+    <view class="btn" wx:if="{{List[curIndex].qtype=='多选题'&&List[curIndex].chose==false}}" bindtap="confirmAnswer">确认答案</view>
+  </block>
+  <block wx:if="{{List[curIndex].chose==true}}">
+  <view class="gray-word" style="margin-top:50rpx;text-align:center">
+  ——————— 解析 ———————
   </view>
- <view class="gray-word" style="margin-top:20rpx">
-    这里是解析
+ <view class="" style="margin-top:20rpx">
+    答案是：{{List[curIndex].answer}}。
   </view>
- 
-
+  <view class="">
+  这里是解析这里是解析这里是解析这里是解析这里是解析这里是解析这里是解析
+  </view>
+  </block>    
 
 </view>
+</view>
+    </swiper-item>
+  </view>
+</swiper>
 
 <view class="fixed">
   <view class="flex-bottom gray-word" style="width:85%;margin:0 auto;font-size:30rpx;">
-      <view class="gray-word"><text class="blue-word">8</text>/100</view>
+      <view class="gray-word"><text class="blue-word">{{curIndex+1}}</text>/{{List.length}}</view>
       <view class="gray-word inner-word" style="display:flex;">
       <image src="/asset/imgs/collection.png" style="width:40rpx;height:40rpx"></image> <text class="inner-word">收藏本题</text></view>
       <view class="gray-word inner-word" style="display:flex;">
