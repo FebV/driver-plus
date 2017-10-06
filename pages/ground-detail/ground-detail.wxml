@@ -10,7 +10,7 @@
 
 </view>
   
-  <view class="distance">距您9.7km</view>
+  <!-- <view class="distance">距您9.7km</view> -->
 </view>
 <view class="divider"></view>
 <!-- <view class="partition-header">
