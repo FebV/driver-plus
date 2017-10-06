@@ -1,0 +1,7 @@
+<!--pages/pay-failed/pay-failed.wxml-->
+<view class="container">
+  <image src="/asset/imgs/sorry.png"></image>
+  <view class="">非常抱歉</view>
+  <view class="" style="font-size:30rpx">付款失败</view>
+  <view class="gray-word" style="font-size:30rpx;">如有疑问请联系在线客服</view>
+</view>
