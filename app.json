@@ -76,8 +76,8 @@
         "selectedIconPath": "asset/imgs/theory_study_fill.png"
       },
       {
-        "pagePath": "pages/practice-reservation/practice-reservation",
-        "text": "预约练车",
+        "pagePath": "pages/myorder/myorder",
+        "text": "我的订单",
         "iconPath": "asset/imgs/order_exercise.png",
         "selectedIconPath": "asset/imgs/order_exercise_fill.png"
       },

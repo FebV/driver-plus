@@ -123,6 +123,7 @@ Page({
     })
   },
   navtoMyOrder: function () {
+    console.log(1);
     wx.navigateTo({
       url: '../myorder/myorder',
       success: function (res) { },
