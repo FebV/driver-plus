@@ -1,0 +1,23 @@
+/* sign-up-success.wxss */
+
+.big-icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border: 8rpx solid #4cd964;
+  margin: 75rpx auto;
+}
+.box{
+  width: 90%;
+  margin: 0 auto;
+}
+.row{
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

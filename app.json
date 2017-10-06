@@ -1,11 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    
     "pages/exam/mock-exam",
-    
     "pages/exam/practice-test",
-    
     "pages/smart-bus/selectedLine",
     "pages/common-class/common-class",
     "pages/group-signon-join/group-signon-join",
@@ -50,7 +47,8 @@
     "pages/login/login",
     "pages/mycoach/confirmCoach",
     "pages/theory-study/remote-good",
-    "pages/smart-bus/selectedLine-going"
+    "pages/smart-bus/selectedLine-going",
+    "pages/sign-up-single-success/sign-up-single-success"
   ],
   "window": {
     "backgroundTextStyle": "light",

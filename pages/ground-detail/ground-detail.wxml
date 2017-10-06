@@ -13,7 +13,7 @@
   <view class="distance">距您9.7km</view>
 </view>
 <view class="divider"></view>
-<view class="partition-header">
+<!-- <view class="partition-header">
   <view class="partition-header-icon">
     <image src="/asset/imgs/person_icon.png"></image>
   </view>
@@ -52,7 +52,7 @@
   </view>
   <view class="more md-text gray-word">查看更多...</view>
 </view>
-<view class="divider"></view>
+<view class="divider"></view> -->
 <view class="partition-header">
   <view class="partition-header-icon">
     <image src="/asset/imgs/route_curve.png"></image>

@@ -59,9 +59,7 @@ Page({
   
   },
 
-  /**
-   * 用户点击右上角分享
-   */
+
   
   onChangeState: function (e) {
     var ty = e.currentTarget.dataset.type;
@@ -73,4 +71,9 @@ Page({
     this.setData(a)
 
   },
+  navtoSignUpSingleSuccess:function(){
+    wx.navigateTo({
+      url: '../sign-up-single-success/sign-up-single-success',
+    })
+  }
 })

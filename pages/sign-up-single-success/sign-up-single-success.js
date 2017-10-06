@@ -1,4 +1,4 @@
-// sign-up-success.js
+// pages/sign-up-single-success/sign-up-single-success.js
 Page({
 
   /**
@@ -57,5 +57,5 @@ Page({
   
   }
 
-  
+
 })

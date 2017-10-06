@@ -5,8 +5,8 @@
   <view class="ground-name gray-word">济南高新区公路</view>
 </view>
 <view class="input">
-<text class="input-cap">推荐码</text>
-  <input placeholder="输入推荐码，享受优惠价" style="font-size:16px;"/>
+<text class="input-cap">推荐人手机</text>
+  <input placeholder="输入推荐人，享受优惠价" placeholder-style="font-size:25rpx;"/>
 </view>
 <view class="input" bindtap="onChangeState" data-type="forePaid">
 <text class="input-c">预付定金</text>
@@ -24,7 +24,7 @@
 </view>
 <view class="input">
 <text class="input-cap">本地手机号:</text>
-    <input placeholder="用于接收车管所验证码，需为本地手机号" placeholder-style="font-size:16px;"/>
+    <input placeholder="用于接收车管所验证码，需为本地手机号" placeholder-style="font-size:25rpx;"/>
 
 </view>
 <view class="input">
@@ -48,6 +48,6 @@
 <view class="gray-notice">
 如身份证遗失、过期、未携带请选中，不影响报名
 </view>
-<view class="row-btn l2r-gradient">
+<view class="row-btn l2r-gradient" bindtap='navtoSignUpSingleSuccess'>
 提交订单并支付
 </view>
