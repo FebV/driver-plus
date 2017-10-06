@@ -2,6 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/exam/mock-exam",
+    "pages/exam/mock-bad",
+    "pages/theory-study/sorry",
     "pages/exam/practice-test",
     "pages/smart-bus/selectedLine",
     "pages/common-class/common-class",
@@ -22,8 +24,6 @@
     "pages/promise/promise",
     "pages/exam/mock-good",
     "pages/theory-study/remote-bad",
-    "pages/theory-study/sorry",
-    "pages/exam/mock-bad",
     "pages/exam/mock-bad-unfinish",
     "pages/theory-study/projectPractice",
     "pages/theory-study/chapterPractice",
@@ -48,7 +48,8 @@
     "pages/mycoach/confirmCoach",
     "pages/theory-study/remote-good",
     "pages/smart-bus/selectedLine-going",
-    "pages/sign-up-single-success/sign-up-single-success"
+    "pages/sign-up-single-success/sign-up-single-success",
+    "pages/sign-up-pay-failed/pay-failed"
   ],
   "window": {
     "backgroundTextStyle": "light",

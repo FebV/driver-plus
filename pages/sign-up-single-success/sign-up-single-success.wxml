@@ -24,8 +24,5 @@
   </view>
 </view>
 <view class="divider" style="margin-top:50rpx"></view>
-<view class="box gray-word" style="text-align:center;font-size:30rpx;height:60rpx;line-height:60rpx;">请自行阅读以下提示</view>
-<view class="small-divider"></view>
-<view class="box gray-word" style="font-size:26rpx;line-height:40rpx;margin-top:20rpx;">
-  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafsfsdf sdfdsaf sadf 
-</view>
+
+
