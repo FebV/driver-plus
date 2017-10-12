@@ -10,12 +10,12 @@
 <!-- <view class="row-entry" bindtap="navtoMyOrder">
   <image src="" class="row-entry-icon" src="/asset/imgs/order_icon.png"></image>
   <text class="row-entry-name">我的订单</text>
-</view>
-<view class="divider"></view> -->
-<!-- <view class="row-entry" bindtap="navtoMyCoach">
-  <image src="" class="row-entry-icon" src="/asset/imgs/person_icon.png"></image>
-  <text class="row-entry-name">我的教练</text>
 </view> -->
+<view class="divider"></view> 
+ <view class="row-entry" bindtap="navtoProcess">
+  <image src="" class="row-entry-icon" src="/asset/imgs/order_icon.png"></image>
+  <text class="row-entry-name">学车流程</text>
+</view> 
 
 <!-- <view class="row-entry" bindtap="navtoSmartBus">
   <image src="" class="row-entry-icon" src="/asset/imgs/bus_icon.png"></image>
