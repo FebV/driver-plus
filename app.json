@@ -68,15 +68,10 @@
         "iconPath": "asset/imgs/study_apply.png",
         "selectedIconPath": "asset/imgs/study_apply_fill.png"
       },
+   
       {
-        "pagePath": "pages/theory-study/theory-study",
-        "text": "理论学习",
-        "iconPath": "asset/imgs/theory_study.png",
-        "selectedIconPath": "asset/imgs/theory_study_fill.png"
-      },
-      {
-        "pagePath": "pages/myorder/myorder",
-        "text": "我的订单",
+        "pagePath": "pages/important-notice/homePageHasNotice",
+        "text": "重要通知",
         "iconPath": "asset/imgs/order_exercise.png",
         "selectedIconPath": "asset/imgs/order_exercise_fill.png"
       },

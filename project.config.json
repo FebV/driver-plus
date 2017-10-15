@@ -8,8 +8,8 @@
 	},
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
-	"appid": "wxb247e724ba059c52",
-	"projectname": "driver-plus",
+	"appid": "wxebabb6266d6aff5b",
+	"projectname": "%E9%A9%BE%E6%A0%A1%E6%8B%BC%E5%9B%A2%E7%89%88",
 	"condition": {
 		"weapp": {
 			"current": -1,

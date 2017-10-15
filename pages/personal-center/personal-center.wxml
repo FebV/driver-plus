@@ -7,24 +7,25 @@
   <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
   <text class="userinfo-nickname bold">{{userInfo.nickName}}</text>
 </view>
-<!-- <view class="row-entry" bindtap="navtoMyOrder">
+<view class="divider"></view> 
+ <view class="row-entry" bindtap="navtoMyOrder">
   <image src="" class="row-entry-icon" src="/asset/imgs/order_icon.png"></image>
   <text class="row-entry-name">我的订单</text>
-</view> -->
-<view class="divider"></view> 
+</view> 
+<!-- <view class="divider"></view> 
  <view class="row-entry" bindtap="navtoProcess">
   <image src="" class="row-entry-icon" src="/asset/imgs/order_icon.png"></image>
   <text class="row-entry-name">学车流程</text>
-</view> 
+</view>  -->
 
 <!-- <view class="row-entry" bindtap="navtoSmartBus">
   <image src="" class="row-entry-icon" src="/asset/imgs/bus_icon.png"></image>
   <text class="row-entry-name">智慧班车</text>
 </view> -->
-<view class="row-entry" bindtap="navtoNotice">
+<!-- <view class="row-entry" bindtap="navtoNotice">
   <image src="" class="row-entry-icon" src="/asset/imgs/announce_icon.png"></image>
   <text class="row-entry-name">重要通知</text>
-</view>
+</view> -->
 <view class="plus-logo">
   <view class="">驾校plus提供技术支持</view>
   <view class="">微信公众号：驾校plus互联网运营管理指南</view>
